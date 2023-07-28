@@ -1,0 +1,79 @@
+---
+title: "Koutsoumpis, A., Oostrom, J. K., Holtrop, D., van Breda, W., Ghassemi, S., & de Vries, R. E. (2022)."
+subtitle: "The kernel of truth in text-based personality assessment: A meta-analysis of the relations between the Big Five and the Linguistic Inquiry and Word Count (LIWC). Psychological Bulletin, 148(11–12), 843–868. https://doi.org/10.1037/bul0000381"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+# Back to index 
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+(a) self-reported personality traits are significantly correlated with linguistic categories, but the effect sizes are relatively small (the strongest effect sizes between the Big Five and linguistic categories ranged from |ρ| = .08 to .14, and the 52 LIWC categories explained on average 5.1% of personality variance); 
+
+(b) observer-reported personality traits are significantly correlated with linguistic categories, with the effect sizes being small-to-medium (|ρ| = .18–.39, explaining 38.5% of personality variance); 
+
+(c) 20 linguistic categories (out of 260; 5 Personality Traits × 52 LIWC Categories) correlated both with self- and observer-reported personality traits (the “kernel of truth” in linguistic markers of personality); and 
+
+(d) 10 study, sample, and task characteristics significantly moderated the correlations of the linguistic categories with personality traits, showing that the effect sizes were mainly stronger for longer texts and older LIWC versions, among others.
+
+Relevant for meta-accuracy; 
+
+Language as a manifestation of personality; 
+
+Self-reports should not be treated as the ground truth of personality, but only one of the assessment source 
+
+Word frequency reflects what individuals are paying attention to (p.845; left; para 3) ---> word as attention 
+
+<img src="Screenshot 2023-03-25 at 12.19.51 AM.png" width=40%>
+
+<img src="Screenshot 2023-03-25 at 12.20.32 AM.png" width=80%>
+
+<img src="Screenshot 2023-03-25 at 12.21.01 AM.png" width=50%>
+
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

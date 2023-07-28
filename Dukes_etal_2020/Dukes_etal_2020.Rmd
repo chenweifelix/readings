@@ -1,0 +1,90 @@
+---
+title: "Dukes_etal_2021"
+subtitle: "The rise of affectivism. Nature Human Behaviour, 1–5. https://doi.org/10.1038/s41562-021-01130-8"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Goal: Incorporating emotions, feelings, motivations, moods, and other affective processes into models of human behaviour and the human mind.
+
+- Such processes have been ignored, typically on the basis that they were irrational, un-measurable, or simply unenlightening. 
+- However, it has become increasingly difficult to deny that these processes are not only linked to our well-being, but also shape our behaviour and drive key cognitive mechanisms such as attention, learning, memory, and decision-making.
+
+Research on such processes has positively blossomed since then, as growing numbers of dedicated researchers, departments, research centres, journals, and societies contribute to the *affective sciences*—a highly integrative endeavour that spans disciplines, methods, and theories. 
+
+We have moved beyond the eras of behaviourism and cognitivism, into the era of affectivism.
+
+The inclusion of affective processes in such models not only explains affective phenomena but, critically, further enhances the power to explain cognition and behaviour
+
+<img src="Screenshot 2023-07-14 at 2.40.20 PM.png" width=80%> 
+
+Def of affective phenomenon is elusive. Nonetheless, it seems that affective processes are typically understood to relate to the notion of *(dis) pleasure or valence*, to not necessarily be consciously felt, and to mobilize the organism to deal with events that may be important to that organism. But this should not stop us from studying it. 
+
+  - In any case, scientific study is beset by questions of terminology: persistent difficulties in formally defining ‘cognition’ did not prevent the transition from behaviourism to cognitivism, and the fact that there is no consensus concerning a formal definition of other important constructs, such as intelligence, religion, culture, and even life, does not preclude fruitful scientific study of them.
+
+Importantly, emotions do not just shape how we interpret the world, but also shape which aspects of the world need our attention and which can safely be ignored: `r colored("emotions are not just about what is, but also about what matter", "coral", size = 20, bold = T)`
+
+Clinical domains: 
+
+  -  a new diagnostic system, proposed by the National Institute of Mental Health (NIMH). The new system relies heavily on emotion-related constructs, including arousal and positive- and negative-valence systems
+
+Affective computing: implementing emotional processes in artificial agents (socially interactive agents, social robotics, chatbots) and systems
+
+Other social sciences than psych: 
+
+- Behavioural economists have developed more psychologically realistic assumptions about economic agents—homo economicus—by incorporating affective processes into their theoretical and empirical models of investment behaviour, medical decision-making, bargaining, and issues in political economy such as voting behaviour.
+- Anthropology: begun to focus on the cultural modelling of human affective processes, highlighting the intercultural variety of emotion repertoires 
+- Sociology: complemented this approach with a focus on intracultural plurality and the role of emotions in social collectives
+
+Most anthropologists and sociologists now recognise the significance of emotions in human behaviour and study emotional interactions at the micro-level (individuals or small groups), the meso-level (social institutions), and the macro-level (social structures such as class, age, or gender). 
+
+- Education: SEL programs
+
+Emotions are considered fundamental social phenomena, forming the basis for many kinds of social activities and interactions and playing an essential role in socialisation processes, such as affective social learning. 
+
+Thus, just as cognition and behaviour can serve both social and non-social functions, so too can affect
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

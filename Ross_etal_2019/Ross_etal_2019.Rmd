@@ -1,0 +1,67 @@
+---
+title: "Ross, J. M., Karney, B. R., Nguyen, T. P., & Bradbury, T. N. (2019)."
+subtitle: "Communication that is maladaptive for middle-class couples is adaptive for socioeconomically disadvantaged couples. Journal of Personality and Social Psychology, 116(4), 582–597. https://doi.org/10.1037/pspi0000158"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Behavioral coding
+
+<img src="Screenshot 2023-05-22 at 7.33.54 PM.png" width=80%>
+
+<img src="Screenshot 2023-05-22 at 7.34.11 PM.png" width=80%>
+
+<img src="Screenshot 2023-05-22 at 7.34.29 PM.png" width=80%>
+
+
+APIM; longitudinal cross-level APIM 
+
+For couples of high risk of sociecnomic resources, husbands' withdraw could deescalte the conflict, whereas for couples of low risk, withdrawal might instead signal selfishness 
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,76 @@
+---
+title: "Kneeland, E. T., & Kisley, M. A. (2023)."
+subtitle: "Lay perspectives on emotion: Past, present, and future research directions. Motivation and Emotion. https://doi.org/10.1007/s11031-023-10015-4"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Emotion perspectives: 
+
+  - Span across mindsets, lay theories, beliefs, attitudes, values, perceptions, schemans and others
+  - ≠ abilities or tendencies 
+  
+Perspectives in different domains: 
+
+  - Parenting (Halberstadt et al., 2013)
+  - Teaching (Nalipay et al., 2021)
+  - Legal decisions (Maroney, 2021)
+
+It is important to note that recent empirical work has demonstrated statistically that different emotion mindsets relate to one “general mindset” factor (Hughes, 2015; Lewis et al., 2021; Schroder et al., 2016). This research demonstrates that it could be useful to clarify the distinct role of specific emotion mindsets to relevant social and clinical outcomes, yet these different emotion mindsets could ultimately reflect a more general mindset construct.
+
+Eldesouky and English (2023) presented findings focused on motives and beliefs regarding the use of expressive sup- pression to manage unwanted emotions. Specifically, they found that stronger motives to appear warm, compared to competent, led to decreased use of expressive suppression in the lab. In a daily diary study within the same paper, util- ity beliefs about suppression did not relate to the reported use of suppression. This suggests that the strength of the relationship between emotion motives and beliefs and emotion regulation can vary by context. 
+
+Briefly mentions the development of emotion perspectives 
+
+  - emotion socialization and emotion coaching ---> "meta-emotion philosophy" 
+
+
+<hr>
+
+They claimed that perceived emotion regulation self-efficacy is not emotion perspective, a point I don't necessarily agree. Their def of ER-SE includes ability and resources. 
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

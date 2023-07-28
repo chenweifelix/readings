@@ -1,0 +1,64 @@
+---
+title: "Snibbe, A. C., & Markus, H. R. (2005)."
+subtitle: "You Can’t Always Get What You Want: Educational Attainment, Agency, and Choice. Journal of Personality and Social Psychology, 88(4), 703–720. https://doi.org/10.1037/0022-3514.88.4.703"
+author: "Last update at:"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+# Back to index 
+
+[Back to index](../index.nb.html)
+
+# Abstract 
+
+Edu as SES 
+
+High SES (college educated) ---> liked chose objects more than unchosen objects 
+
+Low SES (high school educated) ---> choice did not affect their preferences 
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

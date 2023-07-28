@@ -1,0 +1,65 @@
+---
+title: "Fischer, R., & Karl, J. A. (2022)."
+subtitle: "Unraveling values and well-being—Disentangling within- and between-person dynamics via a psychometric network perspective. Journal of Personality and Social Psychology. https://doi.org/10.1037/pspp0000449"
+author: "Last update at:"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+# Back to index 
+
+[Back to index](../index.nb.html)
+
+# Abstract 
+
+Longitudinal network perspective 
+
+  - within-person lagged 
+  - within-person contemporaneous 
+  - between-person 
+
+<img src="IMG_6B7D8E5F362B-1.jpeg" class="center" width=80%>
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

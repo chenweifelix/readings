@@ -1,0 +1,172 @@
+---
+title: "1. Computational Social Science for Public Policy // p.3"
+author: "Helen Margetts and Cosmina Dorobantu"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+- [Back to index](../../index.nb.html)
+
+- [Back to book index](../Bertoni_etal_2023.nb.html)
+
+
+# Abstract / Key Points
+
+In this chapter, we show how Computational Social Science can improve policymaking by detecting, measuring, predicting, explaining, and simulating human behaviour
+
+None of these tasks can, alone, transform the policy toolkit. They need to be used in concert and require large-scale, real-time, fine-grained data sources
+
+Given the struggle that social science often has to demonstrate or receive recognition for policy impact (Bastow et al., 2014), CSS might act as a channel for social science to be appreciated in a policy context.
+
+Def: ‘We define CSS as the development and application of computational methods to complex, typically large-scale, human (sometimes simulated) behavioural data [ . . . ] Whereas traditional quantitative social science has focused on rows of cases and columns of variables, typically with assumptions of independence among observations, CSS encompasses language, location and movement, networks, images, and video, with the application of statistical models that capture multifarious dependencies within data’ (Lazer et al., 2009, p. 1060).
+
+Examples of methods:
+
+  - agent computing, 
+  - microsimulation, 
+  - machine learning (ML), 
+  - complex network analysis, and 
+  - statistical modelling
+
+# 1. Detection (What's going on)
+
+Def: ‘essential capabilities that any system of control must possess at the point where it comes into contact with the world outside’ (Hood & Margetts, 2008). ---> That includes detection of unwanted (or less often, wanted) behaviour of citizens and firms to inform policy responses.
+
+E.g., Online harm --- generation, organization, and dissemination of hate speech, misinformation, misleading advertising, financial sames, radicalization, extremism, terrorist networks, sexual exploitation, and sexual abuse. 
+
+  - Nearly all governments are tackling at least some of these harms via a range of public agencies. Criminal justice agencies need to track and monitor the perpetrators of harm; intelligence agencies need to scrutinise security threats, while regulators need to detect and monitor the behaviour of a huge array of data-powered platforms, particularly social media firms.
+  - A growing number of computational social scientists are focusing on the detection of harmful behaviour online, seeking to understand the dissemination and impact of such behaviour, which is a social as well as a computational task. 
+  - E.g., ML classifier ---> But it is those with social science training that are comfortable dealing with t*he normative questions of defining terms such as ‘hate’*. And it is social scientists who are able to *explore the motivations behind harmful online behaviour*; *to understand the differential impacts of different kinds of harm* (e.g., misinformation has different dynamics from hate speech, see Taylor et al., 2021); and to *explore how we can build distinct classifiers for different kinds of online harm or different targets of harm*, such as misogyny (Guest et al., 2021) or sinophobia (Vidgen et al., 2020).
+
+# 2. Measurement (What's been going on)
+
+Policymakers need to be able to monitor and track societal and economic trends and patterns in order to understand when interventions are needed.
+
+E.g,. 
+
+1.  Visitation rates at public parks ---> This understanding is needed for a range of policy interventions, from protecting green spaces and increasing investment in parks to driving up community usage.
+  
+  -   Recent research uncovered the value of using social media data and mobile phone app data to measure park visitation (see, e.g., Donahue et al., 2018; Hamstead et al., 2018; Sinclair et al., 2021; Suse et al., 2021).   
+
+2. Inflation:
+
+  - The index largely rests on the physical collection of data in stores across 141 locations in the UK. At a time when we needed precise inflation measures the most, during the Covid-19 crisis, the data collection efforts for the Consumer Prices Index were severely affected by store closures and social distancing measures. Furthermore, the labour-intensive nature of collecting and generating the Consumer Prices Index means that it cannot be, with its current design, a real-time measure. National statistical offices usually publish it once a month with the understanding that it reflects the reality of a few weeks back.
+  - Attempts to create real-time measures of inflation go back more than a decade. In 2010, Google’s chief economist, Hal Varian, revealed that the company was working on a Google Price Index—a real-time measure of price changes calculated by monitoring prices online. 
+
+As Lazer et al. (2021) reflected in their study of ‘Meaningful measures of human society in the twenty-first century’:
+
+`r colored("Existing measures of key concepts such as gross domestic product and geographical mobility are shaped by the strengths and weaknesses of twentieth century data. If we only evaluate new measures against the old, we simply replicate their shortcomings, mistaking the gold standard of the twentieth century for objective truth.", "gold", bold = T)`
+
+E.g., Asking people what they did online is a highly inaccurate way of determining digital behaviour compared with transactional data)
+
+# 3. Prediction 
+
+Governments and public sector organisations in general do not have a good record on forecasting and prediction, so this is another area where CSS can add to policymakers’ toolkit.
+
+One of the most common uses of machine learning by local and central governments is to predict where problems are most likely to arise with the aim of identifying ‘objects’ (from restaurants and schools to customs forms) for inspection and scrutiny.
+
+US FDA:   
+
+  - uses machine learning techniques to model relationships between drugs and hepatic liver failure (Engstrom et al., 2020, p. 55), with decision trees and simple neural networks used to predict serious drug-related adverse outcomes. 
+  - The same agency also uses regularised regression models, random forest, and support vector techniques to construct a rank ordering of reports based on their probability of containing policy-relevant information about safety concerns. This allows the agency to prioritise for attention on those that are most likely to reveal problems.
+
+Some important policy problems do benefit from prediction alone and that machine learning can generate high policy impact as well as theoretical insights (Kleinberg et al., 2015, p. 495). But this use of machine learning generates important ethical questions of fairness and bias (discussed below), as the use of the COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) system for predictive sentencing in the USA has shown (see Hartmann & Wenzelburger, 2021).
+
+Hofman et al. (2021) make the case for *integrative modelling*, developing models that ‘explicitly integrate explanatory and predictive thinking’, arguing that such an approach is likely to add value over and above what can be achieved with either technique alone and deserves more attention than it has received so far.
+
+# 4. Etiology 
+
+Algorithms shape our behaviour in many contexts; the data that we derive from platforms like Twitter gives us useful clues about our interactions, but the social sciences is the only lens through which we can learn to separate what is ‘natural’ human behaviour and what is algorithm-induced human behaviour
+
+The companies themselves have little motivation to invest in programmes of research that uncover the organisational dynamics of online harms or the impact of such harms on different groups of citizens
+
+Experimental methods
+  
+  - online randomised controlled trials based on large-scale datasets can operate at huge scale and in real time
+  - natural experiment 
+
+CSS methods have developed hugely in this area, especially in economics ---> They argue that machine learning methods hold great promise for improving the credibility of policy evaluation. 
+  
+# 5. Simulation 
+
+Policy choices need to be informed by counterfactuals: if we implemented this measure—or didn’t implement it—what would happen?
+
+E.g., complex network analysis, microsimultation 
+
+  - traffic flows, labour mobility, urban industrial agglomeration patterns, or disease spread.
+
+Agent-based models (ABMs) 
+  
+  - An agent computing model consists of individual software agents, with states and rules of behaviour and large corpuses of data pertaining to the agents’ behaviour and relationships. Running such a model could theoretically amount to instantiating an agent population, letting the agents interact, and monitoring what happens
+  - Rob Axtell, one of the pioneers of Computational Social Science, recently developed a model of the US private sector, in which 120 million agents self-organise into 6 million firms (Axtell, 2018).
+  - Models like Axtell’s are extremely powerful tools for studying the dynamics of socio-economic phenomena and carrying out simulations of complex systems, from economies to transport networks. 
+  - Today’s agent computing models can also be used in combination with machine learning methods, where the models provide a practical framework to combine data and theory without constraining oneself with too many unrealistic a priori assumptions about how socio-economic systems behave, such as ‘fully rational agents’ or ‘complete information’.
+  - Researchers have started to explore the possibilities of `r colored("‘societal digital twins’", "gold", bold = T)` (Birks et al., 2020), a combination of spatial computing, agent-based models, and ‘digital twins’—virtual data-driven replicas of real-world systems that have become popular for modelling physical systems, in engineering or infrastructure planning, for example.
+
+# Ethical issues 
+
+ - replicating biases to invading people’s privacy, 
+ - limiting individual autonomy, 
+ - eroding public trust, and 
+ - introducing unnecessary opaqueness into decision-making processes
+
+Computational Social Science research has focused far more on the technical details of these data-intensive technologies rather than the ethical concerns, which tend to be underplayed.
+
+# Resilient system 
+
+Computational Social Science seemed, to these authors at least, to have huge potential for the design of policy interventions and informing decision-making during the pandemic, for example, through undertaking the key tasks of detection, measurement, prediction, etiology, and simulation laid out above. *But somehow, the use of CSS in this setting was disappointing.*
+
+  - 1. Lack of quality data
+    - many countries discovered that they did not collect the kind of real-time, fine-grained data that was needed to inform policy design. 
+    - This meant that blanket schemes were applied, helping sectors that benefited from the pandemic (such as delivery companies and many technology firms) along with those that had been devastated (such as travel and hospitality). 
+    - Aim for developing dynamic capabilities 
+  - 2. A universal lack of integrated modelling
+    - One model for one aspect of a social issue, where they are intertwined and interdependent (e.g., spread of the virus and the economic effects)
+    - The absence of integrated models to capture these interdependencies meant that policymakers often pointed to the trade-off between ‘public health’ and ‘economic recovery’ but were never able to pinpoint optimal interventions
+  - 3. Organizational structure to some extent worked against the kind of computational and modelling expertise  
+    - Yet policymakers seeking to meet a generic modelling challenge—such as how to identify vulnerable groups, quantify uncertainty or use machine learning to derive causal explanations as laid out above—are much more likely to seek help in their own department than to turn to departments or agencies in other parts of government. This siloed approach works against building up of expertise.
+    
+    
+
+-----
+- [Back to index](../../index.nb.html)
+
+- [Back to book index](../Bertoni_etal_2023.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

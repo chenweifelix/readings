@@ -1,0 +1,82 @@
+---
+title: "Miyamoto, Y. (2017)"
+subtitle: "Culture and social class. Current Opinion in Psychology, 18, 67–72. https://doi.org/10.1016/j.copsyc.2017.07.042"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+comparing psychological and `r colored("health", "gold", bold = T)` manifestations of social class across Western and East Asian cultures.
+
+Individuals of high social class in East Asian cultures tend to show high conformity and other-orientated psychological attributes. In addition, cultures differ in how social class impacts health (i.e. on which bases, through which pathways, and to what extent).
+
+
+From a special issue on inequality and social class (2017)
+
+Importantly, a cultural psychological approach suggests that there are both similarities and differences in how social class manifests in psychological processes and health because both material/structural conditions and cultural meaning systems shape manifestations of social class.
+
+For example, individuals of higher social class generally exhibit high self-esteem, value self-expression, and exert control over situations [1,6,13], partly due to their material/structural positioning [5,23]. 
+
+In fact, analyses of nationally representative data showed that higher social class is associated with higher self-oriented psychological attributes (e.g. self-esteem, goal-striving) and socialization values (e.g. independence) across cultures (Y Miyamoto et al., unpublished).
+
+Cultural contexts can influence first, the relative importance of different bases of social class that impact health, second, the processes and pathways through which social class impacts health, and third, the extent to which social class impacts health.
+
+1. Base: 
+
+  - W: internal/subjective; E: external/objective 
+    - Reflecting such cultural differences, a subjective measure of social class (i.e. subjective social status [37]) predicted psychological well-being more strongly in the U.S. than in Japan, whereas an objective measure of social class (i.e. educa- tional attainment) was a better predictor of well-being in Japan than in the U.S. ([38] see also see [39]).
+
+2. Processes and pathways: 
+
+  - Independent: Self-esteem 
+
+3. Extent:
+  
+  - `r colored("In fact, compared to Western work cultures more generally, managers and professional workers in Japan tend to work longer hours, which is linked to less healthy lifestyles and higher levels of stress [49]. Most dramatically, the suicide rate in Japan has been steadily increasing since 1990s, and that increase is largest among managers and professional workers, possibly due to the responsibilities and job demands imposed on these workers during the recession ([50] see also [51]).", "gold", bold = T)`
+
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

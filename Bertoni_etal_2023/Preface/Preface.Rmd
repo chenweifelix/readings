@@ -1,0 +1,83 @@
+---
+title: "Authors_Years"
+author: "author(s)"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+- [Back to index](../../index.nb.html)
+
+- [Back to book index](../Bertoni_etal_2023.nb.html)
+
+
+# Abstract / Key Points
+
+We are increasingly witnessing the widespread availability of smartphones, connected devices and sensor arrays able to provide all sorts of data that carry information about human activity and behaviour, in the form of *“digital traces”*.
+
+Def of CSS: “the development and application of computational methods to complex, typically large-scale, human (sometimes simulated) behavioural data”
+
+Sources of data: 
+  
+  - Survey 
+  - Mobility data from network operators 
+  - News articles 
+  - Administrative data from municipalities
+
+Being a scientific discipline that explicitly aims at u*nderstanding and modelling human behaviour and the interaction between humans and the environment they live in*, the potential of CSS as a policymaking tool is self-evident.
+
+Authors are members of European Commission’s Joint Research Centre
+
+  - The policy relevance of the questions is ensured by the specific role of JRC scientists at the frontier between science and policy, as well as by a mapping of the specific questions onto the political priorities of the European Commission headed by Ursula Von der Leyen (Von der Leyen, 2019), as well as onto the UN Sustainable Development Goals. (https://sdgs.un.org/)
+
+CSS methods can be used to help governments and supranational organisations at different stages, from the formulation of policy proposals to their adoption, implementation and evaluation
+
+This is achieved by providing insights on foundational issues and on methodological aspects, as well as by direct applications to policy-relevant fields. 
+
+This ambition to encompass all steps of the policy cycle represents a distinguishing point with respect to the book edited by Paruolo and Crato (2019), which is aimed at describing the state of the art with respect to ex-post policy evaluation.
+
+# Structure of the book 
+
+See the text for a better description. 
+
+-----
+- [Back to index](../../index.nb.html)
+
+- [Back to book index](../Bertoni_etal_2023.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,113 @@
+---
+title: "Siegel, J., Arenson, M., Mikytuck, A., & Woolard, J. (2021). Engaging public policy with psychological science. Translational Issues in Psychological Science, 7(1), 1–8. https://doi.org/10.1037/tps0000284"
+date: "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+source("/Users/yuchenwei/Desktop/Academy/R Markdown settings/functions.R")
+library(tidyverse)
+```
+```{css}
+.btn-group{
+  display:none;
+}
+.title {
+  color: white;
+}
+h1{
+  color: lightgreen;
+  font-family: Georgia;
+}
+h2, h3, h4{
+  color: pink;
+  font-family: Georgia;
+}
+```
+
+
+# Back to index 
+
+[Back to index](../Final project.nb.html)
+
+# Abstract / Key ideas 
+
+Policymaking is a complex system with multiple individual and organizational stakeholders 
+
+Policymaking process is more than a simple linear or even circular process and instead is a dynamic recursive process 
+
+We must know what is considered research and how research might or might not be used in that complex system process 
+
+Mention NU's program on P3, left col
+
+# Lit rev 
+
+Psychological scientists often have a litmied understanding of appropriate ways to engage with and transalte their science to public policy arenas 
+
+# Public policy as a complex system 
+
+- not just legistors, but including advocates, interest groups, media, and individuals ---> are part of the larger policy ecosystem and can influence agenda and advocate for change 
+
+- policy made ≠ implemented 
+
+## Using researchi in the public policy process 
+
+`r colored("Research is more often used before the issue becomes an issue ---> before ideologies and positions have solidified", "gold")` <br> ---> `r colored("preemptive and future-oriented approach", "coral")`
+
+Psychological org with a clear policy focus: 
+
+  - Society for the Psychological Study of Social Issues 
+  - Society for Child and Family Policy and Practice 
+  - Society fo Research in Child Development 
+  - Siceity for Community Research and Action 
+
+## The mutual influence of research and policy 
+
+  - acknowlege positionality and social location 
+  - knowledge is *cocreated* between researchers and the researched 
+  
+
+<hr>
+
+# Other relevent lit
+
+Tropp, 2018 
+
+John, 2017 ***
+
+-----
+[Back to index](../Policy-Index.nb.html)
+
+```{r echo=FALSE}
+file.copy("Final project empty.Rmd", "Ford 2023")
+file.rename("./Ford 2023/Final project empty.Rmd", "./Ford 2023/Ford 2023.Rmd")
+file.edit("./Ford 2023/Ford 2023.Rmd")
+```
+
+`r colored("", "gold")`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,74 @@
+---
+title: "Stephens, N. M., Markus, H. R., & Phillips, L. T. (2014)."
+subtitle: "Social Class Culture Cycles: How Three Gateway Contexts Shape Selves and Fuel Inequality. Annual Review of Psychology, 65(1), 611–634. https://doi.org/10.1146/annurev-psych-010213-115143"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+<img src="Screenshot 2023-05-22 at 11.06.03 AM.png" width = 80%>
+
+How ongoing participation in different social class contexts give rise to culture-specific selves and patterns of thinking, feeling, and acting 
+
+Gateway institutions --- home, school, workplace
+
+  - formative (i.e., afford particular selves)
+  - function as key access points to future opportunities and valued life outcomes 
+
+These gateway institutions are structured according to middle-class ways of being a self and thus can fuel and perpetuate inequality 
+
+  - Self: The continually developing sense of agency (or "me") at the center of one's experience. Selves are interpretative framewoorks that lend meaning to people's experiences and thus provide the mechanism through which contexts shape behavior 
+  
+Hard Interdependence: 
+
+  - `r colored("socially responsive and self-protective", "gold", bold = T)`
+  - The interdependence that develops in relatively low-resourced, working-class American contexts is different from the style of interdependence common in many East Asian or South Asian contexts. Interdependence in East or South Asian contexts is part of the dominant discourse and is fostered by the mainstream practices and institutions of the larger society (e.g., Tsai et al. 2007), whereas interdependence in American working-class contexts is afforded primarily by holding a relatively low status within the larger social hierarchy and needing to protect the self against environmental threats and adjust to and attend to others. The style of interdependence common in working-class contexts reflects the foundational American ideal to be free from constraint (e.g., including some expressions of independence through its normative emphasis on strength and toughness) but is tempered by the ongoing requirement to be socially responsive.
+
+
+Families of high and low social class use different language patterns to parent (p.617)
+
+A lot of the arguments about home and school are based on this book: Lareau A. 2003. Unequal Childhoods: Race, Class, and Family Life. Berkeley: Univ. Calif. Press
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

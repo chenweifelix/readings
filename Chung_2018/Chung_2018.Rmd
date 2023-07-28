@@ -1,0 +1,67 @@
+---
+title: "Chung, C. K., & Pennebaker, J. W. (2018)."
+subtitle: "What do we know when we LIWC a person? Text analysis as an assessment tool for traits, personal concerns and life stories. The Sage Handbook of Personality and Individual Differences, 341–360."
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Based on McAdams' (1995) theorizing of personality: self-rated traits ---> personal concerns ---> life story 
+
+  - Personal concerns: motivations, goals, values, and concerns that may come to mind when we get to know someone a little more than what we may know about acquaintances 
+  - Life story: life's chapters, turning points, and overall tone ---> weave in traits and personal concerns throughout 
+
+Function words: difficult to detect and to manipulate ---> thinking styles ---> frontal lobes (higher-level thinking and social skills)
+
+Content words: thinking topics ---> temporal lobes (making sense of sensory input, association with emotions, and declaritive memory)
+
+Mentions that LIWC could detect social class, though in the context of leaders (p. 344, and p. 346)
+
+Againg: older adults think less about themsevles, and they become more positive, more future-oriented (why??), and more complex 
+
+Less work on spoken language 
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

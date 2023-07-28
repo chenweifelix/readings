@@ -1,0 +1,261 @@
+---
+title: "Douglas, K. M., & Sutton, R. M. (2023)"
+subtitle: "What are conspiracy theories? A definitional approach to their correlates, consequences, and communication. Annual Review of Psychology, 74(1), 271–298. https://doi.org/10.1146/annurev-psych-032420-031329"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+# Back to index 
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+we take a step back to analyze the defining features that make conspiracy theories different in kind from other beliefs and different in degree from each other. 
+
+# Why do people believe in conspiracy theroies 
+
+1. Epistemic motives ---> achieve knowledge and certainty 
+
+  - in an effort to make sense of important political and so- cial events, people turn to conspiracy theories when their epistemic motives are challenged by information that feels too much, too little, incomplete, contradictory, or ambiguous.
+
+2. Existential motives
+
+  - anxious attachment style (Green & Douglas 2018) and feelings of anxiety (Grzesiak-Feldman 2013), powerlessness (Jolley & Douglas 2014a), and lack of control, both generally (van Prooijen & Acker 2015) and in the political domain (Bruder et al. 2013, Kofta et al. 2020). 
+
+
+3. Social Motives ---> group serving 
+
+  - e.g., need for uniqueness 
+  - more prevalent among memebrs of low-status groups and are motivated by feelings of intergroup threat 
+    - e.g., loser in an election 
+
+4. Demographic factors 
+
+  - low levels of edu and $ 
+
+5. Political reasons ---> political ploy ---> group-serving social motives 
+
+# Impact of conspiracy theories 
+
+`r colored("Conspiracy theories may worsen rather than relieve the psychological frustrations that drive people toward them ", "gold", bold = T)` 
+
+1. Discourage engagement in mainstream politcial processes 
+
+  - feelings of powerlessness disenchangred 
+  - lower trust in politics 
+  - Other research has demonstrated that people who chronically believe in conspiracy theories tend to think that the political system is unresponsive to citizens’ demands and therefore tend to engage less in traditional forms of political participation
+
+2. Increased engagement in radicalized and extremist methods 
+
+  - e.g., violent political intentions, occupation of buildings 
+  - people are willing to entertain conspiracy theories to the degree that they think they would conspire themselves, given the same motives and opportunity (Douglas & Sutton 2011).
+
+3. Prejudiced and outgroup derogation 
+
+  - against those who are perceived to be powerful 
+  - would even assign power and agency to those tho do not typically have it (e.g., immigrants, feminists)
+
+4. Hampered acceptance of scientifc findings and/or willingness to act according to scientific evidence 
+
+  - Critical with respect to health (e.g., vaccines, seek psycholgical help [Natoli & Marques,2021])
+
+5. Risky decision making 
+  
+  - Optimistically biased perceptions about risk 
+
+6. Upside
+
+  - Binding factor ---> a sense of community 
+  - Pressure the authority/powerful to be transparent 
+  
+# Why are conspiracy theories socially transmitted? 
+
+The motivations to share and to beleive are different 
+
+Share: 
+
+  - political agenda 
+  - CTies are not shared indiscriminately and do not bounce around on social media at random ---> shared and stayed within the groups and communites who already agree with them 
+  - Subvert dominate political and ideological assumptions 
+  - Signal the intention to challenge and change the status quo 
+  <br> 
+  - Those who share or express belief in CTies are stigmatized 
+    - gullible 
+    - Sharers do not label CTies as CTies, but conpiracy facts ---> reserve CTies for ideas that they reject 
+
+  <br> 
+  - People seem to be aware of the reputational costs of CTies 
+    - Use CTies to delierately discredit another person's views and dismiss them as implausible 
+    - Little empirical evidence on the effectiveness of this  
+
+# Limitiations of past research 
+
+We want to understand, for example, why conspiracy theories seem to have an increasing appeal to people; we want to know what societal and psychological effects they are having; and we want to understand the relevance of conspiracy theories to applied fields such as clinical, forensic/criminological, and political psychology. 
+
+A complete understanding of these questions requires us to be able to profile people who are prone to believing in conspiracy theories—a task that ought to be possible by now, given the hundreds of studies into psychological, demographic, and political risk factors (e.g., Freeman & Bentall 2017). However, inconsistent results make it very difficult to build such a profile.
+
+Conspiracy theories overlap partially with many other categories of belief or representation. 
+
+  - misinformation (Pierre 2020), 
+  - bullshit (van Prooijen et al. 2018),
+  - distrust of scientists and authority (Rutjens et al. 2018), 
+  - extremism (Imhoff et al. 2022b), and 
+  - paranormal belief (Darwin et al. 2011),
+
+We need these theories to be underpinned by research in which scales of conspiracy belief are designed and validated against theoretically informed measurement models, and in which the study of conspiracy belief compares, contrasts, and adjusts for related varieties of belief that lack some of the defining features of conspiracy theories. None of these are offered by the literature so far.
+
+Recent evidence suggests that belief in conspiracy theories `r colored("is not distributed normally", "gold", bold = T)` and that strong believers in conspiracy theories comprise a cluster of people who might be different from the rest of the population (Imhoff et al. 2022a). This can lead to mismatches in the evidence base and the aspirations of theoretical ideas about conspiracy belief—they want to explain social ills arising from extreme or entrenched beliefs but are tested on participants whose attitudes to conspiracy theories range from dismissive to moderate sympathy (Franks et al. 2017, Sutton & Douglas 2014). 
+
+Regarding COVID: It is also worth pointing out that most of this research leads to the same conclusion—that conspiracy beliefs are associated with lower intentions to engage in activities to stop the spread of the virus, such as taking a vaccine and engaging in social distancing. However, no overall theoretical frame- work has guided this research, so the findings have again been rather piecemeal and disconnected.
+
+# The defining properties of conspiracy theories as causal properties 
+
+We seldom build theory about the causes and consequences of a variable by paying attention to its properties
+
+A clear and reasoned description of the ontology of conspiracy theories can help us build, select, test, and integrate theories of their causes, consequences, and social transmission.
+
+# Redefining CTies 
+
+Def of a conspiracy: A conspiracy is a coordinated and concealed effort by two or more actors to bring about an outcome. 
+
+Def space: Here, we make a case for considering beliefs to be conspiracy theories only when the alleged conspiracy is of public interest. 
+
+The claim made implicitly by every conspiracy theory, therefore, is that the wider public should (but do not) know about a conspiracy. Each serious conspiracy theory is in fact bidding to become incorporated in public knowledge.
+
+We argue that from the core definition of conspiracy theories, we can also deduce that they are oppositional, concern malevolent or forbidden acts, are agentic (i.e., ascribe historical agency to individuals and small groups), are epistemically risky, and are widely shared and potentially generative social constructs (see the sidebar titled Conspiracy Theory).
+
+<img src="Screenshot 2023-03-16 at 11.53.03 PM.png" width=80%>
+
+Def of social construct: a construct communicated among individuals and collectives that can provide the basis of shared identities, realities, goals, and actions
+
+## 1. CTies are oppositional 
+
+Conspiracy theories are set up, explicitly or implicitly, in opposition to a publicly accepted version of reality. 
+
+All conspiracy theories propose competing alternatives to publicly accepted versions of reality—whether officially endorsed or not.
+
+This moralization of truth, together with conspiracy theories’ opposition to accepted versions of reality, entails that conspiracy theories are part of a political battle to decide what people believe and determine the publicly accepted version of truth.
+
+
+## 2. CTis describe malevolent or forbidden acts 
+
+The conspiracies they allege are almost always malevolent—that is, against the public interest
+
+The essential reason for this is that *secrecy* is necessary to execute the alleged plot and to maintain the deception that may have motivated it. 
+
+Conspiracies that are of public interest need secrecy to succeed, and thus they must in general entail outcomes that are malign, or at least forbidden.
+
+
+## 3. CTies ascribe agency to individuals and groups 
+
+For Popper (1963), this belief that societal events are shaped by a few coordinated actors rather than impersonal and systematic factors is the key to all conspiracy theories. For our purposes, this feature follows logically from our working definition of conspiracy and conspiracy theory.
+
+- Conspiracy theories can exaggerate the capabilities of individuals and groups.
+
+  - This power, however, though it is necessarily ascribed to the actors who are accused by conspiracy theories, is not necessarily held by them in reality
+  - Others assign implausible levels of geo-political and even metaphysical control to numerically small minority groups such as the Jewish people (Kofta et al. 2020) and ascribe fantastical powers to gender and women’s rights activists (Marchlewska et al. 2019) (cf. witch hunt)
+
+- `r colored("A second consequence of conspiracy theories’ ascription of agency to individuals and groups is that they may divert attention away from the inherent design flaws or systemic problems of a society. In turn, this implies that believing in conspiracy theories may not conflict with being satisfied with current social arrangements.", "gold", bold = T)` 
+
+  - For example, there is evidence that conspiracy beliefs and satisfaction with the social status quo *increase together* in response to threats (Jutzi et al. 2020) and that conspiracy theories may actually bolster satisfaction with social systems whose legitimacy is called into question—principally by *blaming their problems on a few bad apples who ruin things with their plots and schemes* (Jolley et al. 2018, Mao et al. 2021).
+
+- Intentionality bias: Since the actors have to coordinate in secret toward a shared goal, it follows that their actions are intentional and purposive (e.g., Basham 2003).
+
+## 4. CTies are epistemically risky 
+
+They make auxiliary assumptions about the gullibility of the public; the extraordinary, unchecked dastardliness and competence of conspirators; and the relative unimportance of impersonal and systemic causes. These normative disadvantages of conspiracy theories are well documented (e.g., Clarke 2006, Sunstein & Vermeule 2009) and baked in.
+
+None of this means that conspiracy theories are necessarily false, or even implausible
+
+  - Truth is not relevant in research on CTies --->  researchers working on related topics such as paranoia have abandoned truth or rationality as strict definitional criteria
+  - We therefore disagree that conspiracy theories must, by definition, be untrue or implausible (e.g., Brotherton et al. 2013, Cassam 2019, Keeley 1999). Our claim instead is that conspiracy theories have features that tend to make them, as a class of beliefs, more prone to falsity. This epistemic riskiness can explain why other risky types of belief, including paranormal beliefs, and cognitive styles that emphasize intuitive appeal over rational analysis are among the strongest predictors of conspiracy belief (Biddlestone et al. 2022, Douglas et al. 2019).
+
+Though we do not stipulate that conspiracy theories have to be untrue, we do require the conspiracies they describe to be of public interest but not public knowledge—i.e., that in general the public do not believe that the conspiracy has occurred.
+
+This criterion is fuzzy: How many people, which members of the public, which public institutions, and what degree of conviction are enough to disqualify a belief as a conspiracy theory?
+
+  - However, similar ambiguities surround truth and implausibility. For example, what type of evidence, what strength of evidence, and what criteria for implausibility are sufficient for a belief to be categorized or not as a conspiracy theory?
+
+## 5. CTies are social constructs
+
+Conspiracy entrepreneurs: those who generate and spread conspiracy theories for reward (Sunstein & Vermeule 2009).
+
+Etiological theories of conspiracy belief may overemphasize individual-level factors over communicative and socio-structural determinants (Johnson et al. 2020). 
+
+  - Seen in this light, theories that give strong emphasis to the mentalistic or dispositional antecedents of belief in conspiracy theories—a case in point being the conspiracy mentality (e.g., Imhoff & Bruder 2014)—are, despite their other strengths, overly `r colored("individualistic.", "gold", bold = T)` 
+  - Individuals’ belief in conspiracy theories depends on whether and how they and others in their community have been exposed to these ideas, and what alternative narratives and epistemological resources are available to them and their `r colored("communities", "coral", bold = T)` (Goertzel 1994, Sunstein & Vermeule 2009). `r side_note("Beyond individual to the broader culture they live in and the resources offered")`
+
+Conspiracy theories have the potential to directly shape societies. ---> self-fulfilling
+
+  - True or not, they concern matters of interest to almost everyone and are immensely communicable. 
+  - They propose alternative, risky, rather innovative understandings of reality. 
+  - In so doing they identify—or rather construct—communities of interest ---> group forming 
+  <br>
+  - Thus, conspiracy theories contain the seeds of important social categories, which in turn can provide the basis of `r colored("shared identities, realities, goals, and actions", "coral", bold = T)`. 
+  - They do not refer only to individuals but also to communities and can motivate and direct, as we shall see, collective sensemaking and collective action. Thus they do not merely represent social realities but have the potential to `r colored("create", "gold", bold = T)` them.
+
+## Defining CTies 
+
+`r colored('"a belief that two or more actors have coordinated in secret to achieve an outcome, and that their conspiracy is of public interest, but not public knowledge. From these defining features of conspiracy theory, other characteristic features follow logically. Thus, conspiracy theories: (a) are oppositional, which means they oppose publicly accepted understandings of events; (b) describe malevolent or forbidden acts; (c) ascribe agency to individuals and groups rather than impersonal or systemic forces; (d) are epistemically risky, meaning that though individual conspiracy theories are not necessarily false or implausible, conspiracy theories taken collectively are more prone to falsity than other types of belief; and (e) are social constructs that are not merely adopted by individuals but shared with social objectives in mind, and that have the potential not only to represent and interpret reality but also to fashion new social realities."', "lightblue", bold = T)`
+
+# Understanding the power of CTies to construct social reality 
+
+1. First, their power to affect people’s well-being, rationality, and social and political behaviors makes them of public interest in and of themselves, as the literature we have reviewed shows (e.g., Douglas & Sutton 2018). 
+
+2. Second, conspiracy theories propose new truths and imply that the public should know and accept them. This suggests, in keeping with scholarship in other disciplines, that conspiracy theories can inform public knowledge and shape culture—like, for example, they may have shaped the American culture of individualism and *distrust of government* (Knight 2003). 
+
+Each conspiracy theory, by definition, suggests a group or community of perpetrators, the directly involved conspirators and those whose interests they serve, versus a community of victims—those who are harmed by the alleged conspiracy. 
+
+They also construct a community of believers in the conspiracy versus the populace who are not aware of it (Popper 1963; see also Nera & Schöpfer 2022). In this way, conspiracy theories construct not only a version of events but also social groups, comprising those of the perpetrators versus their victims and the enlightened versus the ignorant.
+
+An extensive research tradition shows that social identities like these are the basis of shared realities, goals, and actions (Hogg & Rinella 2018). 
+
+The agency that conspiracy theories ascribe is crucial here. The harms these theories allege are planned by agents who are assigned a degree of sociopolitical power that they may not possess. Thus, a malevolent, often exaggerated, power is conferred on religious and ethnic minorities and migrant communities, `r colored("constructing them as a larger-than-life threats and justifying distrust, hostility, exclusion, and even violence", "gold", bold = T)` (Marchlewska et al. 2019, Nera et al. 2021).
+
+Motivated communicators can create new information through a range of strategies ranging from subtle tuning to audience expectations to outright deception (Holtgraves & Kashima 2008). Conspiracy theories have a particularly creative power because they are both public and epistemically risky— by their nature, they deviate from accepted understandings of reality. This makes them appear highly informative, engaging, or even entertaining, and if accepted, they can shift perceptions of reality further than more moderate propositions.
+
+<hr>
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

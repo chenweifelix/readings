@@ -1,0 +1,382 @@
+---
+title: "Reading Notes"
+date: "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    css: style.css
+    code_folding: "none"
+---
+
+```{r echo=FALSE}
+source("/Users/yuchenwei/Desktop/Academy/R Markdown settings/functions.R")
+```
+
+
+```{css}
+.btn-group{
+  display:none;
+}
+.title {
+  color: white;
+}
+h1{
+  color: orange;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 34pt
+}
+h2{
+  color: white;
+  font-weight: bold;
+  font-family: Georgia;
+}
+
+```
+
+[Go to Overview](/Users/yuchenwei/Desktop/Academy/Research%20Projects/Overview/Overview-index.nb.html)
+
+[Go to Reading log](./Reading log.nb.html)
+
+For a list of non-academic institutions working on policy-making, see Bowers, J., & Testa, P. F. (2019). `r colored("[[Note](./Bowers_Testa_2019/Bowers_Testa_2019.nb.html)]","#8CC1DE" ,"14pt")`
+
+# Gold sentences
+
+- Let us calculate, without further ado, and see who is right. —Gottfried Leibniz (Wiener, 1951; taken from Watt, 2017)
+- The easiest way to win an argument is to run another experiment or another statistical regression (taken from Buyalskaya_et_al_2021 as they talk about behavioral economists)
+
+- Description- vs. Explaination- vs. Prediction- vs. Solution-oriented. 
+
+# Feature articles 
+
+Watts, D. J. (2017). `r colored("[[Note](./Watts_2017/Watts_2017.nb.html)]","#8CC1DE" ,"14pt")`
+Should social science be more solution-oriented? Nature Human Behaviour, 1(1), 0015. https://doi.org/10.1038/s41562-016-0015
+
+Lazer, D. M. J., et al.(2020). `r colored("[[Note](./Lazer_etal_2020/Lazer_etal_2020.nb.html)]","#8CC1DE" ,"14pt")`
+Computational social science: Obstacles and opportunities. Science, 369(6507), 1060–1062. https://doi.org/10.1126/science.aaz8170 
+
+Dukes, D., et al. (2021). `r colored("[[Note](./Dukes_etal_2020/Dukes_etal_2020.nb.html)]","#8CC1DE" ,"14pt")`
+The rise of affectivism. Nature Human Behaviour, 1–5. https://doi.org/10.1038/s41562-021-01130-8 
+
+Bowers, J., & Testa, P. F. (2019). `r colored("[[Note](./Bowers_Testa_2019/Bowers_Testa_2019.nb.html)]","#8CC1DE" ,"14pt")`
+Better government, better science: The promise of and challenges facing the evidence-informed policy movement. Annual Review of Political Science, 22(1), 521–542. https://doi.org/10.1146/annurev-polisci-050517-124041
+
+Buyalskaya, A., Gallo, M., & Camerer, C. F. (2021). `r colored("[[Note](./Buyalskaya_et_al_2021/Buyalskaya_et_al_2021.nb.html)]","#8CC1DE" ,"14pt")`
+The golden age of social science. Proceedings of the National Academy of Sciences, 118(5), e2002923118. https://doi.org/10.1073/pnas.2002923118
+
+# Beliefs 
+
+## Placebo 
+
+### Tu et al., 2022 `r colored("[[Note](./Tu_2022/Tu_2022.nb.html)]","#8CC1DE" ,"14pt")`
+Tu, Y., Zhang, L., & Kong, J. (2022). Placebo and nocebo effects: From observation to harnessing and clinical application. Translational Psychiatry, 12(1), Article 1. https://doi.org/10.1038/s41398-022-02293-2
+
+## Emotion beliefs 
+
+### Kneeland, E. T., & Kisley, M. A. (2023). `r colored(" [[Note](./Kneeland_2023/Kneeland_2023.nb.html)]","#8CC1DE" ,"14pt")`
+Lay perspectives on emotion: Past, present, and future research directions. Motivation and Emotion. https://doi.org/10.1007/s11031-023-10015-4
+
+
+# Computational 
+
+## Lazer, D. M. J., et al.(2020). `r colored("[[Note](./Lazer_etal_2020/Lazer_etal_2020.nb.html)]","#8CC1DE" ,"14pt")`
+Computational social science: Obstacles and opportunities. Science, 369(6507), 1060–1062. https://doi.org/10.1126/science.aaz8170
+
+We define CSS as the development and application of computational methods to complex, typically large-scale, human (sometimes simulated) *behavioral* data (1). Its intellectual antecedents include research on spatial data, social networks, and human coding of text and images. 
+
+## Guest, O., & Martin, A. E. (2021). `r colored("[[Note](./Guest_Martin_2021/Guest_Martin_2021.nb.html)]","#8CC1DE" ,"14pt")`
+How computational modeling can force theory building in psychological science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585
+
+## Törnberg, P., & Uitermark, J. (2021). `r colored("[[Note](./Törnberg_Uitermark_2021/Törnberg_Uitermark_2021.nb.html)]","#8CC1DE" ,"14pt")`
+For a heterodox computational social science. Big Data & Society, 8(2), 20539517211047724. https://doi.org/10.1177/20539517211047725
+
+## Bertoni, E., Fontana, M., Gabrielli, L., Signorelli, S., & Vespe, M. (Eds.). (2023). `r colored("[[Note](./Bertoni_etal_2023/Bertoni_etal_2023.nb.html)]","#8CC1DE" ,"14pt")`
+Handbook of Computational Social Science for Policy. Springer International Publishing. https://doi.org/10.1007/978-3-031-16624-2
+
+## Edelmann, A., Wolff, T., Montagne, D., & Bail, C. A. (2020). `r colored("[[Note](./Edelmann_etal_2020/Edelmann_etal_2020.nb.html)]","#8CC1DE" ,"14pt")`
+Computational Social Science and Sociology. Annual Review of Sociology, 46(1), 61–81. https://doi.org/10.1146/annurev-soc-121919-054621
+
+  - SICSS: A major training event in the field funded by the Russell Sage Foundation and the Alfred P. Sloan Foundation [Link](https://sicss.io/)
+
+## Hofman, J. M., Watts, D. J., Athey, S., Garip, F., Griffiths, T. L., Kleinberg, J., Margetts, H., Mullainathan, S., Salganik, M. J., Vazire, S., Vespignani, A., & Yarkoni, T. (2021). `r colored("[[Note](./Hofman_etal_2021/Hofman_etal_2021.nb.html)]","#8CC1DE" ,"14pt")`
+Integrating explanation and prediction in computational social science. Nature, 595(7866), Article 7866. https://doi.org/10.1038/s41586-021-03659-0
+
+One of the perspectives from the special issue of *Nature*
+
+
+
+# Emotion 
+
+## Vishkin, A. et al. (2022). `r colored(" [[Note](./Vishkin_etal_2022/Vishkin_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
+
+Vishkin, A., Kitayama, S., Berg, M. K., Diener, E., Gross-Manos, D., Ben-Arieh, A., & Tamir, M. (2022). Adherence to emotion norms is greater in individualist cultures than in collectivist cultures. Journal of Personality and Social Psychology. https://doi.org/10.1037/pspi0000409
+
+As predicted, in countries higher in individualism, emotional experiences of individuals were more homogenous and more concordant with the emotions of others in their culture. Furthermore, in more individualist countries, deviation from the mean emotional experience was linked to lower life satisfaction. 
+
+# Emotion regulation 
+
+## Theory/ Review 
+
+Uusberg, A., Ford, B., Uusberg, H., & Gross, J. J. (2023). `r colored(" [[Note](./Uusberg_et_at_2023/Uusberg_et_at_2023.nb.html)]","#8CC1DE" ,"14pt")`
+Reappraising reappraisal: An expanded view. Cognition and Emotion, 0(0), 1–14. https://doi.org/10.1080/02699931.2023.2208340
+
+
+## Motivated ER 
+
+## Shen, H., Labroo, A., & Wyer, R. S. Jr. (2020). `r colored(" [[Note](./Shen_etal_2020/Shen_etal_2020.nb.html)]","#8CC1DE" ,"14pt")`
+So difficult to smile: Why unhappy people avoid enjoyable activities. Journal of Personality and Social Psychology, 119(1), 23–39. https://doi.org/10.1037/pspa0000186
+
+## Yoon, S., & Rottenberg, J. (2021). `r colored(" [[Note](./Yoon_Rottenberg_2021/Yoon_Rottenberg_2021.nb.html)]","#8CC1DE" ,"14pt")`
+Listening to the blues: An ecological momentary assessment of music choice in depression. Emotion, 21(6), 1177–1187. https://doi.org/10.1037/emo0000911.supp
+
+## Mizrahi Lakan, S., Millgram, Y., & Tamir, M. (2023). `r colored(" [[Note](./Lakan_et_al_2023/Lakan_et_al_2023.nb.html)]","#8CC1DE" ,"14pt")`
+Desired sadness, happiness, fear and calmness in depression: The potential roles of valence and arousal. Emotion, 23(4), 1130–1140. https://doi.org/10.1037/emo0001120.supp
+
+# Intervention 
+
+## Walton & Wilson, 2018 `r colored("[[Note](./Walton_Wilson_2018/Walton_Wilson_2018.nb.html)]","#8CC1DE" ,"14pt")`
+Walton, G. M., & Wilson, T. D. (2018). Wise interventions: Psychological remedies for social and personal problems. Psychological Review, 125(5), 617–655. https://doi.org/10.1037/rev0000115
+
+## Walton, G. M., & Yeager, D. S. (2020). `r colored("[[Note](./Walton_2020/Walton_2020.nb.html)]","#8CC1DE" ,"14pt")`
+Seed and Soil: Psychological Affordances in Contexts Help to Explain Where Wise Interventions Succeed or Fail. Current Directions in Psychological Science, 29(3), 219–226. https://doi.org/10.1177/0963721420904453
+
+
+# Interpersonal Emotion Regulation 
+
+## Expression/ Suppression
+
+### Roberts, A. R., Levine, E. E., & Sezer, O. (2021). `r colored(" [[Note](./Roberts_etal_2021/Roberts_etal_2021.nb.html)]","#8CC1DE" ,"14pt")`
+Hiding success. Journal of Personality and Social Psychology, 120(5), 1261–1286. https://doi.org/10.1037/pspi0000322
+
+## Other  
+
+### Swerdlow et al., 2022.  `r colored(" [[Note](./Swerdlow_2022/Swerdlow_2022.nb.html)]","#8CC1DE" ,"14pt")`
+Swerdlow, B. A., Sandel, D. B., & Johnson, S. L. (2022) Shame on me for needing you: A multistudy examination of links between receiving interpersonal emotion regulation and experiencing shame. Emotion. https://doi.org/10.1037/emo0001109 <br>
+
+### Ross, J. M., Karney, B. R., Nguyen, T. P., & Bradbury, T. N. (2019). `r colored("[[Note](./Ross_etal_2019/Ross_etal_2019.nb.html)]","#8CC1DE" ,"14pt")`
+Communication that is maladaptive for middle-class couples is adaptive for socioeconomically disadvantaged couples. Journal of Personality and Social Psychology, 116(4), 582–597. https://doi.org/10.1037/pspi0000158
+
+# Language 
+
+## Koutsoumpis, A., et al. (2022). `r colored(" [[Note](./Koutsoumpis_etal_2022/Koutsoumpis_etal_2022.nb.html)]","#8CC1DE" ,"14pt")` 
+The kernel of truth in text-based personality assessment: A meta-analysis of the relations between the Big Five and the Linguistic Inquiry and Word Count (LIWC). Psychological Bulletin, 148(11–12), 843–868. https://doi.org/10.1037/bul0000381
+
+## Chung, C. K., & Pennebaker, J. W. (2018). `r colored(" [[Note](./Chung_2018/Chung_2018.nb.html)]","#8CC1DE" ,"14pt")` 
+What do we know when we LIWC a person? Text analysis as an assessment tool for traits, personal concerns and life stories. The Sage Handbook of Personality and Individual Differences, 341–360.
+
+## Nook, E. C., Satpute, A. B., & Ochsner, K. N. (2021). `r colored(" [[Note](./Nook_etal_2021/Nook_etal_2021.nb.html)]","#8CC1DE" ,"14pt")` 
+Emotion Naming Impedes Both Cognitive Reappraisal and Mindful Acceptance Strategies of Emotion Regulation. Affective Science, 2(2), 187–198. https://doi.org/10.1007/s42761-021-00036-y
+
+# Meta Science
+
+## Scientific perspectives 
+
+Lazer, D. M. J., et al.(2020). `r colored("[[Note](./Lazer_etal_2020/Lazer_etal_2020.nb.html)]","#8CC1DE" ,"14pt")`
+Computational social science: Obstacles and opportunities. Science, 369(6507), 1060–1062. https://doi.org/10.1126/science.aaz8170 
+
+Dukes, D., et al. (2021). `r colored("[[Note](./Dukes_etal_2020/Dukes_etal_2020.nb.html)]","#8CC1DE" ,"14pt")`
+The rise of affectivism. Nature Human Behaviour, 1–5. https://doi.org/10.1038/s41562-021-01130-8 
+
+Buyalskaya, A., Gallo, M., & Camerer, C. F. (2021). `r colored("[[Note](./Buyalskaya_et_al_2021/Buyalskaya_et_al_2021.nb.html)]","#8CC1DE" ,"14pt")`
+The golden age of social science. Proceedings of the National Academy of Sciences, 118(5), e2002923118. https://doi.org/10.1073/pnas.2002923118
+
+Berkman, E. T., & Wilson, S. M. (2021). `r colored("[[Note](./Berkman_Wilson_2021/Berkman_Wilson_2021.nb.html)]","#8CC1DE" ,"14pt")`
+So useful as a good theory? The practicality crisis in (social) psychological theory. Perspectives on Psychological Science, 1–11. https://doi.org/10.1177/1745691620969650
+
+## Replicabililty
+
+### Nosek et al., 2022 `r colored("[[Note](./Nosek_etal_2022/Nosek_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
+Replicability, robustness, and reproducibility in psychological science. Annual Review of Psychology, 73, 719–748.
+
+
+# Mental health
+
+## Monroe, S. M., & Harkness, K. L. (2023). `r colored(" [[Note](./Monroe_2023/Monroe_2023.nb.html)]","#8CC1DE" ,"14pt")`
+Why Recurrent Depression Should Be Reconceptualized and Redefined. Current Directions in Psychological Science, 32(3), 204–211. https://doi.org/10.1177/09637214221143045
+
+## Yarrington, J. S., et al. (2023). `r colored(" [[Note](./Yarrington_etal_2023/Yarrington_etal_2023.nb.html)]","#8CC1DE" ,"14pt")`
+The role of positive and negative aspects of life events in depressive and anxiety symptoms. Clinical Psychological Science, 21677026221141656. https://doi.org/10.1177/21677026221141654
+
+## Luhmann, M., et al. (2023). `r colored(" [[Note](./Luhmann_2023/Luhmann_2023.nb.html)]","#8CC1DE" ,"14pt")`
+Loneliness across time and space. Nature Reviews Psychology, 2(1), Article 1. https://doi.org/10.1038/s44159-022-00124-1
+
+## Gross, J. J., Uusberg, H., & Uusberg, A. (2019). `r colored(" [[Note](./Gross_etal_2019/Gross_etal_2019.nb.html)]","#8CC1DE" ,"14pt")`
+Mental illness and well-being: An affect regulation perspective. World Psychiatry, 18(2), 130–139. https://doi.org/10.1002/wps.20618
+
+# Motivation and self-regulation 
+
+## Ryan, R. M., et al (2022). `r colored(" [[Note](./Ryan_etal_2022/Ryan_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
+We Know This Much Is (Meta-Analytically) True: A Meta-Review of Meta-Analytic Findings Evaluating Self-Determination Theory. Psychological Bulletin, 148(11/12), 813–842. https://doi.org/10.1037/bul0000385
+
+## Shiota, M. N., Papies, E. K., Preston, S. D., & Sauter, D. A. (2021). `r colored(" [[Note](./Shiota_et_al_2021/Shiota_et_al_2021.nb.html)]","#8CC1DE" ,"14pt")`
+Positive affect and behavior change. Current Opinion in Behavioral Sciences, 39, 222–228. https://doi.org/10.1016/j.cobeha.2021.04.022
+
+# Physical health 
+
+## Hook, C. J., & Rose Markus, H. (2020). `r colored("[[Note](./Hook_Markus_2020/Hook_Markus_2020.nb.html)]","#8CC1DE" ,"14pt")`
+Health in the United States: Are Appeals to Choice and Personal Responsibility Making Americans Sick? Perspectives on Psychological Science, 15(3), 643–664. https://doi.org/10.1177/1745691619896252
+
+
+# Policy 
+
+## Bowers, J., & Testa, P. F. (2019). `r colored("[[Note](./Bowers_Testa_2019/Bowers_Testa_2019.nb.html)]","#8CC1DE" ,"14pt")`
+Better government, better science: The promise of and challenges facing the evidence-informed policy movement. Annual Review of Political Science, 22(1), 521–542. https://doi.org/10.1146/annurev-polisci-050517-124041
+
+## Meyer, M. N., Heck, P. R., Holtzman, G. S., Anderson, S. M., Cai, W., Watts, D. J., & Chabris, C. F. (2019). `r colored("[[Note](./Meyer_etal_2019/Meyer_etal_2019.nb.html)]","#8CC1DE" ,"14pt")`
+Objecting to experiments that compare two unobjectionable policies or treatments. Proceedings of the National Academy of Sciences, 116(22), 10723–10728. https://doi.org/10.1073/pnas.1820701116
+
+- Read this with the goal of evidence-based policy and the mindset of RCT-as-the-gold-standard in mind 
+
+Controversy: 
+
+- This discussion embodies the saying: 
+  - Let us calculate, without further ado, and see who is right. —Gottfried Leibniz (Wiener, 1951; taken from Watt, 2017)
+  - The easiest way to win an argument is to run another experiment or another statistical regression (taken from Buyalskaya_et_al_2021 as they talk about behavioral economists)
+  - This also echos what Watt says in his 2017 paper: 
+    - *Problems with focusing on theory like natural science (e.g., physics)*
+        - Theories in physics are testable in a way that social-science theories are not.
+        - Predictions in the social sciences, if they they are made at all, tend to come with considerable wiggle room 
+        - Even when such tests could be designed in principle, conducting them in practice would require a larger investment of resources than anyone is willing to make
+
+- The minimum mean paradox? 
+    - Mislavsky, R., Dietvorst, B. J., & Simonsohn, U. (2019). `r colored("[[Note](./Mislavsky_etal_2019/Mislavsky_etal_2019.nb.html)]","#8CC1DE" ,"14pt")` The minimum mean paradox: A mechanical explanation for apparent experiment aversion. Proceedings of the National Academy of Sciences, 116(48), 23883–23884. https://doi.org/10.1073/pnas.1912413116 
+    - Meyer, M. N., Heck, P. R., Holtzman, G. S., Anderson, S. M., Cai, W., Watts, D. J., & Chabris, C. F. (2019). `r colored("[[Note](./Meyer_et_al_2019/Meyer_et_al_2019.nb.html)]","#8CC1DE" ,"14pt")` Reply to Mislavsky et al.: Sometimes people really are averse to experiments. Proceedings of the National Academy of Sciences, 116(48), 23885–23886. https://doi.org/10.1073/pnas.1914509116
+    - Meyer, M. N., Heck, P. R., Holtzman, G. S., Anderson, S. M., Cai, W., Watts, D. J., & Chabris, C. F. (2019). `r colored("[[Note](./Meyer_etal_2019_b/Meyer_etal_2019_b.nb.html)]","#8CC1DE" ,"14pt")` Objecting to experiments that compare two unobjectionable policies or treatments. Proceedings of the National Academy of Sciences, 116(22), 10723–10728. https://doi.org/10.1073/pnas.1820701116 
+    - This one I think the original author won the argument. 
+    - The orignial authors seem pretty pissed. 
+- Generalizability issue regarding methodology (e.g., platform choice; material wording)
+    - Mazar, N., Elbaek, C. T., & Mitkidis, P. (2023). `r colored("[[Note](./Mazar_etal_2023/Mazar_etal_2023.nb.html)]","#8CC1DE" ,"14pt")` Experiment aversion does not appear to generalize. Proceedings of the National Academy of Sciences, 120(16), e2217551120. https://doi.org/10.1073/pnas.2217551120 
+    - This one I think the evidence is not in favor of the original author. It's not that the phenomenon that found is not "real." It's just that it can only be found under a very specific condition (e.g., MTurk; with specific wording).
+
+
+# Politics & Political psych 
+
+## Pliskin, R., & Halperin, E. (2021). `r colored("[[Note](./Pliskin_Halperin_2021/Pliskin_Halperin_2021.nb.html)]","#8CC1DE" ,"14pt")`
+
+Pliskin, R., & Halperin, E. (2021). The Study of Affective Processes in Political Contexts: Accomplishments and Challenges. Affective Science, 2(4), 345–352. https://doi.org/10.1007/s42761-021-00096-0
+
+  - Intro for a specical issue 
+  - Emotions are at the core of politics 
+
+## Cairney, P., & Oliver, K. (2017). `r colored("[[Note](./Cairney_Oliver_2017/Cairney_Oliver_2017.nb.html)]","#8CC1DE" ,"14pt")`
+
+Cairney, P., & Oliver, K. (2017). Evidence-based policymaking is not like evidence-based medicine, so how far should you go to bridge the divide between evidence and policy? Health Research Policy and Systems, 15(1), 35. https://doi.org/10.1186/s12961-017-0192-x
+
+## Siegel, J., Arenson, M., Mikytuck, A., & Woolard, J. (2021). `r colored("[[Note](./Siegel_2021/Siegel_2021.nb.html)]","#8CC1DE" ,"14pt")`
+Siegel, J., Arenson, M., Mikytuck, A., & Woolard, J. (2021). Engaging public policy with psychological science. Translational Issues in Psychological Science, 7(1), 1–8. https://doi.org/10.1037/tps0000284
+
+## Ford, B. Q., & Feinberg, M. (2020). `r colored("[[Note](./Ford 2020/Ford 2020.nb.html)]","#8CC1DE" ,"14pt")`
+Coping with politics: The benefits and costs of emotion regulation. Current Opinion in Behavioral Sciences, 34, 123–128. https://doi.org/10.1016/j.cobeha.2020.02.014
+
+## Ford, B. Q., Feinberg, M., Lassetter, B., Thai, S., & Gatchpazian, A. (2023). `r colored("[[Note](./Ford 2023/Ford 2023.nb.html)]","#8CC1DE" ,"14pt")`
+The political is personal: The costs of daily politics. Journal of Personality and Social Psychology. https://doi.org/10.1037/pspa0000335
+
+## Douglas, K. M., & Sutton, R. M. (2023).  `r colored("[[Note](./Douglas_Sutton_2023/Douglas_Sutton_2023.nb.html)]","#8CC1DE" ,"14pt")`
+What are conspiracy theories? A definitional approach to their correlates, consequences, and communication. Annual Review of Psychology, 74(1), 271–298. https://doi.org/10.1146/annurev-psych-032420-031329
+
+# Positive emotion 
+Shiota, M. N., Campos, B., Oveis, C., Hertenstein, M. J., Simon-Thomas, E., & Keltner, D. (2017). `r colored(" [[Note](./Shiota_etal_2017/Shiota_etal_2017.nb.html)]","#8CC1DE" ,"14pt")`  
+Beyond happiness: Building a science of discrete positive emotions. American Psychologist, 72(7), 617–643. https://doi.org/10.1037/a0040456
+
+# SES 
+
+## Theory/Review
+
+### Miyamoto, Y. (2017). `r colored("[[Note](./Miyamoto_2017/Miyamoto.nb.html)]","#8CC1DE" ,"14pt")`
+Culture and social class. Current Opinion in Psychology, 18, 67–72. https://doi.org/10.1016/j.copsyc.2017.07.042
+
+
+### Kraus et al., 2013 `r colored("[[Note](./Kraus_2013/Kraus_2013.nb.html)]","#8CC1DE" ,"14pt")`
+Kraus, M. W., Tan, J. J. X., & Tannenbaum, M. B. (2013). The social ladder: A rank-based perspective on social class. Psychological Inquiry, 24(2), 81–96. https://doi.org/10.1080/1047840X.2013.778803 <br> 
+
+### Wills et al, 2022, `r colored("[[Note](./Wills_etal_2022/Wills_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
+Willis, G. B., García-Sánchez, E., Sánchez-Rodríguez, Á., García-Castro, J. D., & Rodríguez-Bailón, R. (2022). The psychosocial effects of economic inequality depend on its perception. Nature Reviews Psychology, 1(5), 301–309. https://doi.org/10.1038/s44159-022-00044-0
+
+### Carey, R. M., & Markus, H. R. (2017). `r colored("[[Note](./Carey_2017/Carey_2017.nb.html)]","#8CC1DE" ,"14pt")`
+Social class shapes the form and function of relationships and selves. Current Opinion in Psychology, 18, 123–130. https://doi.org/10.1016/j.copsyc.2017.08.031
+
+###  Stephens, N. M., Markus, H. R., & Phillips, L. T. (2014). `r colored("[[Note](./Stephens_etal_2014/Stephens_etal_2014.nb.html)]","#8CC1DE" ,"14pt")`
+Social Class Culture Cycles: How Three Gateway Contexts Shape Selves and Fuel Inequality. Annual Review of Psychology, 65(1), 611–634. https://doi.org/10.1146/annurev-psych-010213-115143
+
+### Oishi, S., Koo, M., & Buttrick, N. R. (2019). 
+Oishi, S., Koo, M., & Buttrick, N. R. (2019). The socioecological psychology of upward social mobility. American Psychologist, 74(7), 751–763. https://doi.org/10.1037/amp0000422
+
+We identified the “walkability” of a city, how easy it is to get things done without a car, as a key factor in determining the upward social mobility of its residents. We 1st identified the relationship between walkability and upward mobility using tax data from approximately 10 million Americans born between 1980 and 1982. We found that this relationship is linked to both economic and psychological factors. Using data from the American Community Survey from over 3.66 million Americans, we showed that residents of walkable cities are less reliant on car ownership for employment and wages, significantly reducing 1 barrier to upward mobility. Additionally, in 2 studies, including 1 preregistered study (1,827 Americans; 1,466 Koreans), we found that people living in more walkable neighborhoods felt a greater sense of belonging to their communities, which is associated with actual changes in individual social class.
+
+## Empirical findings 
+
+### Snibbe & Markus, 2005 `r colored("[[Note](./Snibbe_2005/Snibbe_2005.nb.html)]","#8CC1DE" ,"14pt")`
+Snibbe, A. C., & Markus, H. R. (2005). You Can’t Always Get What You Want: Educational Attainment, Agency, and Choice. Journal of Personality and Social Psychology, 88(4), 703–720. https://doi.org/10.1037/0022-3514.88.4.703 <br> 
+
+### Ross, J. M., Karney, B. R., Nguyen, T. P., & Bradbury, T. N. (2019). `r colored("[[Note](./Ross_etal_2019/Ross_etal_2019.nb.html)]","#8CC1DE" ,"14pt")`
+Communication that is maladaptive for middle-class couples is adaptive for socioeconomically disadvantaged couples. Journal of Personality and Social Psychology, 116(4), 582–597. https://doi.org/10.1037/pspi0000158
+
+# Sociological approach
+
+## Oishi, S. (2014). `r colored("[[Note](./Oishi_2014/Oishi_2014.nb.html)]","#8CC1DE" ,"14pt")`
+Socioecological psychology. Annual Review of Psychology, 65(1), 581–609. https://doi.org/10.1146/annurev-psych-030413-152156
+
+Goal: 
+
+"`r colored("Socioecological psychology investigates humans’ cognitive, emotional, and behavioral adaption to physical, interpersonal, economic, and political environments.", "gold", bold = T)`"
+
+Types: 
+
+- Ecological <---> psychological: `r colored("(a) association studies that link an aspect of social ecology (e.g., population density) with psychology (e.g., prosocial behavior)", "gold", bold = T)`
+- Mechanisms: `r colored("(b) process studies that clarify why there is an association between social ecology and psychology (e.g., residential mobility → anxiety → familiarity seeking), and", "gold", bold = T)` 
+- Psychological ---> Ecological: `r colored("(c) niche construction studies that illuminate how psychological states give rise to the creation and maintenance of a social ecology (e.g., familiarity seeking → dominance of national chain stores).", "gold", bold = T)`
+
+
+
+## Uskul, A. K., & Oishi, S. (2020). 
+Editorial overview: What is socio-ecological psychology? Current Opinion in Psychology, 32, 181–184. https://doi.org/10.1016/j.copsyc.2020.01.001
+
+Definition of socio-ecological psychology: 
+
+"`r colored("Socio-ecological psychology is the scientific study of how socio-ecological environments and the mind, emotion, and behavior make each other up (see Refs. [1–3] for details). The basic assumptions are that our thinking, feeling, and behaviors are influenced by our ecologies, and that our ecologies are shaped in part by our thinking, feeling, and behaviors", "gold", bold = T)`"
+
+The difference is that the contemporary social psychology practiced in North America is a largely *laboratory-based and, experiment-based* science that examines the effect of micro-environments such as priming (the thought that immediately preceded), moods, and framing. Similarly, socio-ecological psychology is similar to `r colored("Ulrich Bronfenbrenner’s [5] ecological approach to human development", "gold", bold = T)`. Likewise, it is similar to Gibson’s [6] affordance theory of perception (see Ref. [2] for the historical precedence of socio- ecological psychology, including community psychology and environmental psychology)
+
+## Oishi, S., Koo, M., & Buttrick, N. R. (2019). 
+Oishi, S., Koo, M., & Buttrick, N. R. (2019). The socioecological psychology of upward social mobility. American Psychologist, 74(7), 751–763. https://doi.org/10.1037/amp0000422
+
+*We identified the “walkability” of a city, how easy it is to get things done without a car, as a key factor in determining the upward social mobility of its residents. We 1st identified the relationship between walkability and upward mobility using tax data from approximately 10 million Americans born between 1980 and 1982. We found that this relationship is linked to both economic and psychological factors. Using data from the American Community Survey from over 3.66 million Americans, we showed that residents of walkable cities are less reliant on car ownership for employment and wages, significantly reducing 1 barrier to upward mobility. Additionally, in 2 studies, including 1 preregistered study (1,827 Americans; 1,466 Koreans), we found that people living in more walkable neighborhoods felt a greater sense of belonging to their communities, which is associated with actual changes in individual social class.*
+
+
+
+
+
+# Well-being 
+
+## Importance 
+`r colored("Discussions on the importance of the study of well-being and mental health","coral" ,"20pt")``r colored(" [[Note](./WB_MH_note/WB_MH_note.nb.html)]","#8CC1DE" ,"14pt")` 
+
+UN---Sustainable Development Solutions Network: Global Happiness and Well-being Policy Report 2022 https://resources.unsdsn.org/global-happiness-and-well-being-policy-report-2022
+
+NEW-B: https://www.emotionalwellbeing.org/news
+
+Sometimes give out grants/ fellowship 
+
+## VanderWeele, T. J., et al. (2020). `r colored(" [[Note](./VanderWeele_etal_2020/VanderWeele_etal_2020.nb.html)]","#8CC1DE" ,"14pt")` 
+Brief well-being assessments, or nothing at all? Preventive Medicine, 135, 106095. https://doi.org/10.1016/j.ypmed.2020.106095
+
+
+Also see ER for relevent literature 
+
+
+
+# Other 
+
+## Fischer & Karl, 2022 `r colored("[[Note](./Fischer_2022/Fischer_2022.nb.html)]","#8CC1DE" ,"14pt")`
+Fischer, R., & Karl, J. A. (2022). Unraveling values and well-being—Disentangling within- and between-person dynamics via a psychometric network perspective. Journal of Personality and Social Psychology. https://doi.org/10.1037/pspp0000449" <br>
+
+
+## Wilson T. D. 2022  `r colored("[[Note](./Wilson_2022/Wilson_2022.nb.html)]","#8CC1DE" ,"14pt")`
+What is social psychology? The construal principle. Psychological Review, 129(4), 873–889. https://doi.org/10.1037/rev0000373
+
+
+<!--- Author, Year `r colored("[[Note](./Folder/File_name.nb.html)]","#8CC1DE" ,"14pt")`
+Full-text citation <br> --->
+

@@ -1,0 +1,96 @@
+---
+title: "Pliskin, R., & Halperin, E. (2021)."
+subtitle: "The Study of Affective Processes in Political Contexts: Accomplishments and Challenges. Affective Science, 2(4), 345–352. https://doi.org/10.1007/s42761-021-00096-0"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+# Back to index 
+
+[Back to index](../index.nb.html)
+
+# Achievements in studying affect in politics 
+
+1. Political discourse in social media 
+
+2. Affective polarization 
+
+3. Emotions in asymmetrically powered intergroup contexts 
+
+4. Emotion-targeted interventions 
+
+# Critical observations and challenges 
+
+1. Generate and increase awareness of the need for the present work within each of the relevant disciplines 
+
+  - One the one hand, political scientists need to recognize that studying affective processes is crucial for gaining a deep and complete understanding of politics 
+  - On the other hand, psychologicsts and neuroscientists need to recognitze politcial spheres as crucial research contexts for gaining a better understanding of even basic affective and emotional processes 
+
+2. Copy-paste synfrome 
+
+  - Researchers adopt methods from basic psychological research and apply them to the tsudy of politics, without first carefully consdiering how the context, with its specific and psychologcially relevent characteristics, changes not only the emotional phenomenon at hand nut also its expression, functions, temporal dynamics, regulation and more (Halperin & Pliskin, 2015). 
+
+`r colored("When examning emotions in politics--which involve intra- and intergroup phenomenon--the individual's experience cannot be understood without acknowledging collective processes. One's own experience, understanding, expression, and regulation of any given emotion is firmly embedded in the norms, affordances, and especially emotions of those with whom she identifies, but also those she sees as adversaries", "gold", bold = T)`
+
+
+Lack of true interdisciplinary work 
+
+-----
+[Back to index](../index.nb.html)
+
+
+```{r echo=FALSE, results='hide'}
+empty_file = "Empty.Rmd"
+new_article = "Vishkin_etal_2022"
+new_new_article_md = stringr::str_c(new_article,".Rmd")
+new_folder_path = stringr::str_c("./", new_article)
+
+old_path = stringr::str_c("./", new_article, "/", empty_file)
+new_path = stringr::str_c("./", new_article, "/", new_new_article_md)
+
+dir.create(new_article) #create a new folder
+file.copy(empty_file, new_article) #move the current file to that folder 
+file.rename(old_path, new_path) #rename the current file 
+file.edit(new_path)
+```
+
+`r colored("", "gold", bold = T)`
+<!-- <img src=" " width=80%> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

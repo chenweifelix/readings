@@ -1,0 +1,86 @@
+---
+title: "Uusberg, A., Ford, B., Uusberg, H., & Gross, J. J. (2023)."
+subtitle: "Reappraising reappraisal: An expanded view. Cognition and Emotion, 0(0), 1–14. https://doi.org/10.1080/02699931.2023.2208340"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+`r colored("I think this framework is helpful in thinking about (1) when people are reluctant to reappraise, what prevents them? (what tpyes/levels of representation?; what operation was not at play?) (2) when people failed to reppraise, what went wrong?", "gold", bold = T)`
+
+  - pain points at frequency and/or efficacy 
+
+<img src="Screenshot 2023-06-06 at 1.43.10 PM.png" width=80%>
+
+<hr>
+
+<img src="Screenshot 2023-06-06 at 1.44.16 PM.png" width=80%>
+
+
+
+Type of targeted representation: 
+
+  - reconstrual: changes in perceptions/ subjective meaning of the the current state 
+  - repurposing: changes in the desired states 
+  
+
+Type of operation: 
+
+  - commitment: engage in alternative representations (without necessarily undermining the current representation)
+  - decommitment: disengage from the currently dominant representations (without necessarily having an alternative representation)
+
+
+Also see: 
+
+- Ehring, T., & Woud, M. L. (2023). Towards a better understanding of the role of reappraisal in psychopathology and its treatment: Commentary on “Reappraising Reappraisal: An Expanded View.” Cognition and Emotion, 0(0), 1–6. https://doi.org/10.1080/02699931.2023.2208341
+  - Question about their dinstinction of meta-level and objective-level representation; raise a good point about their figure 2 about "Is feeling this way really that bad" as a meta-level construal vs. "It's fine to not be happy all the time" as a meta-level repurposing 
+
+- Uusberg, A., Taxer, J. L., Yih, J., Uusberg, H., & Gross, J. J. (2019). Reappraising Reappraisal. Emotion Review, 11(4), 267–282. https://doi.org/10.1177/1754073919862617
+
+- Tamir, M., Halperin, E., Porat, R., Bigman, Y. E., & Hasson, Y. (2019). When there’s a will, there’s a way: Disentangling the effects of goals and means in emotion regulation. Journal of Personality and Social Psychology, 116(5), 795–816. https://doi.org/10.1037/pspp0000232
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

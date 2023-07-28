@@ -1,0 +1,169 @@
+---
+title: "Guest_Martin_2021"
+subtitle: "How computational modeling can force theory building in psychological science. Perspectives on Psychological Science, 16(4), 789–802. https://doi.org/10.1177/1745691620970585"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Def: Computational modeling is the process by which a verbal description is formalized to remove ambiguity while also constraining the dimensions a theory can span.
+
+  - modeling makes us think deeply about what we are going to model (e.g., which phenomenon or capacity), in addition to any data, both before and during the creation of the model and both before and during data collection. ---> One of the core properties of models is that they allow us to “safely remove a theory from the brain of its author”, thus allowing the ideas in one’s head to run on other computers
+  - By providing a transparent genealogy for where predictions, explanations, and ideas for experiments come from, the process of modeling stops us from atheoretically testing hypotheses—a core value of open science. Open theorizing, in other words explicitly stating and formalizing our theoretical commitments, is done by default as a function of the process
+
+The inherent demands of computational modeling guide us toward better science by forcing us to conceptually analyze, specify, and formalize intuitions that otherwise remain unexamined—what we dub open theory. Constraining our inference process through modeling enables us to build explanatory and predictive theories. Here, we present scientific inference in psychology as a path function in which each step shapes the next. Computational modeling can constrain these steps, thus advancing scientific inference over and above the stewardship of experimental practice (e.g., preregistration). Without formal modeling we lack open and transparent theorizing. 
+
+Computational modeling forces scientists to explicitly document an instance of what their theory assumes, if not what their theory is. ---> generate and test hypotheses using empirical data 
+
+The most crucial part of the process is creating a specification—but even just creating an implementation (programming code) leverages more explicitness than going from framework to hypothesis to data collection directly
+
+# The pizza problem 
+
+Def: If we do not make our thinking explicit through formal modeling, and if we do not bother to execute (i.e., implement and run our specifica- tion through computational modeling), we can have massive inconsistencies in our understanding of our own model(s). 
+
+one 18 inch pizza has more ‘pizza’ than two 12 inch pizzas”
+
+<img src="Screenshot 2023-07-19 at 2.26.07 PM.png" width=80%>
+
+Thee amount of food $\Phi$ per order option $i$ as: 
+
+\begin{equation}
+
+\Phi_i = N_i\pi R_i^2 \\ 
+
+\end{equation}
+
+where i is the pizza-order option, N is the number of pizzas in the order, and the rest is the area of a circle.
+
+A more general form would be:
+
+\begin{equation}
+
+\Phi_i = \sum_{j = 1}^{N}\pi R_j^2 \\ 
+
+\end{equation}
+
+A pairwise decision rule would be: 
+
+\begin{equation}
+
+\omega(\Phi_i, \Phi_j) = 
+\begin{cases}
+    i,& \text{if } \Phi_i > \Phi_j ,\\
+    j,              & \text{otherwise}
+\end{cases}
+
+\end{equation}
+
+```{r}
+food = function(ds){ 
+  # Amount of food in an order as a function of the diameters per pizza
+  return(sum(pi * (ds/2)^2))
+}
+
+# Order option a, two 12'' pizzas: 
+two_pizzas = c(12, 12)
+
+# Order option b, one 18'' pizza:
+one_pizza = c(18)
+
+print(food(two_pizzas) > food(one_pizza))
+```
+
+<img src="Screenshot 2023-07-19 at 2.52.47 PM.png" width=80%>
+ 
+# Model of Psychological Science
+
+Scientific inquiry can be understood as a function from theory to data and back again, and this function must pass through several states to gain explanatory force
+
+We note that each level (in blue) can, but does not have to, involve the construction of a (computational) model for that level, with examples of models shown in the left column (in green) connected by a dotted line to their associated level
+
+At any point transitions moving upward are permissible, whereas moving downward is possible only if an expectation violation is resolved by first moving upward.
+
+  - Downward motion is not allowed if a violation occurs (e.g., our model at the current step is not in line with our expectations). Once this violation is resolved by moving to any step above, we may move downward, respecting the serial ordering of the levels.
+
+
+1. Framework: 
+
+- Def: conceptual system of building blocks for creating facsimiles (an exact copy, especially of written or printed material) of complex psychological systems
+- Frameworks usually require descending further down the path before they can be computationally modeled (Hunt & Luce, 1992; Vere, 1992)
+- Examples: working memory 
+
+2. Theory: 
+
+- Def: scientific proposition—described by a collection of natural-language sentences, mathematics, logic, and figures—that introduces causal relations with the aim of describing, explaining, and/or predicting a set of phenomena 
+- To move to the next level and produce a specification for a psychological theory, we must posit a plausible mechanism for the specification model to define. As can be seen from our path, direct comparisons to data can happen only once a model is at the correct level.
+- If a theory cannot lead to coherent specifications, it is our responsibility as scientists to amend or, more rarely, abandon it in favor of one that does
+
+3. Specification 
+
+- Def: a formal (or formalizable) description of a system to be implemented on the basis of a theory
+- provides a means of discriminating between theory-relevant (i.e., closer to the core claims of the theory) and theory-irrelevant auxiliary assumptions
+  - a way to check whether a computational model encapsulates the theory and 
+  - a way to create a model even if the theory is not clear enough, simply by constraining the space of possible computational models.
+
+4. Implementation 
+
+- Def: instantiation of a model created using anything from physical materials to software. A computational implementation is a codebase written in one or more programming languages that constitutes a software unit and embodies a computational model.
+
+5. Hypothesis 
+
+- Def: a narrow testable statement (Any sentence that can be directly tested statistically can be a hypothesis)
+
+6. Data
+
+- Def: observations collected from the real world or from a computational model 
+- Because data are theory-laden, they can never be free from, or understood outside of, the assumptions implicit in their collection 
+
+For how these steps are mapped with the pizza see p.795-796
+
+# Discussion 
+
+Computational models cannot replace, for example, data or verbal theories, but the process of creating a computational account is invaluable and informative.
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

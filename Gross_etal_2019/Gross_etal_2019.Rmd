@@ -1,0 +1,79 @@
+---
+title: "Gross, J. J., Uusberg, H., & Uusberg, A. (2019)."
+subtitle: "Mental illness and well-being: An affect regulation perspective. World Psychiatry, 18(2), 130–139. https://doi.org/10.1002/wps.20618"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Basically a shorter version of Gross 2015 
+
+Definition of mental health (WHO): 
+
+"mental health is a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community"
+
+<img src="Screenshot 2023-06-06 at 11.35.30 PM.png" width=80%>
+
+All affective states share a common dimension: valuation (i.e., good-for-me vs. bad-for-me). The function of affective states is to shape behavior in accordance with the relationship between situation and motivational concerns.
+
+affective states, including the following (in hierarchical order [continuum] based on how many affect generation stages are generally part of the conscious experience of the given affective state, p.131) 
+
+  - emotions: all four stages are generally part of the experience 
+  - stress: appraisal + response; experiences revolve around broader circumstances (e.g., new job, divorce) that span several specific situations 
+  - impulses: response and situation
+  - mood: diffuse feelings and action tendencies; tends to relate to situations that have been selectively perceived and appraised largely outside of awareness 
+
+`r colored("the model also suggests that unhealthy affect can be traced back to maladaptive unfolding of one or more of the four affect genera- tion stages.", "gold", bold = T)`
+
+<img src="Screenshot 2023-06-06 at 11.41.38 PM.png" width=80%> 
+
+<img src="Screenshot 2023-06-06 at 11.42.12 PM.png" width=80%> 
+
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+`r colored("", "gold", bold = T)`
+ <!-- <img src="" width=80%>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

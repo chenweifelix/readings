@@ -1,0 +1,133 @@
+---
+title: "Törnberg_Uitermark_2021"
+subtitle: "For a heterodox computational social science. Big Data & Society, 8(2), 20539517211047724. https://doi.org/10.1177/20539517211047725"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Much research in this field is founded on the premise that society is a complex system with emergent structures that can be modeled or reconstructed through digital data. This paper suggests that computational social science serves practical and legitimizing functions for digital capitalism in much the same way that neoclassical economics does for neoliberalism.
+
+This implies diverting computational social science’ computational methods and digital data so as to not be aimed at identifying invariant laws of social life, or optimizing state and corporate practices, but to instead be used as part of broader research strategies to identify contingent patterns, develop conjunctural explanations, and propose qualitatively different ways of organizing social life.
+
+
+At the base of this promise is the conviction that society is a complex system that can be understood through theories and methods that have been developed to understand other complex systems (e.g., brains)
+
+Data as commodities or a form of capital ---> The value instilled in data relies on (belief in) the capacity to capture, analyze, predict, and control the social world (Van Dijck, 2014; see also Lohr, 2015). The data are, in other words, not an accidental trace of social interaction – au contraire, it would be more apt to say that the sociality is the afterthought of the extraction of digital data.
+
+
+<hr> 
+
+# Society as a complex system 
+
+This comlexity perspective stems from physics and views macro- patterns as the emergent and aggregate outcome of micro- interactions (Conte et al., 2012). 
+
+Such an approach allows powerful insight into phenomena in which the reflexivity and meaning-making of individuals can be bracketed, and captures well situations where these play limited roles, such as traffic congestions or pedestrian flows (Andersson et al., 2014). 
+
+
+Many of the optimization algorithms that lay the foundation of data analysis are designed according to the same type of nature-inspired complex system metaphor, including machine learning and stochastic optimization. These algorithms are often built on simulating biological distributed computation systems, such as ants or swarms looking for food, neural networks, or biological evolution (Mitchell, 2009; Wahde, 2008).
+
+The ontology of complexity aligns with the relational and interactive nature of digital data produced by digital platforms, contrasted against surveys, which are argued to slot reality into fixed categories, variables, and variances, concealing its interactional elements (Conte et al., 2012; Lazer et al., 2020). 
+
+The epistemic features of digital data are, thus, taken to represent the true characteristics of the social world – *heterogeneous, interactional, and emergent* (Conte et al., 2012).
+
+Although census data are seen as produced for scientific analysis, digital data are a ‘naturally occurring by-product’ (Edwards et al., 2013) of social processes, rather than something produced for scientific consumption.
+
+`r colored("Three approaches CSS used to study the social world", "gold", bold = T)`
+
+1. Pattern identification 
+
+  - a pursuit of regularities 
+
+2. Simulation 
+
+  - e.g., agent-based models 
+
+3. Experimentation 
+
+  - e.g., A/b testing 
+  - aimed at identifying micro-mechanisms that produce emergent phenomena.
+
+This has brought leading scholars to characterize the social world as a complex system – expressing hopes of finding universal patterns and underlying mechanisms, to develop social science into not merely a form of physics but of engin- eering, by learning to control and tune its underlying social machinery.
+
+<hr> 
+
+# Data in digital capitalism 
+
+The value of data lies in their power to capture, predict, and control the social world, enabling every layer of the human experience to become the target of profitable extraction (Couldry and Mejias, 2020).
+
+When algorithms are employed to optimize for the interests of corporations and governments by categorizing customers, employees, and citizens according to purchasing power, productivity, credit scores, health risks, and liability, then discrimination and inequities inevitably result.
+
+
+# A heterodox computational social science 
+
+1. Critical 
+
+  - This calls for constantly rejecting naturalization of social phe- nomena by revealing their contingency – that things could be otherwise. The resulting CSS finds its lineage not in physics, medicine, or engineering but in attempts of imagine and construe alternative futures in and through digitization
+
+2. Methodological pluralist 
+
+  - any modeling of a social system will involve not only a simplification per se, but necessarily also an ontological mismatch between model and system that cannot be resolved through any amount of empirical detail (Hayles, 2008).
+  - ‘quantitative data beg for qualitative interrogation’ ---> Instead of *triangulation*, where the purpose is validating a finding through different methods, *methodological pluralism serves to bring into view different dimensions of social reality.* 
+  - We should not expect such an exercise to result in ever greater certainty about immutable regularities but instead view the methods as ways of bringing out different aspects of reality and establishing contingent patterns. 
+  - Mixed method research and retroduction: Retroduction as a strategy for logical inference fits well the pluralist approach suggested by, for example, Nelson (2020), which starts from methods of pattern-finding aimed to identify surprising observations and produce hypotheses, to then explain these observations via in-depth and qualitative analysis, and testing using quantitative methods. 
+    - This situates the respective strengths of different methods within an approach that enables their application toward identifying deeper causal tendencies.
+
+3. Interpretative 
+
+  - Interpretations are both a pre-condition and an aspect of the causality 
+  - HCSS support, rather than supplant, interpretation 
+
+4. Explanative 
+
+  - Critical realism suggests that rather than viewing individuals as the foundation of social systems and structures as emergent, it is more fruitful to think of them as mutually implicated (Bourdieu, 1979; Byrne and Callaghan, 2013). 
+  - Critical realism suggests pursuing social explanation by tracing causal processes through the structures and elements involved, moving back and forth between upward and downward causation.
+  - The mechanisms revealed through experiments and simulations are not the foundation of social life but express the workings of a particular, and inherently contingent and provisional, social context.
+
+  
+  
+-----
+[Back to index](../index.nb.html)
+
+
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

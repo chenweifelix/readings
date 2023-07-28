@@ -1,0 +1,65 @@
+---
+title: "Roberts, A. R., Levine, E. E., & Sezer, O. (2021)."
+subtitle: "Hiding success. Journal of Personality and Social Psychology, 120(5), 1261–1286. https://doi.org/10.1037/pspi0000322"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+The perceiver makes inferences that the target has paternalistic motives, which contributes to perceivers' feelings of insult 
+
+  - paternalisitc: the intention tp help the target based on assumptions about the target's best interest 
+
+There's clear and robust relational costs of hiding success, but less so on emotional and impression costs 
+
+  - relational: feeling of insult, clseness, and trust (i.e., mutual vulnerability)
+  - emotional: envy, happiness 
+  - impression: warmth and competence 
+
+Online sample and real-life sample (recruited at a park, a conference, etc.)
+
+Vignette reading 
+
+-----
+[Back to index](../index.nb.html)
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

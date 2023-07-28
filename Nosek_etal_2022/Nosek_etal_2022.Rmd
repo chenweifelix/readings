@@ -1,0 +1,84 @@
+---
+title: "Nosek, B. A., Hardwicke, T. E., Moshontz, H., Allard, A., Corker, K. S., Dreber, A., Fidler, F., Hilgard, J., Kline Struhl, M., & Nuijten, M. B. (2022)."
+subtitle: "Replicability, robustness, and reproducibility in psychological science. Annual Review of Psychology, 73, 719–748."
+date: "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+# Back to index 
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Reproducibility: 
+
+  - process: data, code, info needed to create the code or necessary software of tools  
+  - outcome: results 
+
+Robustness: results do not vary with the decisisions to include/exclude certain covariates 
+
+  - A `r colored("fragile", "gold", bold = T)` finding is not necessarily wrong 
+  - A fragile finding can amplify concerns about p-hacking and overfitting that reduce credibility 
+
+Machine learning can have the statistics and the narrative text as the input and output whether the study would replicate (p.729)
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+```{r echo=FALSE, results='hide'}
+empty_file = "Empty.Rmd"
+new_article = "Nosek_etal_2013"
+new_new_article_md = stringr::str_c(new_article,".Rmd")
+new_folder_path = stringr::str_c("./", new_article)
+
+old_path = stringr::str_c("./", new_article, "/", empty_file)
+new_path = stringr::str_c("./", new_article, "/", new_new_article_md)
+
+dir.create(new_article) #create a new folder
+file.copy(empty_file, new_article) #move the current file to that folder 
+file.rename(old_path, new_path) #rename the current file 
+file.edit(new_path)
+```
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

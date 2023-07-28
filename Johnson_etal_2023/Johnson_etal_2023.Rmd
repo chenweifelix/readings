@@ -1,0 +1,69 @@
+---
+title: "Johnson, M. D., Stanley, S. M., & Rhoades, G. K. (2023)."
+subtitle: "Does income moderate basic relationship processes? Journal of Marriage and Family, 85(1), 72–91. https://doi.org/10.1111/jomf.12877"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+<img src="Screenshot 2023-05-22 at 12.41.58 PM.png" width=80%>
+
+Basic rel processes: 
+
+  - inter- and intrapersonal adaptive processes (pos and neg interactions, commitment), 
+  - stressors ($)  
+  - Enduring vulnerability (psych distress)
+
+The associations between these constructs and rel satis were not moderated by income 
+
+N = 927; Age = 18—34; co-habitating married and unmarried couples 
+
+<img src="Screenshot 2023-05-22 at 12.48.52 PM.png" width=80%>
+
+<img src="Screenshot 2023-05-22 at 12.49.03 PM.png" width=80%>
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

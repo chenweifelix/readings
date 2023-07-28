@@ -1,0 +1,133 @@
+---
+title: "Wilson, T. D. (2022)."
+subtitle: "What is social psychology? The construal principle. Psychological Review, 129(4), 873–889. https://doi.org/10.1037/rev0000373"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+A formal definition of social psychology (p.883)
+
+`r colored("The scientific study of the way in which people’s thoughts, feelings, and behaviors are influenced by their current construals of themselves and the social environment. These construals are profoundly influenced by social norms, are amenable to study with the experimental method, and are levers for changing people’s behavior.", "gold", bold = T)` 
+
+The key theoretical construct in social psych: Construal Principle ---> to understand and predict human behavior, one must focus on people's proximate (current) construals of themselves and their environment 
+
+Def of construals: Construal is a specific kind of cognitive process in which people interpret the world according to their prior experience, needs, and wishes. Such interpretations typically occur quickly outside of conscious awareness
+
+Strengths 
+
+1. It accounts for the power of the situation, by acknowledging that construals are highly attuned to social norms 
+2. It is amenable to study with the experimental method
+3. It provides a unique theoretical framework for how to change human behavior 
+
+# Intro 
+Most topics in social psychology investigate what goes on inside the head of individual actors. 
+
+As Wegner and Gilbert (2000) put it, “The official story [of social psychology] is about sociality, but even a cursory reading of the field’s literature suggests that the official story is woefully incomplete” (p. 3).
+
+In this article, I will try to paint a more accurate portrait of social psychology and delineate how the field differs from related disciplines. In so doing, I will address a common criticism of social psychology: *the claim that it lacks an overarching theoretical perspective and is instead a hodgepodge of mini-theories and demonstrations of disparate phenomena.* ([see](https://www.edge.org/conversation/timothy_d_wilson-the-social-psychological-narrative-or-what-is-social-psychology-anyway))
+
+## Comparison with other disciplines 
+
+### Differences in Explanatory Focus 
+
+- Social psych ---> porximate construals 
+- Evolutionary social psych ---> the processes of natural selection in our species's distant past that led to social behavior becoming encoded in DNA 
+- Social neuroscience ---> the neural mechanisms underlying social behavior ---> the underlying physiological processess in the here and now that are corrlelated with social behavior 
+- Personality psych ---> how to define and measure individual differences what what makes each person unique 
+
+### The construal principle 
+
+S ---> O (organism) ---> R 
+
+O: something about the organism, such as genes, neurons, or personality traits. But social psych focuses on people's current construal of themselves and the social environment 
+
+Construal is a specific kind of cognitive process in which people interpret the world according to their prior experience, needs, and wishes. Such interpretations typically occur quickly outside of conscious awareness
+
+<hr> 
+
+Willingham and Dunn (2003) concluded that “there are limitations to the applicability of neuroscientific data to social psychological problems and that these limitations are traceable to the very nature of social processes themselves” (p. 666), such as their complexity (see also Kihlstrom, 2010). More recently, some have cast doubt on the ability of neuroscience to yield insights about cognition more generally. Niv (2021) noted, “If we ask ourselves candidly ‘what has neuroscience taught us about cognition that we did not already know from behavior?’ we realize that unfortunately the answer is ‘not very much.’” (p. 602). Others disagree, arguing that the results of neurological measures can arbitrate between competing social psychology hypotheses (e.g., Eisenberger et al., 2003; Mitchell et al., 2011).(p.878)
+
+It is important to note that many of the most pressing problems facing us today, such as discrimination based on race and gender, disparities in educational achievement, and climate change—can and should be addressed through *structural change*, by, for example, eliminating institutional racism, reducing poverty, improving schools, and investing in alternative energies. But each of these problems can also be addressed by interventions targeting human behavior, and social psychological research based on the construal principle is a promising approach. (p.879)
+
+# Social Psych vs. Sociology (p.880)
+
+Sociology and social psychology share an interest in the social context but have traditionally approached this topic in different ways. *Social psychology, as we have seen, examines social influence through the lens of individual construals; that is, social influence is mediated by how people interpret the social world. Sociologists take a more macro, objectivist approach, looking at variables such as social class, social institutions, and social movements, with less interest in the role of construal.* Sociologists have been quite interested in studying how social change occurs and in how sociological principles inform social policy (Perlstadt, 2007). They have not, however, been as interested as social psychologists and behavioral economists in designing and testing interventions to bring about social change. 
+
+*Sociological Psychology*: (Oishi 2014) 
+
+Cobination of sociology, with its focus on objective, macro features of social environments (e.g., income inequality, population density) and social psychology, with its focus on individual construal. It often begins by observing correlations between human behavior and features of the objective environment, generating causal hypotheses to explain the correlations, and then testing the causal hypotheses experimentally. 
+
+# Characteristics of construals
+
+## 1. Construals are motivated 
+
+Motivated by basica human needs: 
+
+  - to be accurate (what's going on here)
+  - to belong (What do people think I should be doing)
+  - to maintain feelings of self-worth (How can i spin this in a way that makes me feel good about myself and my social group) 
+
+## 2. Automatic vs. controlled construals: dual process theories 
+
+Habits (habitual responses) depend on people's expectations (construals) about the link between the behavior and subsequent rewards 
+
+## 3. Construals are largely unconscious 
+
+Naive realism (the illusion of personal objectivity) ---> everyone thinks what they know is the truth 
+
+## 4. Construals span time
+
+People construct the past by filtering it thorugh their theories and views of the present 
+
+## 5. Construals are shaped by culture 
+
+
+
+-----
+
+<img src="Screenshot 2023-07-12 at 2.14.21 PM.png" width=80%>
+
+
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

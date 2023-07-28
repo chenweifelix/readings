@@ -1,0 +1,100 @@
+---
+title: "Willis, G. B., García-Sánchez, E., Sánchez-Rodríguez, Á., García-Castro, J. D., & Rodríguez-Bailón, R. (2022)." 
+subtitle: "The psychosocial effects of economic inequality depend on its perception. Nature Reviews Psychology, 1(5), 301–309. https://doi.org/10.1038/s44159-022-00044-0"
+
+date: "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+# Back to index 
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+The inconsistent previous findings on the relationship between income inequality and subjective well-being is because inequality was measured with objective index, instead of subjective index. 
+
+Subjective (or they call percevied) inequality is only modestly correlated with objective ineqaulity. 
+
+Obj inq ---> 
+  
+  - Psycholsocial mechanisms: 
+    - social distance (segragated)
+    - status competition ---> zero-sum beliefs 
+  - Ideologies (beliefs) (see p.5)
+    - meritocracy 
+    - neoliberalism 
+    - social Darwinism 
+    - belief in a just world 
+    - the Protestant work ethic 
+    - social dominance orientation 
+
+<img src="Screenshot 2023-03-15 at 4.32.18 PM.png" width=80%>
+
+See also: 
+
+Mijs, J. J. B. (2021). The paradox of inequality: Income inequality and belief in meritocracy go hand in hand. Socio-Economic Review, 19(1), 7–35. https://doi.org/10.1093/ser/mwy051
+
+Azevedo, F., Jost, J. T., Rothmund, T., & Sterling, J. (2019). Neoliberal Ideology and the Justification of Inequality in Capitalist Societies: Why Social and Economic Dimensions of Ideology Are Intertwined. Journal of Social Issues, 75(1), 49–88. https://doi.org/10.1111/josi.12310
+
+Starmans, C., Sheskin, M., & Bloom, P. (2017). Why people prefer unequal societies. Nature Human Behaviour, 1(4), Article 4. https://doi.org/10.1038/s41562-017-0082
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+```{r echo=FALSE, results='hide'}
+empty_file = "Empty.Rmd"
+new_article = "Nosek_etal_2013"
+new_new_article_md = stringr::str_c(new_article,".Rmd")
+new_folder_path = stringr::str_c("./", new_article)
+
+old_path = stringr::str_c("./", new_article, "/", empty_file)
+new_path = stringr::str_c("./", new_article, "/", new_new_article_md)
+
+dir.create(new_article) #create a new folder
+file.copy(empty_file, new_article) #move the current file to that folder 
+file.rename(old_path, new_path) #rename the current file 
+file.edit(new_path)
+```
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

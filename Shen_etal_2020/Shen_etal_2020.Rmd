@@ -1,0 +1,76 @@
+---
+title: "Shen, H., Labroo, A., & Wyer, R. S. Jr. (2020). "
+subtitle: "So difficult to smile: Why unhappy people avoid enjoyable activities. Journal of Personality and Social Psychology, 119(1), 23–39. https://doi.org/10.1037/pspa0000186"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+- Facial feedback
+
+- Unhappy people experience difficulty imagining *doing* enjoyable activities because the facial expressions of unhappiness conflices with the facial expressions of happiness generated from imagining happy activity. This difficulty further translates to decreased evaluations the enjoyable activity. 
+
+  - The conflict between thoughts (imaging an enjoyable activity) vs. bodily sensations (i.e., being in a negative mood)
+  - In the present context, we propose that when people feel unhappy, they find it difficult to imagine themselves engaging in an enjoyable activity because the bodily reactions that are elicited by imagining the activity (e.g., the facial muscles involved in smiling) are incompatible with those that accompany their negative mood (muscles involved in frowning).
+
+We find that when unhappy people imagine themselves engaging in an enjoyable activity, this mental simulation feels difficult and consequently elicits negative affect. Because they are unaware of the actual source of their negative feelings, however, they misattribute these feelings to the activity they are imagining and, as a result, they evaluate it more negatively than they otherwise would.
+
+<img src="Screenshot 2023-03-26 at 4.19.09 PM.png" width=75%>
+
+Addressing other conceptualizations (p.36, right) --- Affective reactions and goal pursuit 
+
+  - Research shows people can infer progress in goal-directed activity from the affect they experience when they engage in it (Gross & Thompson, 2007). According to cybernetic theories (e.g., Carver & Scheier, 1990), a positive mood signals goal completion whereas a negative mood signals a need to expend more effort in order to attain a goal. People in a negative mood might therefore avoid enjoyable activities because they believe that such activities could distract them from making goal progress (Millgram, Joormann, Huppert, & Tamir, 2015). When people believe they are unhealthy, for example, a negative mood can increase their motivation to avoid enjoyable, indulgent foods (Shen & Wyer, 2008). `r colored("Unhappy people sometimes prefer unenjoyable experiences because they feel they do not deserve to enjoy themselves (Gross, 1998; Ray, McRae, Ochsner, & Gross, 2010). Note, however, that imagining the outcome of an enjoyable activity rather than the process of engaging in it can increase preference for the activity (see Study 4). This tendency is opposite to what would be expected if people think they are undeserving of enjoyable activities.", "gold", bold = T)` <br>---> The outcome of doing the activity is still rewarding (motivating); it's just that imagining doing it feels difficult
+
+Imaging doing an enjoyable activity is a common stragegy used to up-regulate negative emotions (asssed with closed options)
+
+<img src="Screenshot 2023-03-26 at 4.17.50 PM.png" width=75%>
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

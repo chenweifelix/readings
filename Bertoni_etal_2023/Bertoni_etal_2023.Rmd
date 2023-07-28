@@ -1,0 +1,108 @@
+---
+title: "Bertoni_etal_2023"
+subtitle: "Handbook of Computational Social Science for Policy. Springer International Publishing. https://doi.org/10.1007/978-3-031-16624-2"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+<hr>
+
+`r colored("Preface","white" ,"26pt")`  `r colored("[[Note](./Preface/Preface.nb.html)]","#8CC1DE" ,"14pt")`
+
+# Part I: Fundational Issues 
+
+1. Computational Social Science for Public Policy // p.3 `r colored("[[Note](./Ch1/Ch1.nb.html)]","#8CC1DE" ,"14pt")`
+  - Helen Margetts and Cosmina Dorobantu
+2. Computational Social Science for the Public Good: Towards a Taxonomy of Governance and Policy Challenges // p.19 `r colored("[[Note](./Ch2/Ch2.nb.html)]","#8CC1DE" ,"14pt")`
+  - Stefaan Gerard Verhulst
+3. Data Justice, Computational Social Science and Policy // p.41 `r colored("[[Note](./Ch3/Ch3.nb.html)]","#8CC1DE" ,"14pt")`
+  - Linnet Taylor
+4. The Ethics of Computational Social Science // p.57 `r colored("[[Note](./Ch4/Ch4.nb.html)]","#8CC1DE" ,"14pt")`
+  - David Leslie
+
+# Part II Methodological Aspects
+5. Modelling Complexity with Unconventional Data: Foundational Issues in Computational Social Science // p.107 `r colored("[[Note](./Ch5/Ch5.nb.html)]","#8CC1DE" ,"14pt")`
+  - Magda Fontana and Marco Guerzoni
+6. From Lack of Data to Data Unlocking // p.125 `r colored("[[Note](./Ch6/Ch6.nb.html)]","#8CC1DE" ,"14pt")`
+  - Nuno Crato
+7. Natural Language Processing for Policymaking // p.141 `r colored("[[Note](./Ch7/Ch7.nb.html)]","#8CC1DE" ,"14pt")`
+  - Zhijing Jin and Rada Mihalcea
+8. Describing Human Behaviour Through Computational Social Science // p.163 `r colored("[[Note](./Ch8/Ch8.nb.html)]","#8CC1DE" ,"14pt")`
+  - Giuseppe A. Veltri
+9. Data and Modelling for the Territorial Impact Assessment (TIA) of Policies  // p.177 `r colored("[[Note](./Ch9/Ch9.nb.html)]","#8CC1DE" ,"14pt")`
+  - Eduardo Medeiros
+10. Challenges and Opportunities of Computational Social Science for Official Statistics // p.195 `r colored("[[Note](./Ch10/Ch10.nb.html)]","#8CC1DE" ,"14pt")`
+  - Serena Signorelli, Matteo Fontana, Lorenzo Gabrielli, and Michele Vespe
+
+# Part III Applications
+11. Agriculture, Food and Nutrition Security: Concept, Datasets and Opportunities for Computational Social Science Applications // p. 215 `r colored("[[Note](./Ch11/Ch11.nb.html)]","#8CC1DE" ,"14pt")`
+  - T. S. Amjath-Babu, Santiago Lopez Riadura, and Timothy J. Krupnik
+12. Big Data and Computational Social Science for Economic Analysis and Policy // p.231 `r colored("[[Note](./Ch12/Ch12.nb.html)]","#8CC1DE" ,"14pt")`
+  - Sebastiano Manzan
+13. Changing Job Skills in a Changing World // p.243 `r colored("[[Note](./Ch13/Ch13.nb.html)]","#8CC1DE" ,"14pt")`
+  - Joanna Napierala and Vladimir Kvetan
+14 Computational Climate Change: How Data Science and Numerical Models Can Help Build Good Climate Policies and Practices // p.261 `r colored("[[Note](./Ch14/Ch14.nb.html)]","#8CC1DE" ,"14pt")`
+  - Massimo Tavoni
+15. Digital Epidemiology // p.279 `r colored("[[Note](./Ch15/Ch15.nb.html)]","#8CC1DE" ,"14pt")`
+  - Yelena Mejova
+16. Learning Analytics in Education for the Twenty-First Century // p.305 `r colored("[[Note](./Ch16/Ch16.nb.html)]","#8CC1DE" ,"14pt")`
+  - Kristof De Witte and Marc-André Chénier
+17. Leveraging Digital and Computational Demography for Policy Insights // p.327 `r colored("[[Note](./Ch17/Ch17.nb.html)]","#8CC1DE" ,"14pt")`
+  - Ridhi Kashyap and Emilio Zagheni
+18. New Migration Data: Challenges and Opportunities // p.345 `r colored("[[Note](./Ch18/Ch18.nb.html)]","#8CC1DE" ,"14pt")`
+  - Francesco Rampazzo, Marzia Rango, and Ingmar Weber
+19. New Data and Computational Methods Opportunities to Enhance the Knowledge Base of Tourism // p.361 `r colored("[[Note](./Ch19/Ch19.nb.html)]","#8CC1DE" ,"14pt")`
+  - Gustavo Romanillos and Borja Moya-Gómez
+20. Computational Social Science for Policy and Quality of Democracy: Public Opinion, Hate Speech, Misinformation, and Foreign Influence Campaigns // p.381 `r colored("[[Note](./Ch20/Ch20.nb.html)]","#8CC1DE" ,"14pt")`
+  - Joshua A. Tucker
+21. Social Interactions, Resilience, and Access to Economic Opportunity: A Research Agenda for the Field of Computational Social Science // p.405 `r colored("[[Note](./Ch21/Ch21.nb.html)]","#8CC1DE" ,"14pt")`
+  - Theresa Kuchler and Johannes Stroebel
+  
+22. Social Media Contribution to the Crisis Management Processes: Towards a More Accurate Response Integrating Citizen-Generated Content and Citizen-Led Activities // p.421 `r colored("[[Note](./Ch22/Ch22.nb.html)]","#8CC1DE" ,"14pt")`
+  - Caroline Rizza
+23. The Empirical Study of Human Mobility: Potentials and Pitfalls of Using Traditional and Digital Data // p.437 `r colored("[[Note](./Ch23/Ch23.nb.html)]","#8CC1DE" ,"14pt")`
+  - Ettore Recchi and Katharina Tittel
+24. Towards a More Sustainable Mobility // p.465 `r colored("[[Note](./Ch24/Ch24.nb.html)]","#8CC1DE" ,"14pt")`
+  - Fabiano Pallonetto
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

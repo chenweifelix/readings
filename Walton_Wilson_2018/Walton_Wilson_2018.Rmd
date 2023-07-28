@@ -1,0 +1,184 @@
+---
+title: "Walton, G. M., & Wilson, T. D. (2018)."
+subtitle: "Wise interventions: Psychological remedies for social and personal problems. Psychological Review, 125(5), 617–655. https://doi.org/10.1037/rev0000115"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+# Back to index 
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+People's interpretations often function like a "working hypothesis"
+
+<img src="DF7D4BB8-6B82-4E8D-A881-BB02CF9D97EA.jpg" width=50%>
+
+This approach emphasizes subjective meaning-making—working hypotheses people draw about themselves, other people, and social situations.
+
+  - how deleterious meanings can arise from social and cultural contexts; 
+  - how interventions to change meanings can help people flourish; 
+  - and how initial change can become embedded to alter the course of people’s lives.
+
+This approach is also called "story editing" (Wilson, 2011)
+
+The word “wise” is borrowed from Erving Goffman (1963), who used it to describe straight people who saw beyond the homophobia of the 1950s to recognize the full humanity of gay people. Later Steele (1997) described “wise schooling” as practices sensitive to the experiences of students who confront negative stereotypes in intellectual settings. Drawing on this tradition, we define “wise interventions” as ones that focus on (are “wise to”) the meanings and inferences people draw about themselves, other people, or a situation they are in and use precise, theory- and research-based techniques to alter these meanings
+
+Although this is often important, psychologically wise interventions *do not address the objective qualities of either people or situations*. Instead, they assume that subjective meaning-making—how people make sense of themselves and social situations—can prevent people from taking advantage of opportunities for improvement already available to them (Coleman et al., 1966; Walton & Spencer, 2009). 
+
+# General Principles of Pyschologically Wise Interventions and Their Implications 
+
+1. Alter specific meanings to promote change 
+
+2. Meanings operate within complex systems 
+
+  - Removing a psychological obstacle to learning in a setting that does not offer opportunities to learn will not help 
+  - Wise interventions can go hand-in-hand with structural reforms `r side_note("What if priortization is needed?")`
+  
+3.  New meanings can stimulate recursive change in people and in situations 
+
+  - Self-fulfilling ---> positive change in people's working hypotheses can itself become self-fulfilling can embedded in the structure of their lives 
+
+4. Methodological rigor and process 
+
+5. Ethical considerations 
+
+  - Common sense is not always wrong but too often it leads to approaches that are ineffective or do more harm than good (Wilson, 2011)
+
+<img src="Screenshot 2023-03-16 at 1.14.41 PM.png" width=80%>
+
+
+<img src="Screenshot 2023-03-16 at 1.17.00 PM.png" width=80%>
+
+
+# Motivations underlying meaning making and techniques for change 
+
+1. Three basic motivations underlying meaning making 
+
+  - Need to understand 
+    - There is often no single truth to be discovered: People do their best to draw inferences that are consistent with their experiences and the information that are avaliable to them 
+    - Meanings about both the self and social events are not just in the head but typically are reasonable responses to the world as it presetns itself to a person 
+    - Intervention gives people a new basis for drawing a more adaptvie inference, interupting the flow of ideas that become self-defeating from social-cultural contexts into minds 
+  - Need for self-integrity 
+    - People want to think well of themselves (believe they are adequate, moral, competent, and coherent)
+    - When this sense of self-integrity is threatened, people can be defensive and function poorly 
+  - Need to belong 
+    - People want to contribute posittively to the lives of others 
+    
+2. Techniques to change meaning making 
+
+  - Does not generally involve practice or repetition; more is not necessarily better 
+  - Wise interventions are minimally directive; less can be more 
+    - Offer people new information, place people in new situations, or structure reflection exercieses and then allow pople to draw bnew conclusions in their own `r side_note("Let them draw the inferences themsevles")`
+    - Based on dissonance theroy 
+    <br>
+    - Change the input to the model
+      - Direct labeling (framing effect & self-verification)
+      - Prompting new meanings (e.g., leading questions )
+    - Change the internal parameters 
+      - Increasing commitment through action (e.g., saying-is-believing)
+      - Active reflection exercises 
+
+<img src="Screenshot 2023-03-16 at 1.29.07 PM.png" width=80%>
+
+<hr>
+
+# Old notes from my first read
+
+# Abstract /Key ideas 
+
+"Emphasizes subjective meaning-making---working hypotheses people draw about themselves, other people and social situations."
+
+Input ---> Internal model (parameters) ---> Output 
+
+  - interventions that modify those parameters 
+    - either by slightly changing the input that is presented 
+    - or by directly targeting those interpreting parameters 
+    
+  
+Main argument is that "everything is open to interpretation" and that even in the best environment, adaptive interpretations are needed for people to thrive. 
+
+  - I think this article also implicitly implies the limits, or rather, the boundary, of what psychological interventions can do ---> help us realize where we stand in the policy conversation, where our strengths can contribute and where we should let other expertise come in 
+
+This article is really selling the role of social psychological theories, emphasing the how theoretical nuances can make and break the effect of the intervention. 
+
+# Genral principles of psychologically wise interventions and their implications 
+
+  1. Alter specific meanings to promote change 
+  2. Meanings operate within complex systems 
+    - `r colored("Removing a psychological obstacle to learning in a setting that does not offer opportunities to learn will not help", "gold")`
+  3. New meanings can stimulate recursive change in people and in situations 
+    - e.g., self-fulfilling 
+  4. Methodological rigor and process 
+  5. Ethical considerations 
+    - e.g., nursing home and internal locus of control 
+
+# Motivations underlying meaning making and techniques for change 
+
+  1. Need to understand 
+    - people do their best to draw `r colored("inferences", "gold")` that are consistent with their experiences and the information available to them 
+    - meanings are `r colored("not just in the head", "gold")` but typically are `r colored("reasonable responses to the world", "gold")` as it presents itself to the person 
+      - interventions give people a new basis for drawing a more adaptive inferecne, interupting the flow of ideas that become self-defeating from sociocultural contexts into minds 
+  2. Need for self-integrity 
+  3. Need to belong 
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+```{r echo=FALSE, results='hide'}
+empty_file = "Empty.Rmd"
+new_article = "Wills_etal_2022"
+new_new_article_md = stringr::str_c(new_article,".Rmd")
+new_folder_path = stringr::str_c("./", new_article)
+
+old_path = stringr::str_c("./", new_article, "/", empty_file)
+new_path = stringr::str_c("./", new_article, "/", new_new_article_md)
+
+dir.create(new_article) #create a new folder
+file.copy(empty_file, new_article) #move the current file to that folder 
+file.rename(old_path, new_path) #rename the current file 
+file.edit(new_path)
+```
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

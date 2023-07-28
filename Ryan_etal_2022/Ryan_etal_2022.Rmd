@@ -1,0 +1,79 @@
+---
+title: "Ryan, R. M., Duineveld, J. J., Di Domenico, S. I., Ryan, W. S., Steward, B. A., & Bradshaw, E. L. (2022)."
+subtitle: " We Know This Much Is (Meta-Analytically) True: A Meta-Review of Meta-Analytic Findings Evaluating Self-Determination Theory. Psychological Bulletin, 148(11/12), 813–842. https://doi.org/10.1037/bul0000385"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+# Back to index 
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+A review of 60 meta-analyses to wholistically evaluate the validity of SDT (and its 6 mini theories)
+
+Adapted the ES standard of Funder and Ozer (2019) ---> r = .20 is mediumm-sized (p.815)
+
+Evidence of mediation by basic needs points toward important porints for leverage in applied work---particularly because on the environmental side, interventions can enhance autonomy and basic need supports and, on the individual side, changes in awareness, emotion regulation and motivation can also alter these mediators. 
+
+Evidence for the CET, OIT and BPNT is stronger than that for COT and GCT. 
+
+The culture dimension of ind vs. inter doesn't moderate the unversality assumption that autonomy is valuded. 
+
+SES as a cultural dimension is not tested as a mod
+
+<img src="Screenshot 2023-03-24 at 3.51.50 PM.png" width=80%>
+
+<img src="Screenshot 2023-03-24 at 3.52.33 PM.png" width=80%>
+
+<img src="Screenshot 2023-03-24 at 3.53.18 PM.png" width=80%>
+
+<img src="Screenshot 2023-03-24 at 3.53.33 PM.png" width=80%>
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

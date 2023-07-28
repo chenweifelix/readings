@@ -1,0 +1,60 @@
+---
+title: "Lazer_etal_2020"
+subtitle: "Computational social science: Obstacles and opportunities. Science, 369(6507), 1060–1062. https://doi.org/10.1126/science.aaz8170"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+We define CSS as the development and application of computational methods to complex, typically large-scale, human (sometimes simulated) *behavioral* data (1). Its intellectual antecedents include research on spatial data, social networks, and human coding of text and images. 
+
+Computational researchers and social scientists tend to be in different units in distinct corners of the university, and there are few mechanisms to bring them together.
+
+To justify such an outsized investment, computational social scientists must make the case that *the result will be more than the publication of journal articles of interest primarily to other researchers*. They must articulate how the combination of academic, industrial, and governmental collaboration and dedicated scientific infrastructure will solve important problems for society—saving lives; improving national security; enhancing economic prosperity; nurturing inclusion, diversity, equity, and access; bolstering democracy; etc. 
+
+<img src="Screenshot 2023-07-14 at 1.57.28 PM.png" width=80%> 
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

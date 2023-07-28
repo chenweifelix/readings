@@ -1,0 +1,169 @@
+---
+title: "Ford, B. Q., Feinberg, M., Lassetter, B., Thai, S., & Gatchpazian, A. (2023). The political is personal: The costs of daily politics. Journal of Personality and Social Psychology. https://doi.org/10.1037/pspa0000335"
+date: "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../../style.css
+
+---
+
+```{r echo=FALSE}
+source("/Users/yuchenwei/Desktop/Academy/R Markdown settings/functions.R")
+library(tidyverse)
+```
+```{css}
+.btn-group{
+  display:none;
+}
+.title {
+  color: white;
+}
+h1{
+  color: lightgreen;
+  font-family: Georgia;
+}
+h2, h3, h4{
+  color: pink;
+  font-family: Georgia;
+}
+```
+
+
+# Back to index 
+
+[Back to index](../Final project.nb.html)
+
+# Abstract/ Key Ideas 
+
+2-part examination 
+
+DV: emotions, health, and behaviors 
+
+Studies 1 & 2: daily diary 
+
+S1: 2 weeks, N = 198, obs = 2167
+
+S2: 3 weeks, N = 811, obs = 12790 
+
+In both diary studies, daily political events consistently not only evoked negative emotions, which corresponded to worse psychological and physical well-being, but also greater motivation to take political action (e.g., volunteer, protest) aimed at changing the political system that evoked these emotions in the first place
+
+Studies 3 & 4: Experiments providing causal evidence for the above findings 
+
+Points of integration: `r colored("Using tools from affective science to better understand how politics shapes people's lives", "gold")`
+
+# Lit rev
+
+1960s-70s: "the personal is political" ---> the reverse is also ture "the political is personal"
+
+Distant, seemingly irrelevant events have very personal consequnces for the average person 
+
+Synthesis of political psych and affective sci (Ford & Fienberg, 2020) ---> pushes affective science research to consider the practical outcomes of affective procesess in daily life
+
+## Three theoretical traditions infomring predictions 
+
+1. Chronic stress 
+
+  - def: insidious and opended, stemming from issues that are regularly evoked in daily life 
+  - pred:   
+    - neg emo as response to politics since it's a chroinic stress, 
+    - neg emo jeopardize people's psychological and phyical well-being
+
+2. ER and coping 
+
+  - the strategies used to reduce stress 
+
+3. Functions of emotions 
+
+  - negative emotions can motivate people to respond to their environment adaptively (Barrett, 2012)
+  - trade-off emotion ER ---> "people can protect well-being but at a cost to the motivation to take political action."
+
+## Methodological implications 
+
+  - Political research has focused on designs that hinge on singular, major events, which can't reflect the possbile daily patterns that unfold as people manage the recurring stress of politics in daily life 
+  
+## Pathways through which daily politics can regularly evoke neagtive emotional experiences 
+
+  - policies can impdede autonomy and cost moey 
+  - linked to people's core moral beliefs and convictions 
+  - social identity with the political party
+
+## WHy "daily"
+
+   - people are adpative to major events (e.g., their overall well-being didn't change much after election)
+
+"Expressive suppression has rarely been considered within the political context (Feinberg et al., 2014)^[disgust suppression], but prior results from nonpolitical studies suggest suppression is relatively unhelpful for reducing negative emotional experiences (Webb et al., 2012) or may even backfire (Goldin et al., 2008)"
+
+<img src="Screenshot 2023-01-27 at 11.30.22 AM.png" class="center" width=65%>
+
+# S1 
+
+<img src="Screenshot 2023-01-27 at 11.47.37 AM.png" class="center" width=65%>
+
+# S3 
+
+<img src="Screenshot 2023-01-27 at 11.54.10 AM.png" class="center" width=65%>
+
+<img src="Screenshot 2023-01-27 at 11.54.45 AM.png" class="center" width=65%>
+
+# S4 
+
+<img src="Screenshot 2023-01-27 at 11.57.31 AM.png" class="center" width=65%>
+
+<img src="Screenshot 2023-01-27 at 11.57.50 AM.png" class="center" width=65%>
+
+# GD 
+
+Across studies, the different negative emotions we measured did not yield distinct patterns of effects (as reported in the online Supplemental Materials). Thus, it appears in the present research what mattered was how much negative emotion participants experienced, rather than which emotions they experienced. Such findings correspond well with existing work (e.g., Ford, Feinberg, et al., 2019), but also run counter to what some others have found (Lambert et al., 2019; Lerner et al., 2003; Skitka et al., 2006).
+
+Why 
+
+   - First, to have more comprehensive coverage of people’s experience of emotions and avoid constraining their responses, we did not specify `r colored("the subject of the emotions", "gold")` participants reported on. If, for example, someone is fearful about possible repercussions of taking political action, it makes perfect sense that this emotion would predict less action, as prior research suggests (Lambert et al., 2010; Lerner et al., 2003). However, if someone is fearful about the future of America, this emotion would predict greater action (Lambert et al., 2019). The present research suggests that, on average, various negative emotions motivate action, but it remains likely that particular contextu- alized instantiations of any emotion could result in different behaviors (Barrett, 2012; Lambert et al., 2019). 
+   - Second, to have more comprehensive coverage of people’s political action and again avoid constraining their responses, we did not specify `r colored("the motivation of participants’ political action", "gold")`, which may have obscured nuanced effects of different emotions. For example, anger might inspire an attack on the rival political party on social media, whereas fear might inspire a post defending one’s political party, which would be consistent with prior work suggesting anger often leads to aggressive behaviors, whereas fear leads to protective behaviors (Lambert et al., 2019; Lerner et al., 2015). In both cases, individuals are engaging in the same political action (i.e., posting on social media), but carrying out that action differently—a nuance that our measures of political motivation did not capture.
+
+## Practical values 
+
+activists need people to not reduce those emotions, and may even want to increase these emotions. Yet, this may come at the expense of people’s well-being, suggesting `r colored("a complicated ethical trade-off between mobilizing people for a cause and impairing the well-being of those taking action", "gold")`. Anticipating this, social movement organizations might not only rely on negative emotions to mobilize people, but also find ways to bolster well-being after an action has taken place. One possibility could be to foster a strong sense of *pride* in those having just taken action since pride can effectively boost well-being (Grant & Higgins, 2003; Orth et al., 2010). Movements might hold postevent rallies emphasizing how proud their activists should feel for living up to their values and for standing up for what is right. Instilling pride in this way after an event should help counter the negative emotions and corresponding dips in well-being activists experience prior to the event.
+
+## Immplications for ER 
+
+1 . We also explored emotional `r colored("acceptance", "gold")` as a plausible approach to help individuals avoid a trade-off between well-being and political action. Prior work indicates that acceptance helps promote well-being (Ford et al., 2018; Shallcross et al., 2010) and may even help people act in accordance with their values (Hayes et al., 2005). The present studies yielded somewhat mixed results: 
+  
+  - Individual differences in emotional acceptance uniquely predicted better well-being without impairing participants’ motivation to take political action (Study 2);
+  - but experimentally instructed acceptance predicted neither well-being nor motivation to take political action (Study 4).
+
+In addition, the present studies add to an already mixed literature on the emotional outcomes of acceptance, with some findings suggesting that acceptance does not consistently predict lower negative emotion in the short term (Kohl et al., 2012) and other findings suggesting that it does (Ford et al., 2018). In the present studies, 
+
+  - individual differences in acceptance did not uniquely predict negative emotion (Study 2), 
+  - whereas instructed acceptance modestly decreased negative emotion (Study 4).
+
+`r colored("This lack of consistency suggests that individual differences in emotional acceptance in daily life may not function the same as instructed emotional acceptance in a controlled context", "gold")` `r side_note(colored("People might use this strategy differently in their daily life vs. in the lab ---> think about how this might have implications for the ELM study", "coral"))`
+
+2. `r colored("The disentanglement of ER attempt and scuess", "coral", b =T)` ---> beneficial downstream outcomes should hinge upon the successful implementation of a given strategy 
+
+-----
+[Back to index](../Final project.nb.html)
+
+`r colored("", "gold")`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

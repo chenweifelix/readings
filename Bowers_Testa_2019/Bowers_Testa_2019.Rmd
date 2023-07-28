@@ -1,0 +1,166 @@
+---
+title: "Bowers_Testa_2019"
+subtitle: "Better government, better science: The promise of and challenges facing the evidence-informed policy movement. Annual Review of Political Science, 22(1), 521–542. https://doi.org/10.1146/annurev-polisci-050517-124041"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Related reading/ orgs 
+
+US Commission on Evidence-Based Policymaking: https://en.wikipedia.org/wiki/U.S._Commission_on_Evidence-Based_Policymaking
+US Office of Evaluation Sciences: https://oes.gsa.gov/about/)
+The Office of Planning, Research, and Evaluation in the US Department of Health and Human Services
+
+OECD: Behavioural Insights and Public Policy https://www.oecd.org/gov/regulatory-policy/behavioural-insights-and-public-policy-9789264270480-en.htm
+
+Groups within government, such as the *Behavioral Insights Team* in the United Kingdom and the *OES* and *The Lab @ DC* in the United States, soon joined the big research consulting firms (e.g., Abt, RAND, MDRC, Mathematica Policy Research), academic–practitioner collaboration-oriented research NGOs (e.g., J-PAL, EGAP, and ideas42), and private firms (e.g., DeLoitte and McKinsey) in designing, fielding, analyzing, and interpreting the results from field experiments meant to answer the question, “Did it work?”
+
+# Abstract / Key Points
+
+This review shows that the evidence-informed policy movement consists of two main threads: 
+
+  - (a) an effort to invent new policies using insights from the social and behavioral science consensus about human behavior and institutions and 
+    - Evidence as insights (scientific consensus)
+  - (b) an effort to evaluate the success of governmental policies using transparent and high-integrity research designs such as randomized controlled trials. 
+    - Evidence as evaluation
+
+We also suggest that governmental actors ought to want to learn about why a new policy works as much as they want to know that the policy works. We envision a future evidence-informed public policy practice that 
+
+  - (a) involves cross-sector collaborations using the latest theory plus deep contextual knowledge to design new policies, 
+  - (b) applies the latest insights in research design and statistical inference for causal questions, and 
+  - (c) is focused on assessing explanations as much as on discovering what works.
+
+# Evidence as opposed to what? 
+
+First, the growing recognition by policy makers that an understanding of human behavior can improve policy outcomes has opened the door for social scientists from a diverse range of disciplines to play an active role in the design and analysis of policy. 
+
+Second, the way these collaborations have applied behavioral insights to public policy not only illustrates the dual use of evidence for the design and evaluation of policies, but also suggests ways in which this process can strengthen the link between insights and evaluations. 
+
+# The meaning of evidence in public policy 
+
+- past peer-reviewed studies that warrant belief in some theory or explanation (e.g., “Evidence from lab experiments suggests that social comparison can change behavior”
+- future studies that will assess the success of the new policy intervention (e.g., “This evaluation of the new policy provides evidence that social comparisons can reduce opioid prescribing among doctors”).
+
+A given policy idea should be judged in a way that should share the epistemic authority of science in being impersonal, transparent, and unbiased. (objectivitiy goal)
+
+Good research and evidence generation:  a social process that famously uses theory and careful research design to overturn arguments based on the authority of conventional wisdom, religion, or individual expertise. 
+
+In this article, we refer to the “evidence-informed” public policy movement rather than using the more popular term “evidence-based” because *no scientific consensus alone has been enough to dictate a public policy. Instead, the scientific consensus and academics themselves tend to play a role in collaboratively creating new public policies; the evidence base and its interpreters, the academics, inform policy rather than dictate it.* `r side_note("Data is not evidence for/ againse something by it self. ANd evidence dost not direclty translate into policy.")`
+
+US Commission on Evidence-Based Policymaking ---> envisions a future in which rigorous evidence is created efficiently, as a routine part of government operations, and used to construct effective public policy.
+
+In principle, then, evidence serves two roles in policy creation, and those two roles can be combined—for example, the Office of Evaluation Sciences (OES), the behavioral insights unit of the US federal government, emphasizes the idea of building new policy interventions using the scientific consensus as well as randomized field ex- periments and reproducible and transparent research practices to assess the effectiveness of these new interventions (see https://oes.gsa.gov/about/). In practice, however, many debates around evidence-informed policy making sometimes obscure, conflate, or ignore these two roles, and so we next consider the roles of evidence for evaluation and insight separately to see how they can be productively linked.
+
+# Evidence as evaluation: using randomized field experiments to craft interpretable comparisons
+
+Centeral Qs: Did it work? 
+
+It is still, too difficult and costly if not unethical for academics to directly intervene in the political process without a nonacademic partner. 
+
+However, if evidence is generated without *some theory of change*, some insight into the why and how of the intervention, the process of learning what works is likely to be slow, circuitous, and costly, as what works in one time, place, and context is not evidence of what works in general, nor a guarantee of what will work elsewhere (Cartwright & Hardie 2012).
+
+# Evidence as insight: using behavioral science to create new public policy
+
+The translation of the scientific consensus into policy ideas. (e.g., Nudge ---> the default option)
+
+What distinguishes this movement from more evaluation-focused efforts is its particular emphasis on the relevance of insights from behavioral science to the design of public policy. 
+
+Compared to other policy tools such as incentives, sanctions, and mandates, defaults are a relatively “low-touch” intervention—what Thaler & Sunstein (2008, p. 6) call a nudge: “any aspect of the choice architecture that alters people’s behavior in a predictable way without forbidding any options or significantly changing their economic incentives.” A nudge is consistent with the principles of what they call libertarian paternalism when it preserves the choice set (i.e., does not change the possibilities for a person’s action), is cheap and easy to avoid or opt out of, and leads to outcomes that individuals themselves would prefer (Thaler & Sunstein 2003).6 *Since governments always act to change behavior—by building a road here and not there, by subsidizing education for this person and not that person, etc.—policy makers find it easy to justify behaviorally informed approaches, especially if the program designers preserve the freedom of action and autonomy of the public.*
+
+*Practitioners are typically less concerned with specific models of cognition and more focused on the practical implications of behavioral theory for policy design*
+
+People pursuing an evidence-as-insight approach have often invented catchy mnemonic acronyms to encourage the application of these principles and focus attention on the psychology of the individual.
+
+  - MINDSPACE: Messengers, Incentives, Norms, Defaults, Salience, Priming, Affect, Commitments, Ego.  
+    - Behavioral Insights Team @ UK: guide for policy makers to common factors known to influence behavior
+  - EAST: 
+    - Policies should make the desired behavior Easy, Attractive, Social, and Timely.
+  - BIAS: Behavioral Interventions to Advance Self-Sufficiency
+   - program focused on using behavioral insights to improve outcomes for low-income children, adults, and families 
+   - sponsored by the Office of Planning, Research, and Evaluation in the US Department of Health and Human Services 
+
+ On the spectrum between unfounded belief and scientific law, most behavioral insights fall somewhere in the middle
+
+# Roadblocks on the way to evidence-informed policy
+
+1. Problems of Principle and Politics
+
+General critiques argue that evidence-informed policy making will expand the government’s ability to in- tervene in the lives of citizens in ways that necessarily constrain choice, limit freedom, or coerce behavior of at least some citizens.
+
+Particular critiques focus on the potential for evidence to be politicized and used to support a particular political goal rather than provide an objective evaluation of what works. Here, the concern is that the evidence-informed policy maker is not an honest broker, dispassionately evaluating the facts, but a *motivated salesperson*, producing *“policy-based evidence”* guaranteed to support some preordained goal.
+
+There are other conceptions of a good government beyond the passive preservation of liberties, such as the solving of collective goods problems and the guarding of justice and equality. 
+
+Contemporary government plays a large role in the lives of people whether or not all of its activities are carefully calibrated to accord with any given normative justification. 
+
+2. Good science/evidence? 
+
+A lack of theory, black-box models of causality, problems of generalization, and arguments from authority or misunderstandings about RCTs are not simply technical concerns
+
+Causal processes always occur in, and depend on, context.
+
+The problem of undervaluing answers to “why” questions may be more recent and even understandable as a focus on what works can be strategic to defuse political arguments.
+
+Recommendations: 
+
+- public preregistration of analyses and designs
+- meta-analyses and systematic review; multi-site experiments; mega-study
+- theories of change: 
+
+  - This focus on “why” avoids the misconception that RCTs are only useful for “what works” questions. 
+  - If we can articulate why or how a given intervention may work, then (a) we can design research to target the explanation itself rather than the “Does it work?” question and (b) governments and organizations will be better prepared to respond to changes in the context.
+
+3. Lessons from Behavioral Insights for Evidence-Informed Policy Making
+
+Evidence can seem paternalistic and political when the procedures for evaluation are not credible and transparent and when the mechanisms by which an intervention works are opaque or poorly explained.
+
+Insights can seem insufficient or ad hoc unless we conceptualize evaluations as an opportunity for learning, and the process of evaluation can seem overly restrictive, costly, and narrow unless the results are situated within a broader learning agenda designed to articulate and clarify a theory of change.
+
+<hr> 
+
+using evidence to inform and evaluate programs is not only good policy but also good politics.
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

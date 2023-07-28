@@ -1,0 +1,64 @@
+---
+title: "Notes on why the study of well-being and mental health is important"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Measurement 
+
+What we measure shapes what we discuss, what we know, what we aim for, and policits put in place to achieve it. (make the construct more visible) ([see VanderWeele_etal_2020](../VanderWeele_etal_2020/VanderWeele_etal_2020.nb.html))
+
+# Government 
+
+## UK 
+
+`r colored("Wellbeing Policy and Analysis", "gold", bold = T)` ([see](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/224910/Wellbeing_Policy_and_Analysis_FINAL.PDF))
+
+In 2010 the Prime Minister launched the National Wellbeing Programme to “start measuring our progress as a country, not just by how our economy is growing, but by how our lives are improving; not just by our standard of living, but by our quality of life”.
+
+This document provides a short update on relevant wellbeing work across Whitehall by presenting a few emerging examples/cases, a list of policy areas in which departments are specifically considering wellbeing and some current analysis plans.
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

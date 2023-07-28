@@ -1,0 +1,70 @@
+---
+title: "Monroe, S. M., & Harkness, K. L. (2023)."
+subtitle: "Why Recurrent Depression Should Be Reconceptualized and Redefined. Current Directions in Psychological Science, 32(3), 204–211. https://doi.org/10.1177/09637214221143045"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+The current conception of depression treats it as highly recurrent. 
+
+  - This basically indicates that after an initial onset, full recovery is not possible 
+
+  - Epi evidence shows that more than half of the patients do not have the second episode. 
+  - The second largest group is those who have two episodes. 
+
+The current definition of recurrent depression considers 2 or more times of occurrence as recurrent. 
+
+<img src="Screenshot 2023-06-06 at 4.02.56 PM.png" width=80%>
+
+The stress sensitization theory: 
+
+  - within-person approach (a lowered threshold for the occurrence of depressive episode): Major life events and depressive episodes progressively increase biological susceptibility to depression, thereby decreasing the amount of stress necessary for triggering subsequent recurrences (Post, 1992). Recurrences thereby become increasingly more likely and come about more quickly. 
+  
+In contrast, a between group approach would differentiate people who would have recurrent depression ("depression capable but not recurrence prone") and those who would not. 
+
+  - For the recurrent subgroup, major life stress is mostly irrelevant both for the initial onset and for the recurrences. Depression arises repeatedly as a consequence of their underlying and unrelenting liability, without major psychosocial precipitants. A foundational premise of this alternative theory provides an elegant competing hypothesis to stress sensitization: `r colored("Major life stress prior to a first onset predicts few if any recurrences", "gold", bold = T)`
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,136 @@
+---
+title: "Buyalskaya_et_al_2021"
+subtitle: "The golden age of social science. Proceedings of the National Academy of Sciences, 118(5), e2002923118. https://doi.org/10.1073/pnas.2002923118"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Developing a “lingua franca” can encourage more interdisciplinary research. 
+
+  - In a useful lingua franca, all disciplines adopt the “best” language from whichever discipline has described an idea most effectively. In order for teams of researchers to effectively tackle the complex research questions of our time, they will need to work together to build a common vocabulary that enhances the efficiency of their trade and collaboration.
+  - Examples of lingua franca which originated in individual disciplines include an understanding of culture from anthropology, rational choice theory from economics, ideology from political science, laboratory experimental methods from psychology, and social networks from sociology. 
+  - Methodological lingua franca ---> quasi-experimental causal inference—which originated in psychology, created a boom through more sophisticated use of instrumental variables in economics starting in the 1990s, a little later in political science, and somewhat in parallel in computer science and statistics around 1995
+
+Making progress on these current societal challenges will require understanding the institutional incentives, cultural norms, cognitive mechanisms, and social network effects that create and sustain these phenomena.
+
+It is the confluence of data, *diverse teams*, and difficult challenges which makes this a unique and exciting time for social scientists to tackle important research questions.
+
+`r colored("What interdisciplinarity means in this golden age: active collaboration among scientists with different training—meaning a diversity of perspectives is influencing the research—as opposed to one researcher passively borrowing ideas from other fields.", "gold", bold = T)` `r side_note("Interdisciplinary research is never a one-man job.")`
+
+Brief definition of each discipline of social science: 
+
+- Anthropology seeks to understand cultural differences in human societies using ethnography, unearthing physical details of human development and exploring mathematical models of coevolution of culture and genes. 
+- Economics uses math-heavy methods to understand systemic (general equilibrium) outcomes of optimization of allocation of scarce resources, particularly money, in trading goods and services. Its main methods include theories rooted in preferences, beliefs, and constraints and analyses of field data. 
+- Political science studies formal systems of government, voting, juries, and law, which influence how people make consequential decisions collectively in different systems. Ideology is a central construct, with polls and surveys being a cornerstone method, although media and financial contributions data are increasingly used. 
+- Psychology seeks regularity in how people think and behave, with an emphasis on mechanisms and constructs such as memory, attention, and emotion. The main methods are laboratory experiments and psychometric or psychophysiological measures (though cognitive neuroscience uses a greater variety of newer methods). 
+- Finally, sociology investigates how the social world is created by and influences how people act in social groups at different levels of formal and informal aggregation. General ideas about functions of social structure are central but are not mathematized as in economics (e.g., economists might focus on allocative efficiency defined mathematically while sociologists might focus on social reproduction of elite success measured statistically or qualitatively).
+
+# Case study #1: Social networks 
+
+How interpersonal relationships are formed and how behaviors, beliefs, and emotions are transmitted across connected individuals 
+
+One attractive feature of network science is that simple mathematical models capture the core features of complex networks, allowing the study of network dynamics across a variety of phenomena.
+  
+  - e.g., small-world network model: the nodes (individuals) are not neighbors with most of the other nodes and yet all other nodes can be reached in a small number of steps 
+
+Unlike behavioral economics, there was less conflict among those studying networks because the concept of a network was so obviously appealing and useful from the start (i.e., there was no interdisciplinary conflict about whether people “were networked” as occurred about whether people “were rational”). 
+
+Example #1 Revisiting influence and information transmission 
+
+Social contagion models allow simulating the speed at which individuals receive information and how past interactions influence their future behavior. These models focus on a handful of key parameters, which can be grouped as 
+
+  - 1) degree centrality, 
+  - 2) eigenvector centrality, (how many well-connected others one is connected to, has been used to study social status and scapegoats )
+  - 3) diffusion centrality, and (a measure of “reach,” showing how well-positioned an individual is to spread and hear about information)
+  - 4) betweenness centrality/bridging (“social chameleons” who connect otherwise disparate groups)
+  <br>
+  <br>
+  - All of these positions appear to be context general: If an individual is central in one network, they are likely to be central in another, and so forth 
+  - The development of these social contagion models was itself an interdisciplinary enterprise from the beginning.
+
+Example #2 The spread of infectious disease 
+
+# Case study #2: Behavioral economics 
+
+Granted, rational choice theory was always intended to be useful rather than realistic. Behavioral economists aimed to have theories that are more realistic and more useful.
+
+Before the growth of behavioral economics, it was commonly said that moving away from rational optimization would lead to an unfalsifiable theory in which “anything can happen.” However, psychology showed that what happens is captured by *psychological principles*; something specific—not “anything”—happens. Loss aversion originated from perceptual psychology and early prosociality theories came from social psychology. 
+
+Experimental economics added more general mathematical and game-theoretic structure. In general, behavioral economists won over skeptics through the mantra that "`r colored("the easiest way to win an argument is to run another experiment or another statistical regression", "gold", bold = T)`"
+
+Example #1: Loss aversion 
+
+Prospect theory: potential losses may be weighted disproportionately more than gains ---> status quo bias (cf. default option)
+
+Example #2: Social preferences 
+
+Game theory ---> As interest in these games grew, the sociological lingua franca of a “*norm*” got imported widely. 
+
+  - Def: Norms are informal social rules that are expected to be followed and usually informally self-enforced by social punishment for deviations (even absent legal enforcement). 
+
+Knowing more about social preferences has not contributed immediately to solving social problems at the scale that “nudging” has. However, experiments have suggested social forces that could enhance prosociality. 
+
+# A spotlight on specific studies 
+
+Each of these papers combines features of 1) active collaboration between researchers from different disciplines, 2) using new types of data, and 3) answering important and difficult questions.
+
+<img src="Screenshot 2023-07-17 at 3.01.06 PM.png" width=80%> 
+
+# Conclusion and challenges 
+
+1. Many journals cater solely to the readership of a specific discipline or discipline subfield, with authors citing papers predominantly from like-minded journals. While cross-citation is on the rise, it is not guaranteed that interdisciplinary work will make equal contributions across fields, presenting the possibility of losing valuable insight with relevance to one of the fields.
+
+2. Open science 
+
+3. The creation of unifying frameworks to explain behaviors across disciplines
+
+  - `r colored(" An expansion of methodological approaches alone will not increase scientific knowledge unless there is common lingua franca or, even better, genuinely unifying frameworks. Social science would benefit from evolutionarily plausible theories that provide ultimate (function) and proximate (mechanism) explanations. ", "gold", bold = T)`
+
+Hope for the years to come: more respected journals will seek out and publish work from diverse teams using unique datasets, more young scientists will engage in interdisciplinary research (thanks to improved institutional practices regarding career progress and encouragement from provosts and senior faculty), and more established scientists will engage in interdisciplinary work (thanks to increased interest from funding agencies). Most importantly, scholars will increasingly focus on difficult questions—ones that may have been avoided historically because their complexity made them impossible to tackle from one discipline alone—and social science will be more impactful together than the sum of any one subdiscipline working on its own.
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

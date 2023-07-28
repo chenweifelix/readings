@@ -1,0 +1,136 @@
+---
+title: "Shiota_et_al_2021"
+subtitle: "Positive affect and behavior change. Current Opinion in Behavioral Sciences, 39, 222–228. https://doi.org/10.1016/j.cobeha.2021.04.022"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Affect and emotion have potent motivational properties that can be leveraged to promote desirable behavior change.
+
+Positive affect and emotions can promote change by serving as *proximal rewards* for desired behaviors.
+
+Goal conflict (pro-hedonic goal and behavior change goal): 
+  - the undesirable behavior is rewarding in the moment, convenient and/or easy, and increases the likelihood of long-term negative outcomes; whereas the desired behavior is expected to be relatively unpleasant, costly and/or effortful in the short term, with rewards that are reaped in the distal future or by others. 
+
+Instrumental regulation of positive affect/emotion: The overarching aim in this work is to bring a sense of reward to the desired behavior *in the moment*, strategically leveraging the motivational, cognitive, and behavioral advantages of reward orientation to facilitate change. 
+
+Def: 
+
+  - positive affect is used to denote any subjectively pleasant affective state, including positive mood; 
+  - positive emotion denotes a theorized brief, multi-component emotional response to a particular eliciting event; and 
+  - reward refers to a desirable outcome received by the individual as a consequence of exhibiting some behavior 
+
+We analyze *common mechanisms* by which most positive affect-based interventions appear to work, and conclude with recommendations for additional mechanisms to explore, as well as advice for future efforts using positive affect and emotion to promote behavior change
+
+Rewards given on variable schedules were most effective, consistent with a well-replicated finding that unpredictable rewards are most likely to lead to the formation of new habits 
+
+<hr>
+
+# 1. Healthy dietary choices and physical exercise 
+
+emphasizing the immediate pleasure of a healthy product or activity, and by increasing the salience of rewards beyond individual physical health, thereby bringing longer-term rewards of behavior change into the present moment.
+
+vividly simulate the proximal pleasures of healthy choices, thereby generating anticipation of positive affect *in the moment* and pointing appetitive motivation toward healthy options
+
+Goal quality: Individuals with such ‘want-to’ dietary goals show higher implicit liking of and implicit positive associations with healthy foods, and less positive associations with unhealthy foods; an effect not seen for ‘have-to’ goals that emphasize obligation and external pressure
+
+Interpersonal: linking the desired behavior to a goal or value beyond individual health can heighten motivation, especially if the rewards associated with that goal are proximally salient.
+
+# 2. Prosocial behavior 
+
+Altruistic/prosocial action commonly involves a cost to the self for helping others — including costs of time and effort (empathy is also effortful)
+
+The bulk of the evidence, including correlational, experience sampling, daily diary, and experimental studies, supports the first hypothesis — that positive affect generally does promote prosociality 
+
+Much research highlights the value of *anticipated* and *received* proximal affective rewards for altruistic and prosocial behavior. 
+
+The links between positive affect and prosocial behavior are bidirectional; findings from a recent meta-analysis show that engaging in prosocial behavior increases subsequent positive affect and well-being in the helper ---> Thus, helping others is rewarding to the helper, completing a feedback loop that increases the likelihood of engaging in prosocial behavior in the future. 
+
+Moral elevation: social learning theory ---> feelings of elevation reflect the recognition that altruism is rewarded rather than exploited by others in the current social context
+
+Gratitude: ‘Find, Remind, Bind’ theory ---> gratitude serves adaptive functions related to initiating, developing, and maintaining lasting interdependent relationships with responsive interaction partners
+
+*Positive affect can sometimes inhibit prosociality* 
+  
+  - higher trait positive emotionality with lower performance on a test of empathic accuracy
+  - As a state, positive affect generally promotes a rosy, optimistic attitude toward the current focus of attention ---> a certain tolerance for morally questionable acts can result, when one’s own behavior is that focus
+    - Participants experiencing more positive affect rated unethical behaviors as more acceptable, and actually engaged in more unethical behavior (e.g. lying to obtain a reward, taking more than was earned) given an easy opportunity
+  - The effect of current pleasant affect may nudge one toward the immediate reward of unethical behavior, especially if foregoing these opportunities is unlikely to be detected and praised by others
+  
+# 3. Pro-environment consumer behavior
+
+TPB: A recent meta-analysis suggests however that, as with health behavior, people make more pro-environmental purchases and other choices when they have a positive attitude toward pro-environmental behavior, believe it is consistent with their values, morals, and norms, care about the environment, and feel control over the situation
+
+A recent meta-analysis revealed that pro-environmental behavior is promoted by positive feelings from (ordered by magnitude) happiness from hedonic rewards, personal meaning, and the ‘warm glow’ of knowing that one has performed a socially valued act
+
+Gamification 
+
+Viewing nature as vulnerable should also facilitate pro-environmental behavior by activating feelings of tenderness and the caregiving motivations that evolved to nurture helpless neonates
+
+<hr>
+
+# Common mechanisms and implications for future research
+
+A recurring theme in this work is the importance of increasing the sense of reward and positivity associated with the desired behavior `r colored("in the moment", "gold", bold = T)`, rather than relying solely on abstract, distal incentives or frightening long-term outcomes. This approach invokes people’s intrinsic motivation and `r colored("‘want-to’ goals", "gold", bold = T)` — goals which involve enjoyment, are perceived as inherently meaningful, and/or are integrated into one’s identity — as distinct from ‘have-to’ goals that reflect external obligations or the need to avoid negative outcomes. 
+
+It is important to ensure that such rewards are either intrinsic to the desired behavior or are used to build heathy long-term habits, because short-term extrinsic rewards can undermine later intrinsic motivation. 
+
+Immediate pleasurable effects can strengthen the *value* associated with the behavior itself, whereas promising distal rewards may actually *inhibit intrinsic motivation*
+
+Economic incentives that are disbursed for an extended period on an `r colored("intermittent, unpredictable schedule", "gold", bold = T)` are most likely to promote behavior change that persists after rewards are withdrawn
+
+In this analysis, we have emphasized the power of *positive affect and emotion as rewards* that motivate behavior change. It is important to clearly differentiate the effects of positive affect/emotion as *actual or anticipated* reward from those of *currently experienced pleasant affect* not directly linked to the desired behavior.
+
+Positive emotions can increase self-efficacy as well
+
+Exploring ways in which incidental effects of specific positive emotions can support behavior change is also an important, much-needed direction for future research
+
+  - For example, in two studies, teens and young adults who completed gratitude-focused writing exercises reported healthier subsequent dietary choices than those completing control writing tasks — effects that were mediated by reduced negative affect 
+  - Gratitude writing has also been found to increase glycemic control at a 12-week follow-up among adolescents with Type II diabetes
+
+-----
+
+[Back to index](../index.nb.html)
+
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

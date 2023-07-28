@@ -1,0 +1,95 @@
+---
+title: "Cairney, P., & Oliver, K. (2017)."
+subtitle: " Evidence-based policymaking is not like evidence-based medicine, so how far should you go to bridge the divide between evidence and policy? Health Research Policy and Systems, 15(1), 35."
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+# Back to index 
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Effective actors combine evidence with manipulative emotional appeals to influence the policy agenda -- should scientists do the same, or would the reputational costs outweigh the policy benefits? 
+
+When adapting the multi-level policymaking, should scientists prioritize "evidence-based" policymaking above other factors? The latter includes government principles such as the "co-production" of policy between local public bodies, interest groups and service users. 
+
+We conclude that successful engagement in ‘evidence-based policymaking’ requires **pragmatism**, combining scientific evidence with governance principles, and persuasion to translate complex evidence into simple stories. To maximise the use of scientific evidence in health and public health policy, researchers should recognise the tendency of policymakers to base judgements on their beliefs, and shortcuts based on their emotions and familiarity with information; learn ‘where the action is’, and be prepared to engage in long-term strategies to be able to influence policy; and, in both cases, decide how far you are willing to go to persuade policymakers to act and secure a hierarchy of evidence underpinning policy. `r colored("These are value-driven and political, not just ‘evidence-based’, choices.", "gold", bold = T)`
+
+---- 
+
+Providing info ("evidence") or access is not enough for change to happen. 
+
+Data doesn't speak for themsevles. 
+
+Values vs. Evidence (whcih is also driven by values)
+
+<img src="Screenshot 2023-03-16 at 2.39.03 PM.png" width=80%>
+
+Scientists compete with many influential actors to present evidence to secure a policymaker audience at many levels of government 
+
+Some advocates of RCTs recommend greater reflection on scientific values in politics rather than the assumption that hierarchies of evidence are necessarily valid 
+
+`r colored("Our discussion takes scientists away from the lazy assumption that elected policymakers are the villains of this piece because they, for example, do not understand RCTs and the need for RCT-driven evaluations, do not recognise a hierarchy of evidence in which the systematic review of RCTs represents the gold standard, and/or are unwilling to overcome ethical dilemmas about who gets to be in/out of the control group of a promising intervention. There are also ac- ademics and professions who remain sceptical of the value of RCTs in policymaking, have different views on the hierarchy of evidence and/or who promote different ways to gather and use comparable policy-relevant evidence [83].", "gold", bold = T)` 
+
+Evidence-based policymaking is not just about the need for policymakers to understand how evidence is produced and should be used. It is also about the need for academics to reflect on the assumptions they make about the best ways to gather evidence and put the results into practice, in a political environment where other people may not share, or even know about, their understanding of the world; and the difference between the identification of evidence on the success of an intervention, in one place and one point in time (or several such instances), and the political choice to roll it out, based on the assumption that national governments are best placed to spread that success throughout the country.
+
+-----
+[Back to index](../index.nb.html)
+
+
+```{r echo=FALSE, results='hide'}
+empty_file = "Empty.Rmd"
+new_article = "Pliskin_Halperin_2021"
+new_new_article_md = stringr::str_c(new_article,".Rmd")
+new_folder_path = stringr::str_c("./", new_article)
+
+old_path = stringr::str_c("./", new_article, "/", empty_file)
+new_path = stringr::str_c("./", new_article, "/", new_new_article_md)
+
+dir.create(new_article) #create a new folder
+file.copy(empty_file, new_article) #move the current file to that folder 
+file.rename(old_path, new_path) #rename the current file 
+file.edit(new_path)
+```
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

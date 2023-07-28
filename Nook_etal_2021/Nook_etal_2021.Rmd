@@ -1,0 +1,59 @@
+---
+title: "Nook, E. C., Satpute, A. B., & Ochsner, K. N. (2021). "
+subtitle: "Emotion Naming Impedes Both Cognitive Reappraisal and Mindful Acceptance Strategies of Emotion Regulation. Affective Science, 2(2), 187–198. https://doi.org/10.1007/s42761-021-00036-y"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+<img src="Screenshot 2023-06-07 at 4.14.15 PM.png" width=80%>
+
+
+<img src="Screenshot 2023-06-07 at 4.15.38 PM.png" width=80%>
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

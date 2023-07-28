@@ -1,0 +1,88 @@
+---
+title: "Vishkin, A., Kitayama, S., Berg, M. K., Diener, E., Gross-Manos, D., Ben-Arieh, A., & Tamir, M. (2022)."
+subtitle: "Adherence to emotion norms is greater in individualist cultures than in collectivist cultures. Journal of Personality and Social Psychology. https://doi.org/10.1037/pspi0000409"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+# Back to index 
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+<img src="Screenshot 2023-03-16 at 1.46.25 PM.png" width=80%>
+
+<img src="Screenshot 2023-03-16 at 1.46.36 PM.png" width=80%>
+
+<img src="Screenshot 2023-03-16 at 1.47.05 PM.png" width=80%>
+
+<img src="Screenshot 2023-03-16 at 1.47.22 PM.png" width=80%>
+
+<img src="Screenshot 2023-03-16 at 1.47.31 PM.png" width=80%>
+
+<img src="Screenshot 2023-03-16 at 1.47.41 PM.png" width=80%>
+
+<img src="Screenshot 2023-03-16 at 1.47.51 PM.png" width=80%>
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+```{r echo=FALSE, results='hide'}
+empty_file = "Empty.Rmd"
+new_article = "Walton_Wilson_2018"
+new_new_article_md = stringr::str_c(new_article,".Rmd")
+new_folder_path = stringr::str_c("./", new_article)
+
+old_path = stringr::str_c("./", new_article, "/", empty_file)
+new_path = stringr::str_c("./", new_article, "/", new_new_article_md)
+
+dir.create(new_article) #create a new folder
+file.copy(empty_file, new_article) #move the current file to that folder 
+file.rename(old_path, new_path) #rename the current file 
+file.edit(new_path)
+```
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

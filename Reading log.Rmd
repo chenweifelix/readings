@@ -1,0 +1,64 @@
+---
+title: "Reading log"
+author: "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+
+output: 
+  html_notebook:
+    theme: readable
+    css: style.css  
+    code_folding: "none"
+    toc: true
+    toc_float: true
+
+---
+
+```{r echo=FALSE}
+source("/Users/yuchenwei/Desktop/Academy/R Markdown settings/functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+.title {
+  color: white;
+}
+h1{
+  color: orange;
+  font-family: Georgia;
+  font-size: 34pt
+}
+h2{
+  color: yellow;
+  font-family: Georgia;
+}
+```
+
+[Back to index](./index.nb.html)
+
+- To read (updated at `r format(Sys.time(), '%Y-%m-%d')`): 
+
+  - Motivation and empathic accuracy during conflict interactions in couples: it’s complicated!
+  - Consistency between individuals' past and current romantic partners' own reports of their personalities  (Read it with MET in mind and the effect sizes of their findings)
+
+- 2023-03-28
+  - Yarrington, J. S., et al. (2023). `r colored(" [[Note](./Yarrington_etal_2023/Yarrington_etal_2023.nb.html)]","#8CC1DE" ,"14pt")`
+The role of positive and negative aspects of life events in depressive and anxiety symptoms. Clinical Psychological Science, 21677026221141656. https://doi.org/10.1177/21677026221141654
+
+
+- 2023-03-26
+  - Shen, H., Labroo, A., & Wyer, R. S. Jr. (2020). `r colored(" [[Note](./Shen_etal_2020/Shen_etal_2020.nb.html)]","#8CC1DE" ,"14pt")`
+So difficult to smile: Why unhappy people avoid enjoyable activities. Journal of Personality and Social Psychology, 119(1), 23–39. https://doi.org/10.1037/pspa0000186
+
+- 2023-03-25 
+  - Koutsoumpis, A., et al. (2022). `r colored(" [[Note](./Koutsoumpis_etal_2022/Koutsoumpis_etal_2022.nb.html)]","#8CC1DE" ,"14pt")` 
+
+  The kernel of truth in text-based personality assessment: A meta-analysis of the relations between the Big Five and the Linguistic Inquiry and Word Count (LIWC). Psychological Bulletin, 148(11–12), 843–868. https://doi.org/10.1037/bul0000381
+  
+  - Ryan, R. M., et al (2022). `r colored(" [[Note](./Ryan_etal_2022/Ryan_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
+
+  We Know This Much Is (Meta-Analytically) True: A Meta-Review of Meta-Analytic Findings Evaluating Self-Determination Theory. Psychological Bulletin, 148(11/12), 813–842. https://doi.org/10.1037/bul0000385
+
+- 2022-12-28 
+  - Subject: Finished [Kraus et al., 2013](/Users/yuchenwei/Desktop/Academy/Readings/Kraus_2013/Kraus_2013.nb.html)
+  - Subject: Finished [Snibbe & Markus, 2005](/Users/yuchenwei/Desktop/Academy/Readings/Snibbe_2005/Snibbe_2005.nb.html) 

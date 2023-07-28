@@ -1,0 +1,61 @@
+---
+title: "VanderWeele, T. J., Trudel-Fitzgerald, C., Allin, P., Farrelly, C., Fletcher, G., Frederick, D. E., Hall, J., Helliwell, J. F., Kim, E. S., Lauinger, W. A., Lee, M. T., Lyubomirsky, S., Margolis, S., McNeely, E., Tay, L., Viswanath, V., Węziak-Białowolska, D., & Kubzansky, L. D. (2020)."
+subtitle: "Brief well-being assessments, or nothing at all? Preventive Medicine, 135, 106095. https://doi.org/10.1016/j.ypmed.2020.106095"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+A response to Ryff et al. (2020a)'s repose to their recommendations
+
+Single-item measure is still valuable even though it can't capture all the facets of well-being, because what we measure shapes what we discuss, what we know, what we aim for, and policits put in place to achieve it. (make the construct more visible)
+
+Single-item measure is also important because: 
+
+- it strongly correlates with other much richer well-being indices 
+- it is highly predictive of future outcomes, including health-related ones 
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,86 @@
+---
+title: "Yoon, S., & Rottenberg, J. (2021). "
+subtitle: "Listening to the blues: An ecological momentary assessment of music choice in depression. Emotion, 21(6), 1177–1187. https://doi.org/10.1037/emo0000911.supp"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+
+- Persons with depression lacked a preference for happy over sad songs in daily contexts (they don't prefer sad songs more than non-depressed persons.)
+  - Impaired approach motivation system; anhedionia; 
+  - Not contra-hedonic motivation 
+- Both groups reported increased relaxedness as well as decreased happiness after hearing sad songs (no change in sadness levels) 
+  - Listening to sad songs is not necessarily maladaptive
+- Favorite songs of persons with depression had a slower tempo than non-depressed person's ones 
+- Both groups reported the reason for music listening is to increase high arousal PA, but depressed persons particularly desire to feel calm. 
+
+# Lit review 
+
+- Perceived (how sad songs sound) vs. Experienced (how I feel after hearing the song) emotions in music 
+
+Notably, we found that persons with depression reported feeling more happiness and less sadness after listening to their chosen music (relative to before), even though more than half the depression group chose sad music (n = 21 out of 38)
+
+`r colored("Based on these results, we concluded that preference for sad music of individuals with depression may be related to wanting to feel relaxed rather than wanting to feel sad.", "gold", bold = T)`
+
+`r colored("persons with depression consistently report being strongly motivated to avoid depressive feelings (see Yoon, Dang, Mertz, & Rotten- berg, 2018, for review)", "gold", bold = T)`
+
+<img src="Screenshot 2023-07-11 at 2.21.03 PM.png" width=80%>
+
+<img src="Screenshot 2023-07-11 at 2.23.23 PM.png" width=80%>
+
+
+
+# Method 
+
+## Precedure 
+
+Part I. EMA music choice and affective outcomes (given stimuli)
+
+Part II. Analysis of music features (favorite songs retrieved from external app)
+
+Part III. Reasons for song choice (close-ended list)
+
+-----
+
+[Back to index](../index.nb.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,81 @@
+---
+title: "Walton, G. M., & Yeager, D. S. (2020). Seed and Soil: Psychological Affordances in Contexts Help to Explain Where Wise Interventions Succeed or Fail. Current Directions in Psychological Science, 29(3), 219–226. https://doi.org/10.1177/0963721420904453"
+date: "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../../style.css
+
+---
+
+```{r echo=FALSE}
+source("/Users/yuchenwei/Desktop/Academy/R Markdown settings/functions.R")
+library(tidyverse)
+```
+```{css}
+.btn-group{
+  display:none;
+}
+.title {
+  color: white;
+}
+h1{
+  color: lightgreen;
+  font-family: Georgia;
+}
+h2, h3, h4{
+  color: pink;
+  font-family: Georgia;
+}
+```
+
+
+# Back to index 
+
+[Back to index](../../Policy-Index.nb.html)
+
+# Abstract /Key ideas 
+
+Changing requires plating good seeds (more adaptive persepctives) in fertile soil in which those seeds can grow (a context with appropriate affordances)
+
+The success of wise interventions depends on features of contexts that make an adaptive persepctive possible, what we call psychological affordances 
+
+<img src="Screenshot 2023-02-07 at 3.56.42 PM.png" class="center" width = 80%>
+
+<img src="Screenshot 2023-02-07 at 3.57.42 PM.png" class="center" width = 80%>
+
+Psychological interventions are done with people, not on people 
+
+-----
+[Back to index](../Policy-Index.nb.html)
+
+```{r echo=FALSE}
+dir.create("Walton_2020")
+file.copy("Final project empty.Rmd", "Walton_2020")
+file.rename("./Walton_2020/Final project empty.Rmd", "./Walton_2020/Walton_2020.Rmd")
+file.edit("./Walton_2020/Walton_2020.Rmd")
+```
+
+`r colored("", "gold")`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

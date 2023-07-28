@@ -1,0 +1,81 @@
+---
+title: "Luhmann, M., Buecker, S., & Rüsberg, M. (2023)."
+subtitle: "Loneliness across time and space. Nature Reviews Psychology, 2(1), Article 1. https://doi.org/10.1038/s44159-022-00124-1"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Loneliness is a serious issue! See the first two paragraphs 
+
+Loneliness is prevelent among people with low social class ---> presumably because they have less time to connect with others? Much of the time is devoted to working `r side_note("I think it's interesting despite the fact that people in low social class are more interdependent, they are lonlier than poeple in high social class. <br> It might have something to do with the social expectation too, such that lower social class is lonlier because they are expected to have deep social connections, but not everyone is able to do that.")`
+
+Evidence that loneliess is on the rise is mixed. 
+
+Cultural norms/values ---> living conditions and social integration ---> loneliness: 
+
+   - how people think, feel and behave is also shaped by the greater context37, including the sociohistorical context38,39 and the geographical and cultural context40,41.
+   - Macro-level factors can also moderate the associations between individual predictors and outcomes. Macro-level factors influence people’s `r colored("standards", "gold", bold = T)` for their social relationships `r colored("(social expectations)", "gold", bold = T)`, which in turn moderate the extent to which other factors such as the level of social integration are related to loneliness
+   - we draw on the HIstorical changes in *DEvelopmental COntexts (HIDECO) framework*39 that organizes macro-level factors into four categories: values and norms, family and social lives, technology and mobility, and individual resources and living conditions.
+
+# Loneliness acoss time 
+
+  - Trending towards decline (Table 2)
+  - Rising individualism ---> increased focus on self-development and a devaluation of traditional family ties 
+    - But it doesn't mean a devaluation of relationships; it's just that different relationships (e.g., friends) are being valued more 
+    - It's therefore unclear how this relates to loneliness 
+
+# Loneliness across space 
+
+Hence, individualism/ collectivism reflects the value of social relationships and might therefore be particularly relevant for loneliness, but in complex ways111,117,118. On the one hand, loneliness might be more prevalent in individualistic cultures because social ties are looser and people might invest less in their social relationships than in collectivistic cultures. On the other hand, loneliness might be more prevalent in collectivistic cultures because social ties are more important and social relationships might be more likely to be perceived as insufficient. Moreover, people in collectivistic cultures are more likely to perceive the social stigma of loneliness than people in individualistic countries119. The social stigma of loneliness is characterized by the belief that disclosure of being lonely will engender negative responses from others120,121. <--- `r colored("The role of social expectation", "gold", bold = T)`
+
+  - the protective effect of having a confidant was stronger in individualistic than in collectivistic countries117, whereas the harmful effect of living alone was weaker in individualistic than in collectivistic countries125.
+
+  - According to the culture–loneliness framework127, people in cultures with more restrictive norms about social relationships might experience more loneliness because, despite being less physically isolated, they are more likely to experience a discrepancy between their actual and desired social relationships
+  
+<img src="Screenshot 2023-04-26 at 2.03.45 PM.png" width=80%> 
+  
+  
+-----
+[Back to index](../index.nb.html)
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,154 @@
+---
+title: "Watts_2017"
+subtitle: "Should social science be more solution-oriented? Nature Human Behaviour, 1(1), 0015. https://doi.org/10.1038/s41562-016-0015"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Incoherency problem: abundance of theories (within and across disciplines) that contradict with one another ---> has been perpetuated by an historical emphasis in social science on the advancement of theories over the solution of practical problems
+
+One way for social science to make progress is to adopt a more solution-oriented approach, starting first with a practical problem and then asking what theories (and methods) must be brought to bear to solve it.
+
+# Intro 
+
+For any topic X, social science has dozens, if not hundreds, of perspectives, but no single perspective on which there is anything close to universal agreement.
+
+Any representative cross-section of social scientists would have difficulty agreeing on almost any question at all, including which questions were the most important to be agreed upon. (cf. What Simone said on the podcast; we can't even agree on what is most important to focus our research resources on)
+
+Incoherency problem: 
+
+- `r colored("The problem with social science is not so much that it has one theory for one thing and another theory for another thing, but rather that it has many theories for the very same thing.", "gold", bold = T)`
+- Even worse, these theories — although often interesting and plausible when considered individually — are fundamentally incoherent when viewed collectively.
+- Due to the institutional and cultural orientation of social-science disciplines, which have historically emphasized the advancement of particular theories over the solution of practical problems. 
+- Finally, I argue that one possible solution to the incoherency problem is to *reject the traditional distinction between basic and applied science*, and instead seek to *advance theory specifically in the service of solving real-world problems*. (cf. Practicality issue, Berkman and Wilson, 2021)
+
+Social scientists can profitably view the solution of practical problems as a mechanism for improving the coherency of social science itself.
+
+# The incoherency problem in social science
+
+Example of social contagion and collective behavior 
+
+- Mark Granovetter’s 1978 paper ‘Threshold models of collective behavior' (American Journal of Sociology)
+- Bikhchandani, Hirshleifer and Welch, 1992, 'A theory of fads, fashion, custom, and cultural change as informational cascades’ (Journal of Political Economy)
+<br>
+<br>
+- Both seek to explain the same stylized feature of these phenomena, namely that small changes or ‘shocks’ to an apparently stable system can lead to large changes in collective behaviour. 
+- The actual models proposed in the two papers are not just differ- ent, but are logically incompatible in the sense that each makes assumptions that, if true, would render the other false
+- In more than 20 years of coexistence, not only has the discrepancy not been resolved, it has scarcely been noticed
+
+*Thus, economists cite Bikhchandani et al. more than Granovetter not because the former is a better model of collective behaviour than the latter — it may or may not be —but perhaps because the model itself fits more easily into economists’ pre-existing theoretical frameworks, or because the writing style is more familiar to them, or simply because it was published in an economics journal rather than in sociology.*
+
+# More data is not the answer
+
+One possible reason why social science seems less ‘scientific’ than we would like is simply that our ability to propose theories has for so long out-stripped our ability to test them. `r side_note("Saying without actually proving them")`
+
+And yet, ten years into the era of what is now called computational social science, it seems to me that more data, and even better data, is not enough. Nor has the influx of physicists and computer scientists into the social sciences over the past two decades clearly ameliorated the coherency problem
+
+Far from the social sciences acquiring a coherent physics-inspired core of empirically validated theoretical knowledge, they have instead acquired a whole new batch of physics-inspired models that have, if anything, *added to the confusion*. 
+
+# What is the purpose of social science?
+
+Example of Jerry Davis's concern about the state of organizational science ---> likened it to the Winchester Mystery House
+
+- The result was an agglomeration of components, each of which was individually well-constructed, but that did not cohere into any sort of functional whole
+- Although each individual contribution must comply with strict disciplinary standards, *no attention is paid to how all the contributions fit together*; as a consequence, they do not
+- `r colored("Although our work is ostensibly motivated by a desire to understand, explain and pos- sibly intervene in real-world social phenomena, neither the training nor the structure of incentives in academia are specifically designed for this purpose", "gold", bold = T)`
+- They are rewarded for publishing their work, typically in peer-reviewed journals and conference proceedings, most of which value novel, counterintuitive or otherwise interesting results over steady cumulative advances in knowledge. 
+- What is considered relevant generally falls within a single discipline, and acknowledgment amounts to little more than citing prior work. *In other words, at no point does the existing system for producing social scientific knowledge either facilitate or reward the activity of reconciling disparate frameworks*. `r side_note("Interest only sparked within one discipline")`
+
+Problems with focusing on theory like natural science (e.g., physics)
+
+- Theories in physics are testable in a way that social-science theories are not. 
+- Predictions in the social sciences, if they they are made at all, tend to come with considerable wiggle room
+- Even when such tests could be designed in principle, conducting them in practice would require a larger investment of resources than anyone is willing to make
+
+# Solution-oriented social science
+
+The first step is replicability: *if a claim is not replicable then it is not true, and hence not science, no matter how novel or interesting it might be*
+
+Secondly, more emphasis on solving practical problems of the sort that outsiders would recognize — for example, “How do I maximize the impact of my advertising spending?” or “How do I increase productivity in my organization?” or “How do I increase pro-social behaviour in my community?”
+
+Advantages: 
+
+- First, the requirement that solutions work in the real world would automatically satisfy replicability requirements, thereby disciplining social-scientific theorizing in ways that would augment the existing peer review system. 
+- Second, solving any nontrivial real-world problem would almost certainly require fundamental advances in social-behavioural science, and possibly also in related fields such as computer science and statistics. 
+- Third, realizing these advances would require tightly coordinated, *multidisciplinary team-based research of the sort that is common in industry but largely absent in academic social science*. 
+- Fourth, constructing teams of this sort would bring the incoherency problem to the forefront and force researchers to address it directly. 
+- Finally, the emphasis on practical applications would help *justify larger upfront investments than are typical for social-science research, thereby enabling more ambitious research designs*.
+
+Solution-oriented social science would be *equally concerned with impacting social science itself*. In other words, solution-oriented social science rejects the ‘linear’ model of research advanced by Vannevar Bush, in which basic science provides the ‘feedstock’ of knowledge on which applied science is then assumed to draw. 
+
+Solution-oriented social science embraces both simultaneously, treating them not as substitutes where one necessarily drives out the other, but rather as complements. In other words, solution-oriented social science falls into what Stokes called *Pasteur’s quadrant* — defined as *use-inspired* research that advances fundamental understanding — as distinct from what he called Bohr’s quadrant (traditional basic research) and Edison’s quadrant (traditional applied research).
+
+The vast majority of academic social-science research continues to be conducted in isolation of its potential applications in business, government and policy
+
+- Even where social-science research methods are deployed for practical ends, such as the use of randomized controlled field experiments for policy evaluation, *the impact is primarily on policy rather than science*. `r side_note("Too applied to be informative for science advancement")``Although laudable, such evidence-based policy work more properly belongs to Edison’s quadrant than to Pasteur’s.
+
+Why such research is rare: Realiy is messy and multifaceted ---> complicating the task of evaluating progress or even defining the problem to be solved in the first place 
+
+- Health, education, inequality, cultural norms, economic policies, and physical environments all interact in complicated ways to produce particular individual and group outcomes
+- Attempts to understand or influence these outcomes in the real world therefore often result in a difficult choice between focusing on such a small part of the problem that one misses the larger picture, and drowning in complexity.
+
+# Identifying Goldilocks problems
+
+A major challenge for solution-oriented social science is, therefore, to identify a set of problems that are not so large and complex as to require a total theory of social, economic, and political life, but are still of sufficient difficulty to justify a genuinely scientific approach. Even better would be problems that are *modular*, in the sense that they can be expressed in a succession of increasingly ambitious versions. ---> While the research itself would be understandable only to experts, it is important that no particular expertise be required to understand the problem statement or to check that proposed solutions work.
+
+E.g., Social scientists might propose building instruments for measuring social sentiment, or platforms for supporting political deliberation or economic exchange, or compilers that enable human workers and machines to collaborate on complex tasks. Solution-oriented social science, however, *need not be restricted to solutions with direct engineering analogues*. For example, *systems of best practices* could be developed, say for management or hiring, that are grounded in large-scale comparative observational studies, field experiments and algorithmic decision aids. Systems for generating and testing the policy implications of competing theories — with respect, say, to social influence or collective problem-solving — would also qualify.
+
+*Common-task framework* (cf. Mega-studies)
+
+- Solutions are benchmarked using agreed-upon performance metrics (word error rate) and performance is evaluated on publicly available datasets (Canadian Hansards) by an independent referee (NIST, the National Institute of Standards and Technology).
+
+# Conclusion 
+
+Emphasis on use-inspired research would benefit social science in two ways.
+
+- First, it would force social scientists to deal with the incoherency problem, thereby advancing fundamental scientific understanding of the social world. 
+- And second, it would help social science to *be more visibly useful to the world*, thereby improving its status with an increasingly skeptical public, as well as generating excitement and interest among students who might otherwise choose the natural sciences, engineering or some other profession entirely
+
+-----
+
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

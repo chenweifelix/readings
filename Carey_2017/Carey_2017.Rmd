@@ -1,0 +1,62 @@
+---
+title: "Carey, R. M., & Markus, H. R. (2017)."
+subtitle: "Social class shapes the form and function of relationships and selves. Current Opinion in Psychology, 18, 123–130. https://doi.org/10.1016/j.copsyc.2017.08.031"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+It's important to note that social relationships might be `r colored("equally valuable", "gold", bold = T)` across social class; it's just that they serve different functions. 
+
+Used stories to illustrate how people growing up in low and high social class differ, specifically, how social class shapes `r colored("relational realities", "gold", bold = T)`---who people interact with and the divergent function of these interactions 
+
+We review research demonstrating that in lower social class contexts, social networks tend to be small, dense, homogenous and strongly connected. Ties in these networks provide the bonding capital that is key for survival and that promotes the interdependence between self and other(s). ---> ties are `r colored("bonding capital", "gold", bold = T)`
+
+In higher social class contexts, social networks tend to be large, far-reaching, diverse and loosely connected. Ties in these networks provide the bridging capital that is key for achieving personal goals and that promotes an independence of self from other.  ---> ties are `r colored("bridging capital", "gold", bold = T)`
+
+<img src="Screenshot 2023-04-26 at 1.42.06 PM.png" width=80%>
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

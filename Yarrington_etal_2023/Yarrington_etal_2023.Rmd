@@ -1,0 +1,71 @@
+---
+title: "Yarrington, J. S., Metts, A. V., Zinbarg, R. E., Nusslock, R., Wolitzky-Taylor, K., Hammen, C. L., Kelley, N. J., Bookheimer, S., & Craske, M. G. (2023)."
+subtitle: "The role of positive and negative aspects of life events in depressive and anxiety symptoms. Clinical Psychological Science, 21677026221141656. https://doi.org/10.1177/21677026221141654"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Positivity and negativity are evaluated *objectively* ---> they're not subjective valence ratings 
+
+Trilevel model ---> general distress (top); anhedonia-apprehension; fears 
+
+A significant interaction demonstrated that positivity protected against high levels of negativity of noninterpersonal events in predicting general distress. A main effect of interpersonal negativity predicting higher anhedonia-apprehension was observed. Results for fears were nonsignificant.
+
+
+`r side_note("Consistent with the NOVA results")`
+"We opted to examine interpersonal and noninterpersonal events in part on the basis of prior work suggesting that events with interpersonal features might uniquely predict depression, as opposed to other forms of psychopathology (e.g., Brown & Harris, 1978)." 
+
+
+`r side_note("Justifications for emerging adults")`
+"We also examined events by interpersonal and noninterpersonal domains because late adolescence and early adulthood marks a developmental period in which interpersonal relationships, particularly with peers, become increasingly important. `r colored("Peer relationships", "gold", bold = T)` at this age can be exceptionally supportive (e.g., promoting prosocial behaviors or academic achievements) or quite deleterious (e.g., facilitating substance use) for development (Steinberg & Morris, 2001)." 
+
+<img src="Screenshot 2023-03-28 at 12.20.21 AM.png" width=70%>
+
+<img src="Screenshot 2023-03-28 at 12.21.03 AM.png" width=70%>
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,190 @@
+---
+title: "Oishi_2014"
+subtitle: "Socioecological psychology. Annual Review of Psychology, 65(1), 581–609. https://doi.org/10.1146/annurev-psych-030413-152156"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Def: 
+
+"`r colored("Socioecological psychology is an area within psychology that investigates how mind and behavior are shaped in part by their natural and social habitats (social ecology) and how natural and social habitats are in turn shaped partly by mind and behavior (Oishi & Graham 2010). The main goal of this approach is to illuminate how individuals and social ecologies define each other.", "gold", bold = T)`"
+
+Goal: 
+
+"`r colored("Socioecological psychology investigates humans’ cognitive, emotional, and behavioral adaption to physical, interpersonal, economic, and political environments.", "gold", bold = T)`"
+
+Scope: 
+
+- Physical environments
+- Interpersonal environments: sex ratio, demographic diversity, residential mobility 
+- Economic environments
+- Political environments
+
+Types: 
+
+- Ecological <---> psychological: `r colored("(a) association studies that link an aspect of social ecology (e.g., population density) with psychology (e.g., prosocial behavior)", "gold", bold = T)`
+- Mechanisms: `r colored("(b) process studies that clarify why there is an association between social ecology and psychology (e.g., residential mobility → anxiety → familiarity seeking), and", "gold", bold = T)` 
+- Psychological ---> Ecological: `r colored("(c) niche construction studies that illuminate how psychological states give rise to the creation and maintenance of a social ecology (e.g., familiarity seeking → dominance of national chain stores).", "gold", bold = T)` (cf. Wilson, 2022, the construal principle)
+
+<img src="Screenshot 2023-07-14 at 10.44.53 AM.png" width=80%> 
+
+# Intro (def, scope, etc)
+
+Distinct features: 
+
+- Comparison with the traditional psych approach: 
+
+In one sense, the focus on subjective, intrapsychic phenomenology, such as one’s perception, representation, and mindset, is the hallmark of psychology and indeed what makes psychology different from other social sciences—most notably sociology—that attend to objective, social structural factors. 
+
+Most notably, this view neglects the fact that people most often think, feel emotions, and act in reaction to, and in the presence of, other people (Berscheid & Reis 1998) and in certain physical (Barker 1968), climatic (Anderson 2001), political (Inglehart 1997), economic (Diener et al. 1995), demographic (Taylor 1998), and cultural conditions (Markus & Kitayama 1991).
+
+Socioecological psychology attempts to bring the *objectivist* perspective to psychological science, investigating how objective social and physical environments, not just perception and construal of the envi- ronments, affect one’s thinking, feeling, and behaviors, as well as how people’s thinking, feeling, and behaviors give rise to built environments (human-made surroundings such as buildings and parks) and social environments. In other words, socioecological psychology combines the previous attempts to bring environments and daily contexts to psychology (e.g., Barker 1968, *Bronfenbrenner 1977*, Lewin 1939, Milgram 1970) while maintaining its focus on the *mutual constitution* of objective macroenvironments and psyche.
+
+- Comparison with a sociological approach: 
+
+Although socioecological psychology is similar to sociology in that both attend to *objective, macro factors*, socioecological psychology is different from sociology in its focus on *psychological mechanisms* underlying the association between social ecology and human cognition, emotion, and behavior. 
+
+As stated by Milgram (1970), sociologists tend to focus on *sociological facts* (e.g., population density) that are *external* to individuals, whereas psychologists (here, socioecological psychologists) pay attention to psychological mechanisms that link the individual’s experience to his/her social ecology. Many sociologists, epidemiologists, demographers, and other social scientists conduct almost exclusively association studies (for exceptions, see Cook et al. 1983, Vasi & Macy 2003; for a review on experiments in sociology, see Jackson & Cox 2013); in contrast, socioecological psychologists conduct association, process, and niche construction studies.
+
+- Comparison with other psychological approaches (e.g., ecological, environmental, community): 
+
+A main difference is that socioecological psychology uses experimental as well as observational and survey methods, whereas ecological, environmental, and community psychologies rely almost exclusively on observational and survey methods.
+
+- Comparison with a cultural psychological approach: 
+
+Socioecological psychology is similar to cultural psychology (Kitayama & Cohen 2007) in its interests in distal, macroenvironmental factors. Far more similarities than differences exist between them. As detailed in Oishi & Graham (2010), however, one key difference is that *cultural psychology explores how psychological processes are grounded in culture* (e.g., cultural practices, rituals, and symbols), whereas socioecological psychology explores how psychological processes are grounded in *objective, concrete, macro conditions (e.g., green space, sex ratio, and income inequality) as well as cultural contexts*.
+
+<img src="Screenshot 2023-07-14 at 10.50.40 AM.png" width=80%>
+
+socioecological psychologists should start their research from the observation of humans in their natural, social habitats and eventually test the causal effect of environments in a controlled laboratory setting
+
+# Physical environments 
+
+- Green space and attention, memory, and learning:  
+  - green space: soft fascination ---> capture involuntary attention 
+  - urban space: directed, voluntary attention (e.g., traffic lights)
+<br>
+<br>
+- Thinking style (holistic vs. analytic) Miyamoto et al. (2006) ---> landscapes: The main figures are much easier to detect in American landscapes than in Japanese landscapes.
+
+- Geographical location: 
+  - The distance from the equator and pathogens (regions near the equator tend to have more pathogens than regions more distant from the equator):
+  - In a region with a lot of pathogens, individuals must avoid contact with strangers who may carry potential infectious diseases. In such a region, residents should make a sharp ingroup-outgroup distinction (collectivism) and should not be overly sociable (low extraversion) or adventurous (low openness). Indeed, people living in a nation with a historically high level of pathogens are more likely to hold collectivist values (Fincher et al. 2008) and to be less extraverted and less open to experiences than those living in a nation with a historically low level of pathogens (Schaller & Murray 2008).
+
+- Climate and weather 
+   - heat and violence 
+   - emotional expressiveness (Pennebaker et al. 1996)
+    - people living in a colder region self-reported being less emotionally expressive and were also perceived to be less emotionally expressive than those living in a warmer region. 
+  - association with mood is not well-established 
+    -  strong wind and the lack of sunlight are associated with negative moods, whereas climatic variables have surprisingly small or no associations with positive moods
+    - the link between climate and well-being might be moderated by the wealth of nations (e.g., access to air conditioning and supermarkets) and that the null findings regarding the link between weather and mood in the United States (e.g., Lucas & Lawless 2013) could be that in a wealthy nation such as the United States, the effect of weather is minimized by various amenities
+
+# Interpersonal environments 
+
+- Population density
+  - negatively associated with prosocial behavior
+  - Urban overload (Milgram 1970):
+    - Urbanites help others less than rural residents because urbanites come into contact with a far larger number of individuals than rural counterparts on a daily basis, and therefore urbanites need to conserve psychological energies by limiting the number of people with whom they interact `r side_note("I doon't quite buy this argument.")` 
+    -  urban overload would give rise to social structures (the third type of socioecological psychology): Urban overload would result in the formation of *specialized institutions*, such as departments of welfare and housing that deal with individuals who need help in an urban community.
+
+- Sex ratio
+
+<img src="Screenshot 2023-07-14 at 11.09.41 AM.png" width=80%>
+
+- Demographic diversity 
+
+white participants living in a city with more African Americans showed greater prejudice toward African Americans than did those living in a city with fewer African Americans (present only in the Northern state)
+
+residents of homogeneous cities (e.g., Bismarck, North Dakota and Lewiston, Maine) were more trusting of not just others in general, but also of neighbors and people of different eth- nicities compared to residents of heterogeneous cities (e.g., San Francisco and Houston). Putnam speculated that heterogeneous contexts seem to encourage white residents to “hunker down” like a turtle, whereas homogeneous contexts encourage white residents to bond with other
+
+Portes & Vickstrom (2011) provided a persuasive critique on Putnam’s social capital work and pointed out the possibility that the inverse relation between heterogeneity and trust could be spurious, due to other third variables such as economic inequality and percent Scandinavian-origin population. In addition, the inverse relationship between racial/ethnic diversity and general trust was present among European Americans but not among African Americans. Indeed, African Americans living in a heterogeneous neighborhood of Detroit were more trusting of others than were African Americans living in a homogeneous neighborhood (Marschall & Stolle 2004).
+
+- Residential mobility 
+  - In a residentially mobile area, one cannot expect to have the same group of friends for an extended period of time. In a residentially stable area, in contrast, one can expect to be with the same group of friends (and enemies) for an extended period of time
+    - Americans are more trusting of strangers than are Japanese (Yamagishi & Yamagishi 1994). Using an agent-based computer model, Macy & Sato (2002) showed that this cultural difference was explained by residential mobility. That is, it is more adaptive for people living in a mobile area to be trusting of strangers. Similarly, Americans are much more open and self-disclosing to others than are Japanese. This cultural difference was explained by *relational mobility*, which is the general degree to which individuals in a society have opportunities to form new relationships and terminate old ones (Schug et al. 2010). 
+    - People in a relationally mobile society seem to be self-disclosing to others because self-disclosure is likely to result in the formation of a new relationship. In contrast, people in a relationally nonmobile society seem to avoid disclosing too much because the self-disclosure could backfire later. 
+  - Consumer behaviors: the prevelence and popularity of chain stores 
+
+# Economic environments 
+
+- Economic conditions 
+  - Although people spend less money on furniture, electronics, and leisure during an economic recession, people spend more money on personal care products and cosmetics (Hill et al. 2012, study 1).
+    - Hill and colleagues showed that women who were primed with an economic recession indicated a greater desire to purchase beauty products than did women in a control condition. This was because women in a recession condition preferred mates with greater resources, which in turn made them desire beauty products, presumably to enhance their attractiveness for mates with resources.
+  - Economic threats and greater prejudice. For instance, when primed with an economic threat, non-Asian American college students showed greater prejudice toward Asians (their main economic threat) than did those in the control condition (Butz & Yogeeswaran 2011). Not surprisingly, this link was explained by the heightened level of anxiety in the economic threat condition.
+  - Authoritarianism (NTS: need for predictability)
+    - the analysis of comic strips revealed that the main characters were more likely to be described as powerful (authoritarian) during an economic recession than during an economic boom (Sales 1973).
+  - Subjective WB: 
+    - Residents of poor nations were more likely to report having a meaning or purpose in life than were residents of wealthy nations (S. Oishi & E. Diener, manuscript under review). The inverse correlation between GDP per capita and meaning in life was explained by religiosity; 
+  - The role of *econ inequality*: 
+    - uneven distribution of resources reduces general trust (e.g., Cozzolino 2011)
+    - Still, it is conceptually unclear why the lack of trust and other psychological consequences of inequality should be associated with mortality and illness (for a thoughtful critique, see Deaton 2003).
+    - Americans were on average happier in the years of more income equality than in the years of inequality (Oishi et al. 2011). This was particularly true among low-income Americans. Finally, the link between income equality and happiness was mediated by perceived fairness and general
+  - Why are many nations moving toward inequality despite the desire of equality? 
+    - *The value of meritocracy and personal choice* 
+      - Victim blaming; system justification (Talhelm)
+
+- Economic activities
+  - e.g., rice vs. wheat 
+  - task- and reward- interdependence 
+
+# Political environments 
+
+Def: the environmental factors that affect human political activities such as political system, dominant political ideology, welfare policies, and taxation
+
+- Democracy: 
+  - democracy increases trust and civility to fellow citizens to the extent that it guarantees fairness and freedom
+- Welfare: 
+  - residents of nations with generous unemployment benefits, disability benefits, and pensions were indeed more satisfied with their lives and happier than were those of nations with less generous welfare
+- Taxation: 
+  - A cross-national study of 54 nations (Oishi et al. 2012) showed that residents of countries with progressive taxation (e.g., Sweden and Denmark) were more satisfied with their lives and reported experiencing more positive emotions than did residents of countries with less progressive taxation (e.g., Hong Kong and Russia). The association between progressive taxation and the mean levels of subjective well-being was mediated by satisfaction with public goods.
+
+# Summary and future directions 
+
+Socioecological psychology attempts to bring the objectivist perspective to psychological science, investigating how objective physical environments (e.g., green space, climate, pathogen prevalence), interpersonal environments (e.g., sex ratio, population density, residential mobility), economic environments (e.g., wealth, income inequality, dominant economic activities), and political environments (e.g., democracy, welfare spending)—*not just perception and construal of the environments*—affect one’s thinking, feeling, and behaviors.
+
+
+-----
+[Back to index](../index.nb.html)
+
+`r colored("", "gold", bold = T)`
+<img src="Screenshot 2023-07-14 at 10.50.40 AM.png" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

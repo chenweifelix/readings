@@ -1,0 +1,78 @@
+---
+title: "Mizrahi Lakan, S., Millgram, Y., & Tamir, M. (2023)."
+subtitle: "Desired sadness, happiness, fear and calmness in depression: The potential roles of valence and arousal. Emotion, 23(4), 1130–1140. https://doi.org/10.1037/emo0001120.supp"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Studies have demonstrated that depressed individuals want to feel relatively more sadness and less happiness than nondepressed indi- viduals do (Arens & Stangier, 2020; Millgram et al., 2015, 2019; Yoon et al., 2020). What underlies such motivations, however, is still unclear, partly because research to date has focused exclu- sively on sadness and happiness. 
+
+What dimension do they desire? Valence? Arousal? Discrete emotions? 
+
+To test these possibilities, we assessed the motivation to experience emotions that capture different combinations of positive and negative valence and high and low arousal (i.e., sadness, happiness, fear and calmness) in 36 clinically depressed and 36 nondepressed college students (76% females, M_age = 24.5). We measured desired emotions by selections of emotional music clips and by the self-reported desirability of emotions. We found that both depressed and nondepressed individuals desired calmness the most across measures, and this desire was stronger among depressed individuals.
+
+We replicated prior findings, such that across measures, depressed individuals were relatively more motivated to feel sadness than nondepressed individuals were. Furthermore, whereas nondepressed individuals were motivated to listen to music clips and experience emotions that were positive (vs. negative) in valence, this was not necessarily the case among depressed individuals. Compared to nondepressed individuals, depressed individuals desired music that was relatively lower (vs. higher) in arousal, but reported a relatively stronger desire for negative (vs. positive) emotions.
+
+Everyone shows a preference for calm music (low arousal, positive)
+
+Method: 
+
+- Participants: 36 in each group (depressed group was selected with clinical interview)
+- Music selection task (p.1133)
+  - 54 unique pairs ($4\choose{2}$ (two emotions) *$3\choose{1}$* (one of the three clips of an emotion) $3\choose{1}$ (one of the three clips of the other emotion) = 54) 
+  - each comparison appears 9 times (e.g., sad vs. calm) ---> DV: the percetage participants chose an emotion  
+- Self-report of desired emotions 
+  - the degree to which hey generally wanted to experience various emotions (1 = not at all, 7 = extremely)
+  - sadness: sad, downhearted, depressed
+  - happiness: happy, joyful, lighthearted
+  - fear: scared, worried, jittery 
+  - calmness: clam, relaxed, serene 
+
+`r colored("What the comparison is based on is important! ", "coral", bold = T)`
+
+- Between-group comparison 
+  - Music: Depressed vs. non-depressed: more sad, less happy, equal on fear and on calm 
+  - Self-report: Depressed vs. non-depressed: more sad, fear, equal on happiness and calmness
+- Within-depression group 
+  - Music: more calm than sad = happy, and fear least 
+  - Self-report: (both groups) more calmness > sadness and calmness > fear; happiness > sadness 
+    - Also a main effect of group ---> `r colored("Overall, depressed participants had stronger desires for all emotions than non-depressed groups", "gold", bold = T)`
+      - 4.07 (.06) > 3.87 (.06) 
+
+`r colored("Bascially, within the depressed group, depressed people still desired positive emotions more than negative emotions (equally so as non-depressed people).", "coral", bold = T)`
+
+
+<img src="Screenshot 2023-07-11 at 1.43.06 PM.png" width=80%>
+
+<img src="Screenshot 2023-07-11 at 2.04.42 PM.png" width=80%>
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+

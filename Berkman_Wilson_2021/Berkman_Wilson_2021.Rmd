@@ -1,0 +1,123 @@
+---
+title: "Berkman_Wilson_2021"
+subtitle: "So useful as a good theory? The practicality crisis in (social) psychological theory. Perspectives on Psychological Science, 1–11. https://doi.org/10.1177/1745691620969650"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Practicality crisis: lack of relevence, accessibility, and applicability 
+
+  - most psychological theories have little relevance to people’s everyday lives, poor accessibility to policymakers, or even applicability to the work of other academics who are better positioned to translate the theories to the practical realm.
+  - such crisis risks undermining the field in the minds of the general public, policymakers, and the next generation of scholars in the field.
+
+Psych theories should be an instrument for addressing issues of pressing societal importance (it was indeed used to be so)
+
+Def of a practical theory 
+
+  - A practical theory is one that suggests *actionable steps* toward solving a problem that currently exists *in a particular context* in the real world 
+  - Practical theories can guide practitioners in changing psychological processes or behaviors and state the conditions under which and the people for whom the theoretical predictions apply. (causal predictions, mediators and moderators)
+  - Requires a bidirectional relationship between practitioners and theorists 
+
+-----
+
+Why the theory of ego-depletion is impractical? 
+
+  - It presents no clear way to increase or replenish the ego resource, which is not specified with sufficient precision to easily measure or manipulate
+
+WHy the TPB is practical? 
+
+  - Centers variables that are measurable and malleable, such as beliefs and subjective norms, and specifies the conditions under which self-control is more or less likely (e.g., when attitudes or intentions are strong). 
+
+The deeper tension between basic and applied work hinges on the question of universality. Psychological theory is often formulated as though it might apply to all humanity at all times. *Practical theory is not necessarily anchored to a specific time, place, and culture, but it needs to be* **contextualizable** *in a realistic way to be useful to practitioner.*
+
+Prioritizing practicality is one way to ensure that theories remain substantive and do not become centered around higher-order theoretical questions that enhance theoretical nuance but are not critical for application in the field.
+
+We argue that theories structured to address practical problems are superior to theories that identify only relations between psychological constructs. 
+
+  - Superficial research fails to contribute to generalizable theory, and impractical theory fails to contribute to the work of practitioners in the world beyond the academy.
+
+<hr>
+
+# What does practical theory look like in the wild? 
+
+1. Practical theory starts with a problem 
+
+  - Direct ---> Reorienting toward a problem in the real world helps ground our theory and guides the empirical work that follows in a practical direction.
+    - X What is self-control; Why does self-control wane over time? 
+    - V How can people get better at self-control? 
+  
+2. Practical theory iteratively engages with practitioners and real people throughout the research cycle
+
+  - e.g., Community-engaged participatory research
+  
+3. Practical theory is grounded in high-quality descriptive data on real-world problems
+
+<hr> 
+
+Psychology research has shifted over the past decade to prioritize laboratory work over applied work. Both kinds of research can test theory, but theories that are tested only in the lab miss the critical opportunity to adapt to feedback from their application by practitioners (Giner-Sorolla, 2019). Robert Cialdini (2009) left the field in an article titled “We Have to Break Up,” citing the surging *emphasis in the field of cognition over behavior, tidy multistudy packages over messy field studies, and mediational analyses over descriptions of real behavior.* Others have issued similar critiques about the cognitive revolution, noting *how the field at its height had been reduced to the study of “self-reports and finger movements”* (Baumeister et al., 2007, p. 396).
+
+Our casual observation is that psychological theory has become unmoored from the guiding principle of practicality and is drifting toward more nuanced or myopic theoretical questions that are less relevant to helping solve the problems that people care about, such as predicting (Yarkoni & Westfall, 2017) and changing (Gainforth, West, & Michie, 2015) behavior. 
+
+That psychological theory is not more practical is ironic given the inherent practicality of the topics that so many of us study. 
+
+Robert Cialdini (2009): 
+
+  - As we have moved increasingly into the laboratory and away from the study of behavior, I believe we have been eroding the public’s perception of the relevance of our findings to their daily activities. One of the best aspects of field research into naturally occurring behavior is that such relevance is manifest. When my colleagues and I have studied which messages most spur citizens to reduce household energy usage, the results don’t have to be decoded or interpreted or extrapolated. The pertinence is plain. Truth be told, as a discipline, *we’ve become lax in our responsibilities to the public in this regard. They deserve to know the pertinence of our research to their lives because, in any meaningful sense, they’ve paid for that research. They are entitled to know what we have learned about them with their money.*
+
+The academics that government officials turn to for advice on human behavior are not psychologists.
+
+Data on the totality of federal funding suggest overall declines in support for most branches of psychology across the past decade (National Science Foundation, 2018b).
+
+Practicality is already a priority in how funding agen- cies, philanthropic donors, and private foundations evaluate the return on investment in grants, at least in the United States. (see more on how they describe how funding agencies place an emphasis on practicality on p 9.)
+
+<hr> 
+
+What's important is to think about questions that is both solution-oriented and can advance theory (Watts, 2017). Otherwise, the research becomes "too practical" and be of use of academia.  
+
+<hr>
+
+[Back to index](../index.nb.html)
+
+
+
+`r colored("", "gold", bold = T)`
+<img src="" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
