@@ -4,7 +4,13 @@ date: "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
 output: 
   html_notebook:
     toc: true
-    toc_float: true
+    toc_float: yes
+    theme: readable
+    css: style.css
+    code_folding: "none"
+  html_documentk:
+    toc: true
+    toc_float: false
     theme: readable
     css: style.css
     code_folding: "none"
