@@ -8,12 +8,6 @@ output:
     theme: readable
     css: style.css
     code_folding: "none"
-  html_documentk:
-    toc: true
-    toc_float: false
-    theme: readable
-    css: style.css
-    code_folding: "none"
 ---
 
 ```{r echo=FALSE}
