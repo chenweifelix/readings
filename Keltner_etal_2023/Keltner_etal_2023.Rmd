@@ -1,0 +1,60 @@
+---
+title: "Keltner_etal_2023"
+subtitle: "Semantic Space Theory: Data-Driven Insights Into Basic Emotions. Current Directions in Psychological Science, 09637214221150511. https://doi.org/10.1177/09637214221150511"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Insights from the Semantic Space Theory: 
+
+  1. Emotion is high dimensional, defined by blends of upward of 20 distinct kinds of emotions, and not reducible to low-dimensional structures and conceptual processes as assumed by constructivist accounts.
+  2. Specific emotions are not separated by sharp boundaries, contrary to basic emotion theory, and include states that often blend. 
+  3. Emotion concepts such as “anger” are primary in the unfolding of emotional experience and emotion recognition, more so than core affect processes of valence and arousal.
+
+<img src="Screenshots.png" width=80%>
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

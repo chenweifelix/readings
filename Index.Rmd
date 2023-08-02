@@ -115,6 +115,10 @@ Vishkin, A., Kitayama, S., Berg, M. K., Diener, E., Gross-Manos, D., Ben-Arieh, 
 
 As predicted, in countries higher in individualism, emotional experiences of individuals were more homogenous and more concordant with the emotions of others in their culture. Furthermore, in more individualist countries, deviation from the mean emotional experience was linked to lower life satisfaction. 
 
+## Keltner, D., Brooks, J. A., & Cowen, A. (2023). `r colored(" [[Note](./Keltner_etal_2023/Keltner_etal_2023.nb.html)]","#8CC1DE" ,"14pt")`
+Semantic Space Theory: Data-Driven Insights Into Basic Emotions. Current Directions in Psychological Science, 09637214221150511. https://doi.org/10.1177/09637214221150511
+
+
 ## Keltner, D., & Cowen, A. (2021). `r colored(" [[Note](./Keltner_Cowen_2021/Keltner_Cowen_2021.nb.html)]","#8CC1DE" ,"14pt")` 
 A taxonomy of positive emotions. Current Opinion in Behavioral Sciences, 39, 216–221. https://doi.org/10.1016/j.cobeha.2021.04.013
 
