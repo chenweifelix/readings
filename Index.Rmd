@@ -115,6 +115,10 @@ Vishkin, A., Kitayama, S., Berg, M. K., Diener, E., Gross-Manos, D., Ben-Arieh, 
 
 As predicted, in countries higher in individualism, emotional experiences of individuals were more homogenous and more concordant with the emotions of others in their culture. Furthermore, in more individualist countries, deviation from the mean emotional experience was linked to lower life satisfaction. 
 
+## Keltner, D., & Cowen, A. (2021). `r colored(" [[Note](./Keltner_Cowen_2021/Keltner_Cowen_2021.nb.html)]","#8CC1DE" ,"14pt")` 
+A taxonomy of positive emotions. Current Opinion in Behavioral Sciences, 39, 216–221. https://doi.org/10.1016/j.cobeha.2021.04.013
+
+
 # Emotion regulation 
 
 ## Theory/ Review 
@@ -249,6 +253,10 @@ Controversy:
 - Generalizability issue regarding methodology (e.g., platform choice; material wording)
     - Mazar, N., Elbaek, C. T., & Mitkidis, P. (2023). `r colored("[[Note](./Mazar_etal_2023/Mazar_etal_2023.nb.html)]","#8CC1DE" ,"14pt")` Experiment aversion does not appear to generalize. Proceedings of the National Academy of Sciences, 120(16), e2217551120. https://doi.org/10.1073/pnas.2217551120 
     - This one I think the evidence is not in favor of the original author. It's not that the phenomenon that found is not "real." It's just that it can only be found under a very specific condition (e.g., MTurk; with specific wording).
+
+## Poel, M., Meyer, E. T., & Schroeder, R. (2018). `r colored("[[Note](./Poel_etal_2018/Poel_etal_2018.nb.html)]","#8CC1DE" ,"14pt")`
+Big Data for Policymaking: Great Expectations, but with Limited Progress? Policy & Internet, 10(3), 347–367. https://doi.org/10.1002/poi3.176
+
 
 
 # Politics & Political psych 
