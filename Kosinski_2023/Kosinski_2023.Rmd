@@ -1,0 +1,117 @@
+---
+title: "Kosinski_2023"
+subtitle: "Computational psychology."
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Def of big data:
+
+  - Volume 
+  - Velocity 
+  - Variety 
+
+Features:
+  
+  - Imprecise 
+  - Incomplete
+  - Incorrect 
+  - Unstructured 
+
+Opportunities: 
+
+  - High diversity (heterogeneity)
+  - Ecological validity 
+    - Challenges: Big data were not designed to produce reliable data 
+  - From self-reports to observation 
+    - Self-reported mobility can be replaced by records of participants’ geographical locations; self-reported political labels can be replaced by records of campaign contributions, voter registries, or political opinions expressed to one’s friends on social media; and self-reported social network structures can be replaced by social interactions recorded on social networks, on communication platforms, and by mobile sensors. 
+  - Experiments and natural experiments 
+    - A/B tests 
+  - Interventions 
+    - e.g., A smartphone application that stimulated interaction with weak ties in one’s social network was found to boost users’ social capital (Kobayashi, Boase, Suzuki, & Suzuki, 2015).
+  
+
+Use: 
+
+  - As a source of interpretable variables (e.g., Using LIWC to estimate the emotional tone of a status update)
+    - Unsupervised learning techniques: discover patterns (e.g., cluster analysis ---> identify popular topics) 
+  - As an input to prediction models 
+    - e.g., studying psychological phenomena (e.g., identifying the causes of psychological disorders) and solving applied problems (e.g., diagnosing psychological disorders) 
+    - More on this later 
+    
+Type of Big Data 
+
+  - Language ---> trait-like properties, educational performance, life expectancy, values, resilience to trauma 
+  - Behavioral residues stored in usage logs 
+  - Image and audio-visual data 
+  - Mobile sensors (e.g., accelerometers)
+
+Privacy:
+
+  - Friends and coworkers regularly encounter each other on dating websites and are thus exposed to information about each other’s preferences, oftentimes in intimate detail. However, such profile information, while often publicly available, is treated as personal, and people commonly pretend not to know facts about each other that were gleaned from dating website profiles.
+  - It is often not clear to what extent this information can be studied without obtaining consent from all the involved parties.
+  - Big-data research not only offers the chance to boost our understanding of human behavior and thus improve the condition of humankind, but can also potentially provide solutions to the very privacy risks discussed above.
+
+Bias:
+
+  - While striving to build models that are as unbiased as possible, we should not forget that even a biased AI model is `r colored("often fairer than the human decision-making process that it is designed to aid or replace", "gold", bold = T)`. A growing body of research indicates that complementing or replacing human judgments with carefully monitored algorithms offers the promise of reducing discrimination (Kusner, Loftus, Russell, & Silva, 2017). 
+    - Replacing judges with an AI algorithm would result in the reduction of crime rates by up to 25% with no change in jailing rates (or, alternatively, the reduction of jail populations by over 40% with no increase in crime rates).
+    - Moreover, these gains in accuracy were accompanied by a significant reduction in racial bias: Following the algorithm’s decisions would reduce the percentage of African Americans and Hispanics in jail. (Kleinberg, Lakkaraju, Leskovec, Ludwig, & Mullainathan, 2018)
+
+
+Prediction-focused 
+
+  - Psychology has focused mainly on designing and testing models (theories) and somewhat less on testing whether such models predict behavior outside of the lab.
+  - Google Flu Trends:
+    - A poor predictor of future flu levels. It turned out that the GFT model overfitted the training data: Matching a huge number of search terms with a relatively small set of historical influenza data produced spurious correlations that were of no out-of-sample predictive value. ---> A more thorough, theory-driven examination of the search queries employed in the prediction model could have helped to build a higher-quality model.
+
+
+Many psychological phenomena are extremely complex. Big data and modern algorithms (e.g., neural networks), can help capture the complexity of human behavior, social interactions, or the neural mechanisms of the human brain. We may have to accept, however, that the algorithms can model (or, one could even say, comprehend) phenomena that may be too complex for us to understand.
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

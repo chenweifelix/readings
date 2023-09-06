@@ -46,6 +46,7 @@ For a list of non-academic institutions working on policy-making, see Bowers, J.
 
 - Let us calculate, without further ado, and see who is right. —Gottfried Leibniz (Wiener, 1951; taken from Watt, 2017)
 - The easiest way to win an argument is to run another experiment or another statistical regression (taken from Buyalskaya_et_al_2021 as they talk about behavioral economists)
+- “I shall endeavour to prove first, that reason alone can never be a motive to any action of the will; and secondly, that it can never oppose passion in the direction of the will. ...Reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them.” (Hume, 1984, pp. 460–462)
 
 - Description- vs. Explaination- vs. Prediction- vs. Solution-oriented. 
 
@@ -105,6 +106,14 @@ Integrating explanation and prediction in computational social science. Nature, 
 
 One of the perspectives from the special issue of *Nature*
 
+## Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). `r colored("[[Note](./Lazer_etal_2021/Lazer_etal_2021.nb.html)]","#8CC1DE" ,"14pt")`
+Meaningful measures of human society in the twenty-first century. Nature, 595(7866), Article 7866. https://doi.org/10.1038/s41586-021-03660-7
+
+## Kosinski, M. (2023). `r colored("[[Note](./Kosinski_2023/Kosinski_2023.nb.html)]","#8CC1DE" ,"14pt")`
+Computational psychology.
+
+## Hong, S., Hyoung Kim, S., Kim, Y., & Park, J. (2019). `r colored("[[Note](./Hong_etal_2019/Hong_etal_2019.nb.html)]","#8CC1DE" ,"14pt")`
+Big Data and government: Evidence of the role of Big Data for smart cities. Big Data & Society, 6(1), 2053951719842543. https://doi.org/10.1177/2053951719842543
 
 
 # Emotion 
@@ -130,6 +139,9 @@ A taxonomy of positive emotions. Current Opinion in Behavioral Sciences, 39, 216
 Uusberg, A., Ford, B., Uusberg, H., & Gross, J. J. (2023). `r colored(" [[Note](./Uusberg_et_at_2023/Uusberg_et_at_2023.nb.html)]","#8CC1DE" ,"14pt")`
 Reappraising reappraisal: An expanded view. Cognition and Emotion, 0(0), 1–14. https://doi.org/10.1080/02699931.2023.2208340
 
+Wadley, G., Smith, W., Koval, P., & Gross, J. J. (2020). `r colored(" [[Note](./Wadley_etal.2023/Wadley_etal.2023.nb.html)]","#8CC1DE" ,"14pt")`
+Digital Emotion Regulation. Current Directions in Psychological Science, 29(4), 412–418. https://doi.org/10.1177/0963721420920592
+
 
 ## Motivated ER 
 
@@ -150,6 +162,9 @@ Walton, G. M., & Wilson, T. D. (2018). Wise interventions: Psychological remedie
 ## Walton, G. M., & Yeager, D. S. (2020). `r colored("[[Note](./Walton_2020/Walton_2020.nb.html)]","#8CC1DE" ,"14pt")`
 Seed and Soil: Psychological Affordances in Contexts Help to Explain Where Wise Interventions Succeed or Fail. Current Directions in Psychological Science, 29(3), 219–226. https://doi.org/10.1177/0963721420904453
 
+Also see: Smith, W., Wadley, G., Webber, S., Tag, B., Kostakos, V., Koval, P., & Gross, J. J. (2022). Digital Emotion Regulation in Everyday Life. CHI Conference on Human Factors in Computing Systems, 1–15. https://doi.org/10.1145/3491102.3517573
+
+- Qualitative study how ditigal ER 
 
 # Interpersonal Emotion Regulation 
 
@@ -178,6 +193,14 @@ What do we know when we LIWC a person? Text analysis as an assessment tool for t
 Emotion Naming Impedes Both Cognitive Reappraisal and Mindful Acceptance Strategies of Emotion Regulation. Affective Science, 2(2), 187–198. https://doi.org/10.1007/s42761-021-00036-y
 
 # Meta Science
+
+## Yarkoni, T. (2022).  `r colored("[[Note](./Yarkoni_2022/Yarkoni_2022.nb.html]","#8CC1DE" ,"14pt")`
+The generalizability crisis. Behavioral and Brain Sciences, 45, e1. https://doi.org/10.1017/S0140525X20001685
+
+## Grossmann, et al. (2023). `r colored("[[Note](./Grossmann_etal_2023/Grossmann_etal_2023.nb.html]","#8CC1DE" ,"14pt")`
+Insights into the accuracy of social scientists’ forecasts of societal change. Nature Human Behaviour, 7(4), Article 4. https://doi.org/10.1038/s41562-022-01517-1
+
+
 
 ## Scientific perspectives 
 
@@ -228,6 +251,9 @@ Health in the United States: Are Appeals to Choice and Personal Responsibility M
 
 
 # Policy 
+
+## Hong, S., Hyoung Kim, S., Kim, Y., & Park, J. (2019). `r colored("[[Note](./Hong_etal_2019/Hong_etal_2019.nb.html)]","#8CC1DE" ,"14pt")`
+Big Data and government: Evidence of the role of Big Data for smart cities. Big Data & Society, 6(1), 2053951719842543. https://doi.org/10.1177/2053951719842543
 
 ## Bowers, J., & Testa, P. F. (2019). `r colored("[[Note](./Bowers_Testa_2019/Bowers_Testa_2019.nb.html)]","#8CC1DE" ,"14pt")`
 Better government, better science: The promise of and challenges facing the evidence-informed policy movement. Annual Review of Political Science, 22(1), 521–542. https://doi.org/10.1146/annurev-polisci-050517-124041
@@ -287,6 +313,15 @@ The political is personal: The costs of daily politics. Journal of Personality a
 
 ## Douglas, K. M., & Sutton, R. M. (2023).  `r colored("[[Note](./Douglas_Sutton_2023/Douglas_Sutton_2023.nb.html)]","#8CC1DE" ,"14pt")`
 What are conspiracy theories? A definitional approach to their correlates, consequences, and communication. Annual Review of Psychology, 74(1), 271–298. https://doi.org/10.1146/annurev-psych-032420-031329
+
+## Marcus, G. E., Valentino, N. A., Vasilopoulos, P., & Foucault, M. (2019). 
+Applying the Theory of Affective Intelligence to Support for Authoritarian Policies and Parties. Political Psychology, 40(S1), 109–139. https://doi.org/10.1111/pops.12571
+  
+- Have this quote of Hume that basically says passion overrises cognition 
+- Discrete emotion approach 
+- Comparing the effect of fear and anger on voting behaviors among right-wing vs. left-wing 
+- Anger, but not fear, motivated right-wing to support right-wing parties (e.g., authoritarian) 
+
 
 # Positive emotion 
 Shiota, M. N., Campos, B., Oveis, C., Hertenstein, M. J., Simon-Thomas, E., & Keltner, D. (2017). `r colored(" [[Note](./Shiota_etal_2017/Shiota_etal_2017.nb.html)]","#8CC1DE" ,"14pt")`  
@@ -387,6 +422,10 @@ Fischer, R., & Karl, J. A. (2022). Unraveling values and well-being—Disentangl
 
 ## Wilson T. D. 2022  `r colored("[[Note](./Wilson_2022/Wilson_2022.nb.html)]","#8CC1DE" ,"14pt")`
 What is social psychology? The construal principle. Psychological Review, 129(4), 873–889. https://doi.org/10.1037/rev0000373
+
+
+## Yin, Y., Dong, Y., Wang, K., Wang, D., & Jones, B. F. (2022). `r colored("[[Note](./Yin_etal_2022/Yin_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
+Public use and public funding of science. Nature Human Behaviour, 6(10), Article 10. https://doi.org/10.1038/s41562-022-01397-5
 
 
 <!--- Author, Year `r colored("[[Note](./Folder/File_name.nb.html)]","#8CC1DE" ,"14pt")`

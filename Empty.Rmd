@@ -33,7 +33,7 @@ source("../functions.R")
 
 ```{r echo=FALSE, results='hide'}
 empty_file = "Empty.Rmd"
-new_article = "Poel_etal_2018"
+new_article = "Hong_etal_2019"
 new_new_article_md = stringr::str_c(new_article,".Rmd")
 new_folder_path = stringr::str_c("./", new_article)
 
