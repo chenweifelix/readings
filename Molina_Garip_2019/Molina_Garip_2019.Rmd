@@ -1,0 +1,114 @@
+---
+title: "Molina_Garip_2019"
+subtitle: "Machine Learning for sociology. Annual Review of Sociology, 45(1), 27–45. https://doi.org/10.1146/annurev-soc-073117-041106"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+`r colored(" Indeed, in some of the best social science applications, the results from ML provide not an end goal, but the starting point for further analysis and conceptualization. As such, ML tools complement, but do not replace, existing methods in sociology.", "gold", bold = T)`
+
+Uses in the social sciences: 
+
+ - distilling measures from new data sources, such as text and images; 
+ - characterizing population heterogeneity; 
+ - improving causal inference; 
+ - offering predictions to aid policy decisions and theory development.
+
+# Classic Stat vs. ML 
+
+Breiman (2001b) describes two cultures of statistical analysis: data modeling and algorithmic modeling. Donoho (2017) updates the terms as `r colored("generative modeling", "gold", bold = T)` and `r colored("predictive modeling", "gold", bold = T)`. 
+  
+  - Classical statistics follows generative modeling. The central goal is inference, that is, to understand how an outcome is related to inputs. The analyst proposes a stochastic model that could have generated the data, and estimates the parameters of the model from the data. Generative modeling leads to simple and interpretable models but often ignores model uncertainty and out-of-sample performance. 
+  - ML follows predictive modeling. The central goal is prediction, that is, to forecast the outcome for future inputs. The analyst treats the underlying generative model for the data as unknown and considers the predictive accuracy of alternative models on new data. Predictive modeling favors complex models that perform well out of sample, but can produce black-box results that offer little insight on the mechanism linking the inputs to the output.
+
+# SML and policy implications 
+
+Common-task framework 
+
+Example: Glaeser et al., 2016: http://www.fragilefamilieschallenge.org/
+
+The team plans to conduct an in-depth study of the discrepant cases in the winning model (e.g., students who beat the odds) and, thus, `r colored("envisions the predictions as a first step to generating new insights and theory, not as an end goal.", "gold", bold = T)`
+
+Other examples spanning across econ, demographics, poli sci, criminology: 
+
+  - Kleinberg et al. (2015) use a lasso model to predict which patients would benefit most from joint replacement surgery among Medicare beneficiaries. 
+  - Billari et al. (2006) rely on decision trees to discriminate between Italians and Austrians in terms of the timing, sequencing, and quantum of life-course events. 
+  - Cederman & Weidmann (2017) discuss how SML can predict deadly conflict. 
+  - Beck et al. (2000) use neural networks to forecast militarized international disputes. 
+  - Brandt et al. (2011) employ automated coding of news stories to predict Palestinian-Israeli conflicts, and 
+  - Perry (2013) applies random forests to predict violent episodes in Africa. 
+  - Berk (2012) reviews his extensive work that uses SML for predictions of criminal risk.
+
+`r colored("These scholars use their predictions as a starting point for disentangling the process in question and for pushing existing theory.", "gold", bold = T)`
+
+
+Another example: 
+
+Kleinberg et al. (2017), for example, illustrate how machine predictions can help us understand the process underlying judicial decisions. The authors first train a gradient-boosted decision tree model to predict judges’ bail-or-release decisions in New York City, and then they use the quasi- random assignment of judges to cases to explain the sources of the discrepancy between model predictions and actual decisions. Their findings show that judges overweight the current charge, releasing high-risk cases if their present charge is minor and detaining low-risk ones if the present charge is serious. These findings reveal important insights on `r colored("human decision-making", "gold", bold = T)` and carry the potential to inspire new theory. From a policy standpoint, the authors’ predictive model, if used in practice, promises significant welfare gains over human decisions without eroding important social values (e.g., racial equality): `r colored("reducing the reoffending rate by 25% with no increase in jailing rate or, alternatively, pulling down the jailing rate by 42% with no increase in reoffending rate.", "gold", bold = T)` 
+
+# Concerns about inequalities 
+
+- Trade-off between predictive accuracy and algorithmic fairness
+- Define fairness in algorithm:
+  - To see the complexity of the problem, consider a predictive algorithm that outputs loan decisions $(\hat{Y})$ from credit scores $(X)$ (Hardt et al. 2016). Assume the algorithm produces more accurate predictions for men than women and recommends more loans to be given to men. One way to make the algorithm fair is to exclude applicants’ gender from the data, but this solution fails if gender is correlated with another input, such as income. Another way is to seek demographic parity, that is, to *constrain the model so that gender has no correlation with the loan decision*. But this constraint might generate disparity in some other characteristic (Dwork et al. 2012). Yet another way to define fair is to *impose equal opportunity* (Hardt et al. 2016), that is, to force the model to make men and women equally likely to qualify for loans within a given subpopulation (e.g., individuals who pay back their loans).
+  - Different definitions of fairness yield different outcomes. And it is difficult (if not impossible) to implement multiple definitions at the same time (Berk et al. 2018). Addressing algorithmic fairness is not just a technical issue in ML; it requires us—as a society—to consider difficult trade-offs
+
+
+# ML: New Answers to Old Questions 
+
+1.Supervised Machine Learning Helps Us Break Away from General Linear Reality
+  
+  - cf. flatland fallacy 
+
+2. Machine Learning Offers Tools for Exploration and Discovery
+
+  - ML gives us a vast array of tools to explore and learn from data, but for these tools to be useful in sociology, we first need to distinguish exploratory work from confirmatory research. Conducting confirmatory research requires minimizing researcher degrees of freedom, ideally by preregistering hypotheses and other design choices in a public forum (e.g., the Open Science Framework) (Baldassarri & Abascal 2017, Hofman et al. 2017, Ioannidis & Doucouliagos 2013, Simmons et al. 2011, Watts 2014). 
+  - Many of us do not conduct confirmatory work in this strict sense. Instead we go back and forth between data, statistical models, and theory until we gain a novel insight. Presenting such efforts as exploratory allows us to truthfully describe where our ideas come from. It frees us to use ML (and other) tools for discovery and creative conceptualization. It helps us generate novel hypotheses for subsequent confirmatory work. Recognition of exploratory work, however, requires support from journals and an expansion of scientific values.
+  
+  
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+<img src="Screenshots.png" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

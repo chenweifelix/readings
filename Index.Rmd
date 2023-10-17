@@ -42,13 +42,24 @@ h2{
 
 For a list of non-academic institutions working on policy-making, see Bowers, J., & Testa, P. F. (2019). `r colored("[[Note](./Bowers_Testa_2019/Bowers_Testa_2019.nb.html)]","#8CC1DE" ,"14pt")`
 
+My previous reading list: 
+ `r colored("[[See here](./Literature.pdf)]","#8CC1DE" ,"14pt")`
+
 # Gold sentences
 
 - Let us calculate, without further ado, and see who is right. —Gottfried Leibniz (Wiener, 1951; taken from Watt, 2017)
 - The easiest way to win an argument is to run another experiment or another statistical regression (taken from Buyalskaya_et_al_2021 as they talk about behavioral economists)
 - “I shall endeavour to prove first, that reason alone can never be a motive to any action of the will; and secondly, that it can never oppose passion in the direction of the will. ...Reason is, and ought only to be the slave of the passions, and can never pretend to any other office than to serve and obey them.” (Hume, 1984, pp. 460–462)
-
+- "Indeed, in some of the best social science applications, the results from ML provide not an end goal, but the starting point for further analysis and conceptualization. As such, ML tools complement, but do not replace, existing methods in sociology." (Molina & Garip, 2019; p.40)
 - Description- vs. Explaination- vs. Prediction- vs. Solution-oriented. 
+- Social and physical scientists tend to have different goals (Borgatti et. al., 2009; p.895)
+- They ["boundaries between areas of psychology] have always seemed somewhat arbitrary or artificial, more a function of the tastes or methods that happen to dominate at a given time and less a function of fundamental differences in the principles and mechanisms that are operative across areas. (Dweck, 2017)
+
+# Notes
+
+- For some lit on the life-course perspectives of sociologists, see Heckhausen et al., 2019
+- For the role of emotions in self-regulation (across the lifespan), see Heckhausen et al., 2019 (p. 199-200)
+  - Incentives, Instigators, Motvational resourses
 
 # Feature articles 
 
@@ -101,6 +112,10 @@ Computational Social Science and Sociology. Annual Review of Sociology, 46(1), 6
 
   - SICSS: A major training event in the field funded by the Russell Sage Foundation and the Alfred P. Sloan Foundation [Link](https://sicss.io/)
 
+## Molina, M., & Garip, F. (2019).`r colored("[[Note](./Molina_Garip_2019/Molina_Garip_2019.nb.html)]","#8CC1DE" ,"14pt")`
+Machine Learning for sociology. Annual Review of Sociology, 45(1), 27–45. https://doi.org/10.1146/annurev-soc-073117-041106
+
+
 ## Hofman, J. M., Watts, D. J., Athey, S., Garip, F., Griffiths, T. L., Kleinberg, J., Margetts, H., Mullainathan, S., Salganik, M. J., Vazire, S., Vespignani, A., & Yarkoni, T. (2021). `r colored("[[Note](./Hofman_etal_2021/Hofman_etal_2021.nb.html)]","#8CC1DE" ,"14pt")`
 Integrating explanation and prediction in computational social science. Nature, 595(7866), Article 7866. https://doi.org/10.1038/s41586-021-03659-0
 
@@ -114,6 +129,14 @@ Computational psychology.
 
 ## Hong, S., Hyoung Kim, S., Kim, Y., & Park, J. (2019). `r colored("[[Note](./Hong_etal_2019/Hong_etal_2019.nb.html)]","#8CC1DE" ,"14pt")`
 Big Data and government: Evidence of the role of Big Data for smart cities. Big Data & Society, 6(1), 2053951719842543. https://doi.org/10.1177/2053951719842543
+
+## Athey, S. (2017). `r colored("[[Note](./Athey_2017/Athey_2017.nb.html)]","#8CC1DE" ,"14pt")`
+Beyond prediction: Using big data for policy problems. Science, 355(6324), 483–485. https://doi.org/10.1126/science.aal4321
+
+# Development 
+
+## Heckhausen, J., Wrosch, C., & Schulz, R. (2019). `r colored(" [[Note](./Heckhausen_etal.2019/Heckhausen_etal.2019.nb.html)]","#8CC1DE" ,"14pt")`
+Agency and motivation in adulthood and old age. Annual Review of Psychology, 70(1), 191–217. https://doi.org/10.1146/annurev-psych-010418-103043
 
 
 # Emotion 
@@ -241,6 +264,12 @@ Mental illness and well-being: An affect regulation perspective. World Psychiatr
 ## Ryan, R. M., et al (2022). `r colored(" [[Note](./Ryan_etal_2022/Ryan_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
 We Know This Much Is (Meta-Analytically) True: A Meta-Review of Meta-Analytic Findings Evaluating Self-Determination Theory. Psychological Bulletin, 148(11/12), 813–842. https://doi.org/10.1037/bul0000385
 
+## Heckhausen, J., Wrosch, C., & Schulz, R. (2019). `r colored(" [[Note](./Heckhausen_etal.2019/Heckhausen_etal.2019.nb.html)]","#8CC1DE" ,"14pt")`
+Agency and motivation in adulthood and old age. Annual Review of Psychology, 70(1), 191–217. https://doi.org/10.1146/annurev-psych-010418-103043
+
+## Dweck, C. S. (2017).  `r colored(" [[Note](./Dweck_2017/Dweck_2017.nb.html)]","#8CC1DE" ,"14pt")`
+From needs to goals and representations: Foundations for a unified theory of motivation, personality, and development. Psychological Review, 124(6), 689–719. https://doi.org/10.1037/rev0000082
+
 ## Shiota, M. N., Papies, E. K., Preston, S. D., & Sauter, D. A. (2021). `r colored(" [[Note](./Shiota_et_al_2021/Shiota_et_al_2021.nb.html)]","#8CC1DE" ,"14pt")`
 Positive affect and behavior change. Current Opinion in Behavioral Sciences, 39, 222–228. https://doi.org/10.1016/j.cobeha.2021.04.022
 
@@ -286,6 +315,9 @@ Controversy:
 
 ## Poel, M., Meyer, E. T., & Schroeder, R. (2018). `r colored("[[Note](./Poel_etal_2018/Poel_etal_2018.nb.html)]","#8CC1DE" ,"14pt")`
 Big Data for Policymaking: Great Expectations, but with Limited Progress? Policy & Internet, 10(3), 347–367. https://doi.org/10.1002/poi3.176
+
+## Athey, S. (2017). `r colored("[[Note](./Athey_2017/Athey_2017.nb.html)]","#8CC1DE" ,"14pt")`
+Beyond prediction: Using big data for policy problems. Science, 355(6324), 483–485. https://doi.org/10.1126/science.aal4321
 
 
 
@@ -427,6 +459,14 @@ What is social psychology? The construal principle. Psychological Review, 129(4)
 ## Yin, Y., Dong, Y., Wang, K., Wang, D., & Jones, B. F. (2022). `r colored("[[Note](./Yin_etal_2022/Yin_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
 Public use and public funding of science. Nature Human Behaviour, 6(10), Article 10. https://doi.org/10.1038/s41562-022-01397-5
 
+
+# 2023 Fall 
+
+## SNA `r colored("[[Note](./2023 Fall/SNA/SNA.nb.html)]","#8CC1DE" ,"14pt")`
+
+## Adult development and aging `r colored("[[Note](./2023 Fall/adult-dev-aging/adult-dev-aging.nb.html)]","#8CC1DE" ,"14pt")`
+
+## Intersectionality `r colored("[[Note](./2023 Fall/intersectionality/intersectionality.nb.html)]","#8CC1DE" ,"14pt")`
 
 <!--- Author, Year `r colored("[[Note](./Folder/File_name.nb.html)]","#8CC1DE" ,"14pt")`
 Full-text citation <br> --->

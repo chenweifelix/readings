@@ -14,7 +14,7 @@ output:
 
 ```{r echo=FALSE}
 library(tidyverse)
-source("../functions.R")
+source("~/Desktop/Academy/Readings/functions.R")
 ```
 
 ```{css}
@@ -33,7 +33,7 @@ source("../functions.R")
 
 ```{r echo=FALSE, results='hide'}
 empty_file = "Empty.Rmd"
-new_article = "Hong_etal_2019"
+new_article = "Heckhausen_etal.2019"
 new_new_article_md = stringr::str_c(new_article,".Rmd")
 new_folder_path = stringr::str_c("./", new_article)
 
@@ -47,7 +47,7 @@ file.edit(new_path)
 system2("open", new_folder_path)
 ```
 
-`r colored("", "gold", bold = T)`
+`r colored("")`
 <img src="Screenshots.png" width=80%>
 
 

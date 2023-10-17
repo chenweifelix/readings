@@ -1,0 +1,113 @@
+---
+title: "Athey_2017"
+subtitle: "Beyond prediction: Using big data for policy problems. Science, 355(6324), 483–485. https://doi.org/10.1126/science.aal4321"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Gaps between making a prediction and making a decision. 
+
+In many applications, SML tech- niques can be successfully applied by data scien- tists with little knowledge of the problem domain. For example, the company Kaggle hosts prediction competitions (www.kaggle.com/competitions) in which a sponsor provides a data set, and contestants around the world can submit entries, often predicting successfully despite limited con- text about the problem.
+
+`r colored("However, much less attention has been paid to the limitations of pure prediction methods. When SML applications are used “off the shelf” without understanding the underlying assumptions or ensuring that conditions like stability are met, then the validity and usefulness of the conclusions can be compromised. A deeper question concerns whether a given problem can be solved using only techniques for prediction, or whether statistical approaches to estimating the causal effect of an intervention are required", "gold", bold = T)` 
+
+  - Examples resource allocation: 
+  
+  1. J. Kleinberg, J. Ludwig, S. Mullainathan, Z. Obermeyer, Am. Econ. Rev. 105, 491–495 (2015): Who should receive treatment given limited resources
+    
+      - Those who are at high risk of dying within one year due to other causes should not 
+      - Their argument: “benefits accrue over time, so surgery only makes sense if someone lives long enough to enjoy them; joint replacement for someone who dies soon afterward is futile—a waste of money and an unnecessary painful imposition on the last few months of life” (p. 493). ---> In this simplified problem, the rationle for focusing on prediction is clear 
+      - However, the authors highlight the fact that pure prediction methods do not answer the more complex question of which patients should be given the highest priority to receive surgery, among those who are likely to survive more than a year. 
+        - The question of optimally allocating a scarce resource (hip replacement surgery) to the patients for whom the causal effect of the surgery on patient welfare is highest is a much harder problem, one that generally requires answering counterfactual questions: What would happen under a variety of alternative assignment policies, policies that have never been implemented before?
+  
+  2. E. Ascarza, Retention futility: Targeting high risk customers might be ineffective (2016); available at SSRN. Probability of customer churn (a customer abandons a company or service, and the company responds by allocating interventions to those customers at highest risk of churn)
+  
+      - Ascarza found that allocating resources according to a simplistic predictive model is not optimal ---> The overlap between the group with highest risk of churning and the group who would respond most to interventions was only 50%. Thus, treating the problem of retaining customers as if it were a prediction problem yielded lower payoffs to the firm.
+  
+  3. Public sector resource allocation problem; e.g., how a city should allocate building inspectors optimally to minimize safety or health violations. 
+    
+      - NYC's Firecast algorithm allocates fire inspectors according to the predicted probability of a violation being detected upon inspection 
+      - Such problem can fit squarely in the prediction domain if the following simplifying assumption were true: 
+        
+        -  (i) The behavior of the individual establishments being inspected is fixed; and 
+        - (ii) when problems are identified, they can be immediately fixed at a low cost that does not vary across units.
+      
+      - A more realistic setting incorporates 
+        - heterogeneity across units: A building may be at higher risk of fire due to old wiring, but other considerations make it difficult to replace the wiring. Other units may have lower predicted risk, but it may be easy and inexpensive to make substantial improvements. 
+        - responsiveness; if violations entail fines, some firms may be more sensitive to the prospect of fines than others. 
+      
+      - Overall, solving the city’s inspection allocation problem involves estimating the *causal effect* of inspection policies: What is the expected improvement in overall quality of units (e.g., food poisoning rates) in the city under a new inspector allocation regime?
+      
+`r colored("Prediction and causal inference are distinct (though closely related) problems", "gold", bold = T)`
+  
+  - Outside of randomized experiments, causal inference is only possible when the analyst makes assumptions beyond those required for prediction methods, assumptions that typically are not directly testable and thus require domain expertise to verify
+  
+    - Recent methodological advances focus on adjusting for observed confounders in big-data applications
+    - `r colored("A theme in this literature is that off-the-shelf prediction methods from SML lead to biased estimates of causal effects, but that consistent and efficient estimation of causal effects can be achieved by modifying SML techniques.", "gold", bold = T)`
+    - Off-the-shelf applications of SML techniques are designed to answer the following type of question: If an analyst is told that on a particular day, prices were unusually high, what is the best prediction of occupancy on that day? The correct answer is that occupancy is likely to be high.
+    - By contrast, the question of the effect of changing the pricing policy is a causal question, and common experience indicates that if the firm implemented a new policy to systematically raise prices by 5% everywhere, it would be unlikely to sell more hotel rooms. 
+      
+      - ---> A different set of statistical techniques is required to answer this question, perhaps exploiting “natural experiments” in the data or an approach known as “instrumental variables” [see (13) for a review of these techniques]. Recently, several authors have combined advances from SML with this traditionally “small data” set of methods, both for estimating average causal effects (18) and for personalized estimates of causal effects (19).
+    
+# Examples of applications of SML:
+
+  - Criminal justice (R. Berk, Criminal Justice Forecasts of Risk: A Machine Learning Approach (Springer Briefs in Computer Science, 2012).)
+  - Economic well-being at a granular level using mobile data, satellite imagery, or Google Street View  (N. Naik, R. Raskar, C. A. Hidalgo, Am. Econ. Rev. 106, 128–132 (2016).; J. Blumenstock, G. Cadamuro, R. On, Science 350, 1073–1076 (2015).; R. Engstrom, J. Hersh, D. Newhouse, “Poverty in HD: What Does High Resolution Satellite Imagery Reveal about Economic Welfare?” (2016).)
+  - Allocating fire and health inspectors in cities (E. L. Glaeser, A. Hillis, S. D. Kominers, M. Luca, Am. Econ. Rev.
+106, 114–118 (2016).)
+  - Urban applications (E. L. Glaeser, S. D. Kominers, M. Luca, N. Naik, Big data and big cities: The promises and limitations of improved measures of urban life (Technical Report, National Bureau of Economic Research, 2015))
+
+
+Beyond the distinction between prediction and causal inference, methods optimized solely for prediction also do not account for other factors that may be important in data-driven policy analysis or resource allocation. For example, *incentives* and *manipulability* can be important. If a building or restaurant owner anticipates a low probability of being inspected based on these characteristics, he or she may reduce efforts for safety.
+
+Other considerations: 
+
+  - Transparency and interpretability (for stakeholders to understand)
+  - Fairness and discrimination
+
+Overall, for big data to achieve its full potential in business, science, and policy, multidisciplinary approaches are needed that build on new computational algorithms from the SML literature, but also that bring in the methods and practical learning from decades of multidisciplinary research using empirical evidence to inform policy. 
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

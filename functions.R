@@ -1,6 +1,6 @@
 
 #color and size 
-colored <- function(x, color, size = "none", bold = F, ita = F, u = F) {
+colored <- function(x, color = "gold", size = "none", bold = T, ita = F, u = F) {
   if (is.numeric(size)){size = stringr::str_c(as.character(size), "pt")}
   if (bold == T){bold = "bold"}
   if (ita == T){ita = "italic"}

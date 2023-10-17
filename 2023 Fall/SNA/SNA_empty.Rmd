@@ -1,0 +1,68 @@
+---
+title: "Authors_Years"
+subtitle: "Pub_title"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../../../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+-----
+[Back to index](../index.nb.html)
+
+
+```{r echo=FALSE, results='hide'}
+empty_file = "SNA_empty.Rmd"
+new_article = "Borgatti_etal_2022_ch15"
+new_new_article_md = stringr::str_c(new_article,".Rmd")
+new_folder_path = stringr::str_c("./", new_article)
+
+old_path = stringr::str_c("./", new_article, "/", empty_file)
+new_path = stringr::str_c("./", new_article, "/", new_new_article_md)
+
+dir.create(new_article) #create a new folder
+file.copy(empty_file, new_article) #move the current file to that folder 
+file.rename(old_path, new_path) #rename the current file 
+file.edit(new_path)
+system2("open", new_folder_path)
+```
+
+`r colored("")`
+<img src="Screenshots.png" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

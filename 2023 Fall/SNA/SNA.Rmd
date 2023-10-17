@@ -1,0 +1,82 @@
+---
+title: "Authors_Years"
+subtitle: "Pub_title"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Syllabus](/Users/yuchenwei/Desktop/Academy/01 PhD/Northwestern/Quarters/2023 Fall/SNA/Fall 2023 PhD SNA Syllabus as of 2023-0912.pdf)
+
+
+[Back to index](../../index.nb.html)
+
+# Week 1 Introduction 
+
+Borgatti, S. P., Mehra, A., Brass, D. J., & Labianca, G. (2009). Network Analysis in the Social Sciences. Science, 323(5916), 892–895. https://doi.org/10.1126/science.1165821 ---[Note](./Borgatti_etal_2009/Borgatti_etal_2009.nb.html)
+
+Contractor, N., & Forbush, E. (2017). Networks. In C. R. Scott, J. R. Barker, T. Kuhn, J. Keyton, P. K. Turner, & L. K. Lewis (Eds.), The International Encyclopedia of Organizational Communication (1st ed., pp. 1–25). Wiley. https://doi.org/10.1002/9781118955567.wbieoc148 ---[Note](./Contractor_Forbush_2017/Contractor_Forbush_2017.nb.html)
+
+# Week 2 Descriptive Analysis - Local Properties
+
+Borgatti, S.; Everett, M. G.; Johnson, J. C.; Agneessens, F. (2022) Analyzing Social Networks Using R. SAGE Publications. Chapter 9 - Centrality. ---[Note](./Borgatti_etal_2022/Borgatti_etal_2022.nb.html)
+
+
+Prell, C. (2012). Social network analysis: History, theory and methodology. SAGE Publications. Chapter 8 Network Level.
+
+# Week 3 Descriptive Analysis - Global Properties
+
+Borgatti, S.; Everett, M. G.; Johnson, J. C.; Agneessens, F. (2022) Analyzing Social Networks Using R. SAGE Publications. Chapter 10 - Group-level Measures. ---[Note](./Borgatti_etal_2022_ch10/Borgatti_etal_2022_ch10.nb.html)
+
+Borgatti, S.; Everett, M. G.; Johnson, J. C.; Agneessens, F. (2022) Analyzing Social Networks Using R. SAGE Publications. Chapter 11 - Subgroups and Community Detection.---[Note](./Borgatti_etal_2022_ch11/Borgatti_etal_2022_ch11.nb.html)
+
+# Week 4: Preview SNA Methods; Predictive Network Analysis - MTML & ERGM
+
+Contractor, N. S., Wasserman, S., & Faust, K. (2006). Testing multitheoretical, multilevel hypotheses about organizational networks: An analytic framework and empirical example. Academy of Management Review, 31(3), 681-703. ---[Note](./Contractor_etal_2006/Contractor_etal_2006.nb.html)
+
+Borgatti, S.; Everett, M. G.; Johnson, J. C.; Agneessens, F. (2022) Analyzing Social Networks Using R. SAGE Publications. Chapter 15 up to section 15.4 - ERGMs and SAOMs. ---[Note](./Borgatti_etal_2022_ch15/Borgatti_etal_2022_ch15.nb.html) 
+
+
+-----
+[Back to index](../../index.nb.html)
+
+
+
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

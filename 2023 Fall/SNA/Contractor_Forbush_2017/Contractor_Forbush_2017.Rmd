@@ -1,0 +1,213 @@
+---
+title: "Contractor_Forbush_2017"
+subtitle: "Networks. In C. R. Scott, J. R. Barker, T. Kuhn, J. Keyton, P. K. Turner, & L. K. Lewis (Eds.), The International Encyclopedia of Organizational Communication (1st ed., pp. 1–25). Wiley. https://doi.org/10.1002/9781118955567.wbieoc148"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../../../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("../functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+A network is defined as a set of entities connected by one or more relations. A social network refers to a set of entities and relations in a social system. A communication network is one type of social network. The entities in social networks are often referred to as actors, and can be individuals or aggregates of individuals such as teams, organizations, or even entire nations. Actors can also be nonhuman entities with which human actors may engage, such as movies, articles, concepts, tasks, or websites. Historically, the relations in a communication network were messages – symbolic forms that convey meaning such as images, data, affect, information, and knowledge. Messages are created by, and transmitted among, one or more actors in a network. Today, communication scholars also examine relations that represent the extent to which actors share affect, interpretations, and cognitions. The intellectual premise of studying networks is that the relationships in which we are embedded emerge from, and contribute to, human behavior and attitudes.
+
+# Terminology
+
+1. scale-free networks
+
+  - Pareto principle (known colloquially as the 80–20 rule) ---> 80% of land in Italy was owned by 20% of the population
+  - A few nodes in the network were hubs or “stars” with a very large number of connections, while the rest of the actors in a network had many fewer network connections
+  - The proportion of nodes with a specified number of ties was independent of the size (or scale) of the network
+  - Examples: 
+    - linguistics, where 20% of the words in any given language are used 80% of the time, and literature, where 20% of published books account for 80% of all purchases
+
+# Dimenstions of network 
+
+### 1. Describing networks 
+
+- Multimodal network: A network that includes two or more types of actors (e.g., authors, keywords)
+- Multirelational network: Networks that include more than one type of relation 
+- Networks that are multimodal and multirelational are called multidimensional networks
+
+<hr> 
+- Network is often analyzed with matrix (aka sociomatrix)
+    - Adjacency matrix: matrix with only binary links (0, 1)
+    
+<hr> 
+- Network can be described at five levels: individual, dyadic, triadic, subgroup and global
+    - `r colored("Individual", "coral", bold = T)`
+      - centrality (indegree/outdegree): the number of links he/she has with other individuals
+      - isolate: a node without any ties 
+      - `r colored("Closeness centrality", "gold", bold = T)`: the extent to which an actor is able to reach all other actors in the network either via direct connections or indirectly via the fewest number of intermediaries
+        - In general individuals with high closeness centrality are attuned to the pulse of the network since they have access to all actors in the network via the shortest number of intermediaries. Hence, they are sometimes referred to as *pulse takers*.
+        - In a directed network, individ- uals with a high incoming closeness centrality could be the first to find out about any information such as some gossip or a rumor, and those with a high outgoing closeness centrality are best positioned to initiate the flow of information, by perhaps starting a rumor or spreading gossip.
+      - `r colored("Betweenness centrality", "gold", bold = T)`: the extent to which an actor is on the shortest indirect path between two actors who are not directly connected
+        - In general individuals with high betweenness centrality have the potential to serve as brokers in a network. 
+        - In the case of directed networks they have the ability to leverage two opportunities. 
+        - Actors with high betweenness based on *incoming ties* have the unique opportunity to generate creative ideas and innovations by combining ideas they obtained from those with whom they have direct ties – actors who are by definition not directly connected to each other and hence cannot explore the combination of their ideas.
+        - Actors with high betweenness based on *outgoing ties* have the opportunity to exercise greater autonomy – assured in the knowledge that what they tell one person is not likely to reach the other person since they are not directly connected.
+      - `r colored("Prestige centrality", "gold", bold = T)`: the extent to which an actor is connected to others who are in turn connected to others who are in turn connected to others, and so on ---> `r colored("eigenvector centrality", "gold", bold = T)`
+        - An individual with high prestige may not have many direct ties but may be efficient by connecting to a few well-connected individuals, who are in turn connected to a few well-connected individuals
+
+    - `r colored("Dyadic measures", "coral", bold = T)` of geodesic distance, MAN scores, and structural equivalence
+      - A dyad is defined as two nodes and any possible ties that may or may not exist between them.
+      - `r colored("Geodesic distance", "gold", bold = T)`: The shortest path between two actors ---> a measure of their degrees of separation 
+        - e.g., When two actors are directly connected they have a geodesic distance of 1. When two nodes are indirectly connected via a single intermediary, they have a geodesic distance of 2
+        - The number of distinct geodesics (or shortest paths) between two actors provides the dyad’s redundancy score ---> The higher the redundancy measure, the more likely it is that information will travel between the two nodes
+      - `r colored("MAN score", "gold", bold = T)` <--- conduct a dyad census that counts the MAN scores for all possible dyads in the network
+        - MAN refers to the number of mutual, asymmetric, and null dyads in the network
+          - A dyad is mutual if there is a directed tie from each of the actors to the other actor. 
+          - A dyad is asymmetric if there is a directed tie from one actor to the other but not in the other direction. 
+          - A dyad is null if there are no directed ties between them.
+          - The MAN scores for a network can be compared to the MAN scores computed for random versions of the network that have the same number of nodes and ties but whose ties are randomly assigned between nodes in the network
+            - Networks where the number of mutual dyads is significantly larger than the number of mutual dyads in equivalent random networks suggest a strong structural tendency for reciprocity. 
+            - However, networks where the number of asymmetric dyads is significantly larger than the number of asymmetric dyads in equivalent random networks would suggest a strong structural tendency for hierarchy or the presence of hubs in the observed network.
+      - `r colored("Structural equivalence", "gold", bold = T)`: the degree to which two nodes share similar positions in the network, irrespective of their direct or indirect ties to each other
+        - If two actors are connected to the same other individuals and also not connected to the same other individuals, they are deemed structurally equivalent
+        - actors who were structurally equivalent in a communication network would often adopt similar attitudes and behaviors even though they did not communicate directly <--- because being structurally equivalent exposed them to the same sources of information from all others in the network.
+    - `r colored("Tradic", "coral", bold = T)`
+      - `r colored("closure", "gold", bold = T)`: a triad that has all three nodes connected to each other  
+      - `r colored("clustering coefficient", "gold", bold = T)`, is computed as the proportion of triads in which an actor is engaged that have closure to the total number of possible triads in which an actor could have closure.
+      - `r colored("transitive", "gold", bold = T)`: when A directs a tie to B who in turn directs a tie to C, and we also observe that A directs a tie to C. 
+        - conduct a triad census ---> comparing the proportion of transitive triads to all possible triads in the observed network with the proportion of transitive triads in random versions of the network with the same number of nodes and ties
+        - The presence of more transitive triads than those observed in random networks suggests a modicum of hierarchy. This may occur in advice networks where it may be the case that A goes to B for advice, B goes to C for advice, and A also goes directly to C for advice, suggesting a hierarchy where A is at the low end and C at the high end
+      - `r colored("cyclicity", "gold", bold = T)`: A triad is cyclical if A directs a tie to B who directs a tie to C who directs a tie back to A, thereby creating a cycle
+        - If a triad census indicates more cyclicality in the observed network than random versions of the same network, it indicates a lack of hierarchy 
+          - reciprocity ring, where A helps B who helps C who in turns closes the ring by helping A
+          - In information seeking networks, this could represent an unhealthy informational closure with the blind leading the blind.
+    - `r colored("Subgroup", "coral", bold = T)`
+      - `r colored("Component", "gold", bold = T)`: the largest set of actors that are all directly or indirectly connected to one another
+        - In directed networks, a `r colored("strong component", "gold", bold = T)` is defined as the largest subset of actors where each actor can reach each other actor following the direction of the network tie. 
+        - A `r colored("weak component", "gold", bold = T)` is defined as the largest subset of actors where each actor can reach each other actor regardless of the direction of the tie.
+      - `r colored("Clique", "gold", bold = T)`: the largest subgroup of actors in a network, wherein all members are directly connected to each other.
+        - Actors in a clique can still be connected to actors outside the clique and can have membership in multiple cliques. 
+        - An actor is not part of a clique if it does not have a direct tie to every single actor in that subgroup
+        - A relaxed form: `r colored("", "gold", bold = T)`n-clique ---> the largest subset of actors that can reach all other actors in the subgroup directly or indirectly via no more than n steps
+        - An `r colored("", "gold", bold = T)`n-clan has the additional requirement that any two members of an n-clique must be connected indirectly in n steps that include intermediaries who are also in the subgroup.
+        - A `r colored("k-plex", "gold", bold = T)` is the largest subgroup of actors that relaxes the strict definition of a clique by allowing the actors to be connected to all but k members of the subgroup 
+          - e.g., For example, a 3-plex is the largest subset of actors where actors in the subgroup are directly connected to no less than three of the other actors in the network. 
+        - A `r colored("k-core", "gold", bold = T)`:  the largest subset of actors where all actors must be connected to at least k other actors. 
+          - This is a very useful metric for describing the so-called core–periphery structure that is often found in organizational communication networks. These networks are often characterized by a group of core insiders who interact more with one another, and to a smaller extent, with the rest of the actors on the periphery of the network.
+    - `r colored("Global", "coral", bold = T)`
+      - `r colored("Density or connectedness", "gold", bold = T)` ---> the proportion of actual links to the number of possible links ---> dense vs. sparse 
+      - `r colored("Diameter", "gold", bold = T)`: the largest geodesic distance between any pair of nodes ---> the largest geodesic distance is the largest shortest path between any pair of actors in the network ---> the largest indirect path that would be required to connect two actors within the network
+      - `r colored("Network centralization", "gold", bold = T)` is a metric used to describe the network as a whole based on the *variability* in actors’ centrality scores. 
+        - A high degree network centralization score describes a network where one or a few actors have very high degree centrality while the rest have low degree centrality (akin to the aforementioned scale-free networks). 
+      - Likewise a high betweenness, closeness, or prestige network centralization score describes a network where one or a few actors have high betweenness, closeness, or prestige centrality scores while the rest have low betweenness, closeness, or prestige centrality scores, respectively.
+
+### 2.1 Explaining networks: Theoretical advances
+
+Why do these structures emerge? Why do actors create, maintain and dissolve links and with what consequences? Put simply, why do certain networks form and how do they perform? 
+
+Self-interest, social exchange, and collective action are strategies actors use to form networks that will perform well.
+
+The rest reflect hmman propensitites 
+
+1. Self-interest
+
+- Based on models of rational choice ---> people's choices are to maximize gains (e.g., social capital) and minimize losses 
+- Social capital is measured as the access to resources available to actors from those in their social network (Coleman, 1988)
+- Structural holes: the space between two clusters
+- The functions and features of a broker (an actor who fills a structural hole): 
+  
+  - Gains advantages in terms of information access, timing, and referrals.
+    - `r colored("Access", "gold", bold = T)`: the broker’s ability to obtain privileged information and filter out unwanted information.
+    - `r colored("Timing", "gold", bold = T)`: gives brokers priority access to crucial information
+    - Brokers may also receive significantly more `r colored("referrals", "gold", bold = T)` as actors who are aware of the broker’s structural advantage will often seek them out for mutual benefit. 
+  - Brokers can fulfill a number of different roles in a network, such as being `r colored("coordinators", "gold", bold = T)` if they are a member of a subgroup and pass on information to other disconnected members within the same group. 
+  - If they are not a member of the subgroup in question, they can act as `r colored("consultants", "gold", bold = T)` by transferring messages between two unlinked members of the same group. 
+  - Brokers can be `r colored("gatekeepers", "gold", bold = T)` of a subgroup by controlling outsiders’ access to members within the group. 
+  - Conversely, brokers can act as `r colored("representatives", "gold", bold = T)` of their subgroup, regulating insiders’ access to outsider information. 
+  - `r colored("Liaisons", "gold", bold = T)` act as a mediator between two entirely separate subgroups in which they are not a member.
+
+
+2. Exchange theories
+
+- Actors seek ties with those who offer you something you need and to whom in turn you offer something they need.
+- Major theories of exchange, which include social exchange (Emerson, 1976), resource dependency (Pfeffer & Salancik, 2003), and network exchange (Cook & Whitmeyer, 1992), seek to explain the creation of ties for exchanging resources among individuals and organizations, as well as their consequences. 
+- An overreliance on one actor for an exchange tie could create an unhealthy co-dependence
+
+3. Collective action
+
+- Actors create ties with another actor because they believe this gives the two of them the best opportunity to gain something from a third party. 
+- `r colored("Public goods theory", "gold", bold = T)` 
+  - public goods (aka. commons): resources that are accessible to everyone and are seemingly endless in supply, although they can suffer a loss in quality due to crowding and overuse
+  - the theory is concerned with "free riders" 
+  - In communication networks, `r colored("connectivity", "gold", bold = T)` (the extent to which people are able to contact each other) and `r colored("communality", "gold", bold = T)` (the extent to which people store and share information) are public goods.
+  - Individual characteristics that are necessary in creating and maintaining these public goods include having an *interest* in the good (i.e., seeing its inherent value), and possessing the necessary *resources* to create and maintain it (time, money, energy, expertise). 
+  - These characteristics are *seldom found in high amounts within a single individual* (although when they are, it can make an immense difference), making the collective interest and resources of a group invaluable to supporting public goods
+
+4. Contagion
+
+- Theories of contagion state that actors are susceptible to becoming “infected” with certain beliefs, behaviors, and attitudes by virtue of their relations in a network. 
+- The process by which actors become more similar is known as `r colored("convergence.", "gold", bold = T)`
+- Explanation for the prevalence of scale-free network 
+
+5. Cognitive theories
+
+Cognitive theories of communication networks are based on individuals’ perceptions of the network as opposed to the “ground truth” (i.e., their actual observed interactions).
+
+- (1) `r colored("Semantic networks among actors", "gold", bold = T)`: capture the extent to which actors share interpretations of messages, events, and/or artifacts 
+- (2) `r colored("Semantic networks of text", "gold", bold = T)`: the nodes are words and the ties are typically co-occurrences in narrative or semantic similarity based on dictionaries 
+- (3) `r colored("Cognitive social structures", "gold", bold = T)`: individuals’ actions and interactions with you are based not on who you actually know but on who others think you know
+- (4) `r colored("Cognitive knowledge networks", "gold", bold = T)`: individuals’ actions and interactions with you are based not on what you actually know but what they think you know
+  - cognitive knowledge networks lend themselves well to testing propositions based on theories of transactive memory systems, which argue that in order to be effective, individuals must specialize in different areas of expertise, know the areas of expertise of others on the team, and help grow others’ expertise by routing knowledge to them that is relevant to their expertise
+- (5) `r colored("Cognitive consistency theories", "gold", bold = T)`: actors seek cognitive consistency in their relationship with people and concepts. In terms of networks, it results in actors choosing to forge ties, for instance, with friends of their friends
+  - actors form network ties with the friends of their friends in order to improve cognitive consistency but in so doing they may not perform as well, which is aided by bridging structural holes
+
+6. Homophily
+
+The theory of `r colored("self-categorization", "gold", bold = T)` states that individuals seek to legitimize their social identity by sorting themselves into the aforementioned categories. The `r colored("similarity attraction hypothesis", "gold", bold = T)` posits homophily results from individuals’ desires to connect with others who share their self-categorized identity in order to reduce psychological discomfort and avoid conflict. 
+
+7. Proximity
+
+The advent of ubiquitous communication technologies has called into question the primacy of proximity
+
+There is evidence that while proximate ties are more likely to form, distributed ties are more likely to perform
+
+### 2.2 Explaining networks: Methodological advances
+
+Traditional statistical methods often make fundamental assumptions about the independence of observations which are violated by network data, hence making them unusable.
+
+They are all based on the premise that if actors are operating on the basis of a specific theory, then certain structural signatures unique to that theory should be seen more frequently in the network than one might expect by chance
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("", "gold", bold = T)`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
