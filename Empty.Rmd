@@ -12,12 +12,12 @@ output:
 
 ---
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE}
 library(tidyverse)
 source("~/Desktop/Academy/Readings/functions.R")
 ```
 
-```{css}
+```{css echo=FALSE}
 .btn-group{
   display:none;
 }
@@ -33,7 +33,7 @@ source("~/Desktop/Academy/Readings/functions.R")
 
 ```{r echo=FALSE, results='hide'}
 empty_file = "Empty.Rmd"
-new_article = "Heckhausen_etal.2019"
+new_article = "Clark_Lemay_2024"
 new_new_article_md = stringr::str_c(new_article,".Rmd")
 new_folder_path = stringr::str_c("./", new_article)
 

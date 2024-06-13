@@ -38,8 +38,45 @@ h2{
 
 - To read (updated at `r format(Sys.time(), '%Y-%m-%d')`): 
 
-  - Motivation and empathic accuracy during conflict interactions in couples: it’s complicated!
+  - Motivation and emphatic accuracy during conflict interactions in couples: it’s complicated!
   - Consistency between individuals' past and current romantic partners' own reports of their personalities  (Read it with MET in mind and the effect sizes of their findings)
+
+- 2024-02-14 
+  - Romero, D. M., Uzzi, B., & Kleinberg, J. (2019). Social Networks under Stress: Specialized Team Roles and Their Communication Structure. ACM Transactions on the Web, 13(1), 1–24. https://doi.org/10.1145/3295460
+    - How external events (shocks) affect the network structure, including individual- and firm-level cognition and behavior 
+      - Turtle up ---> instead of relying on weak ties, they cluster together 
+  - Turner-Zwinkels, F. M., van Noord, J., Kesberg, R., García-Sánchez, E., Brandt, M. J., Kuppens, T., Easterbrook, M. J., Smets, L., Gorska, P., Marchlewska, M., & Turner-Zwinkels, T. (2023). Affective Polarization and Political Belief Systems: The Role of Political Identity and the Content and Structure of Political Beliefs. Personality and Social Psychology Bulletin, 01461672231183935. https://doi.org/10.1177/01461672231183935
+    - The differential effects of beliefs content and structure similarity 
+      - Their similairty measures are uncommon (absolute difference score and correlation)
+
+- 2024-02-13 
+  - Goldenberg, A., & Gross, J. J. (2020). Digital Emotion Contagion. Trends in Cognitive Sciences, 24(4), 316–328. https://doi.org/10.1016/j.tics.2020.01.009
+    - Has interesting references on social movements in the digital world 
+    - It presents evidence that (1) positivity is more prevalent than negativity, (2) positivity is shared more than negativity 
+  - Wadley, G., Smith, W., Koval, P., & Gross, J. J. (2020). Digital Emotion Regulation. Current Directions in Psychological Science, 29(4), 412–418. https://doi.org/10.1177/0963721420920592
+
+
+- 2024-01-19
+  - Boker Segal, N., Hu, D., Ginosar Yaari, S., & Tamir, M. (2024). Knowing me, knowing you: Are people good at regulating their emotions good at regulating another’s emotions? Emotion. https://doi.org/10.1037/emo0001305
+    - Self-oriented emotion regulation ability is not correlated with other-oriented emotion regulation ability 
+    - The extent to which the receiver's emotion is down regulated is correlated to their own emotion regulation ability 
+ 
+
+- 2024-01-18 
+  - Finkel, E. J., Bail, C. A., Cikara, M., Ditto, P. H., Iyengar, S., Klar, S., Mason, L., McGrath, M. C., Nyhan, B., Rand, D. G., Skitka, L. J., Tucker, J. A., Van Bavel, J. J., Wang, C. S., & Druckman, J. N. (2020). Political sectarianism in America. Science, 370(6516), 533–536. https://doi.org/10.1126/science.abe1715
+    - Three ingredients of sectarianism: othering, aversion, moralization 
+  - Yeomans, M., Boland, F. K., Collins, H. K., Abi-Esber, N., & Brooks, A. W. (2023). A Practical Guide to Conversation Research: How to Study What People Say to Each Other. Advances in Methods and Practices in Psychological Science, 6(4), 25152459231183919. https://doi.org/10.1177/25152459231183919
+    - There's mention of a R package for clustering standard error (estimatr: https://declaredesign.org/r/estimatr/)
+
+- 2024-01-05 
+  - Bhargava, S. (2023). Experienced love: An empirical account. Psychological Science, 09567976231211267. https://doi.org/10.1177/09567976231211267
+    - Love is not prevalent  
+    - Love experience varies across age and racial categories 
+    - Gender gap in the experiences of love 
+  - Ashokkumar, A., & Pennebaker, J. W. (2022). Tracking group identity through natural language within groups. PNAS Nexus, 1(2), pgac022. https://doi.org/10.1093/pnasnexus/pgac022
+    - Group identity strength index --- unquestioning affiliation index
+      - Predicts self-reported group identity, college retention, group leaving 
+
 
 - 2023-03-28
   - Yarrington, J. S., et al. (2023). `r colored(" [[Note](./Yarrington_etal_2023/Yarrington_etal_2023.nb.html)]","#8CC1DE" ,"14pt")`

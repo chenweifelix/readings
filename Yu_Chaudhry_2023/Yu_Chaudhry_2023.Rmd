@@ -1,0 +1,58 @@
+---
+title: "Yu_Chaudhry_2023"
+subtitle: "“Thanks, but no thanks”: Gratitude expression paradoxically signals distance. Journal of Personality and Social Psychology. https://doi.org/10.1037/pspi0000435"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+The core idea of this study is that people in collectivistic cultures expect more from their close others, and therefore they don't feel/express gratitude to them. This is because they believe that their close others are obligated to help them.
+
+This is very simiar to *Zhang et al (2018).* They claimed that their study contibuted to the understanding of where the beliefs about graitude comes from, which is people's expectations about the obligation of the benefactor. 
+
+This study not only shows that the expression of graitutde differed across cultures, but the *feelings* of gratitude also differed.
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+`r colored("")`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

@@ -1,0 +1,55 @@
+---
+title: "Simchon_etal_2022"
+subtitle: "Troll and divide: The language of online polarization. PNAS Nexus, 1(1), pgac019. https://doi.org/10.1093/pnasnexus/pgac019"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Create and validate a dictionary of polarized language. 
+
+Use the dictionary to test whether trolls used more polarized language.
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+`r colored("")`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

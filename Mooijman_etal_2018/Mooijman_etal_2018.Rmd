@@ -1,0 +1,54 @@
+---
+title: "Mooijman_etal_2018"
+subtitle: "Moralization in social networks and the emergence of violence during protests. Nature Human Behaviour, 2(6), Article 6. https://doi.org/10.1038/s41562-018-0353-0"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Using data from the 2015 Baltimore protests, we show that not only did the degree of moral rhetoric used on social media increase on days with violent protests but also that the hourly frequency of morally relevant tweets predicted the future counts of arrest during protests, suggesting an association between moralization and protest violence. 
+
+To better understand the structure of this association, we ran a series of controlled behavioural experiments demonstrating that people are more likely to endorse a violent protest for a given issue when they moralize the issue (i.e.,`r colored("moral outrage")`); however, this effect is moderated by the degree to which people believe others share their values (i.e., `r colored("moral convergence")`). We discuss how online social networks may contribute to inflations of protest violence. 
+
+-----
+[Back to index](../index.nb.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

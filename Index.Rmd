@@ -15,7 +15,7 @@ source("/Users/yuchenwei/Desktop/Academy/R Markdown settings/functions.R")
 ```
 
 
-```{css}
+```{css echo=FALSE}
 .btn-group{
   display:none;
 }
@@ -54,14 +54,23 @@ My previous reading list:
 - Description- vs. Explaination- vs. Prediction- vs. Solution-oriented. 
 - Social and physical scientists tend to have different goals (Borgatti et. al., 2009; p.895)
 - They ["boundaries between areas of psychology] have always seemed somewhat arbitrary or artificial, more a function of the tastes or methods that happen to dominate at a given time and less a function of fundamental differences in the principles and mechanisms that are operative across areas. (Dweck, 2017)
+- Social media platforms as facilitators of public discourse (Guess et al., 2023)
+
+## Some numbers 
+<hr> 
+- Social disconnection and loneliness increase the odds of all-cause mortality by more than 25% and have been labeled an epidemic by the United States Surgeon General (Holt-Lunstad et al., 2015; Murthy, 2023).
 
 # Notes
 
+- For the importance of affective science, see: 
+  - The rise of affectivism 
+  - Simmons et al 2023, Affective science
+    - Multiple agencies of NIH provided funding relevent for affective scientists 
 - For some lit on the life-course perspectives of sociologists, see Heckhausen et al., 2019
 - For the role of emotions in self-regulation (across the lifespan), see Heckhausen et al., 2019 (p. 199-200)
   - Incentives, Instigators, Motvational resourses
 
-# Feature articles 
+# Featured articles 
 
 Watts, D. J. (2017). `r colored("[[Note](./Watts_2017/Watts_2017.nb.html)]","#8CC1DE" ,"14pt")`
 Should social science be more solution-oriented? Nature Human Behaviour, 1(1), 0015. https://doi.org/10.1038/s41562-016-0015
@@ -77,6 +86,8 @@ Better government, better science: The promise of and challenges facing the evid
 
 Buyalskaya, A., Gallo, M., & Camerer, C. F. (2021). `r colored("[[Note](./Buyalskaya_et_al_2021/Buyalskaya_et_al_2021.nb.html)]","#8CC1DE" ,"14pt")`
 The golden age of social science. Proceedings of the National Academy of Sciences, 118(5), e2002923118. https://doi.org/10.1073/pnas.2002923118
+
+
 
 # Beliefs 
 
@@ -133,6 +144,17 @@ Big Data and government: Evidence of the role of Big Data for smart cities. Big 
 ## Athey, S. (2017). `r colored("[[Note](./Athey_2017/Athey_2017.nb.html)]","#8CC1DE" ,"14pt")`
 Beyond prediction: Using big data for policy problems. Science, 355(6324), 483–485. https://doi.org/10.1126/science.aal4321
 
+## Mooijman, M., Hoover, J., Lin, Y., Ji, H., & Dehghani, M. (2018). Moralization in social networks and the emergence of violence during protests. Nature Human Behaviour, 2(6), Article 6. https://doi.org/10.1038/s41562-018-0353-0 `r colored(" [[Note](./Mooijman_etal_2018/Mooijman_etal_2018.nb.html)]","#8CC1DE" ,"14pt")`
+
+## Guess, A. M., Malhotra, N., Pan, J., Barberá, P., Allcott, H., Brown, T., Crespo-Tenorio, A., Dimmery, D., Freelon, D., Gentzkow, M., González-Bailón, S., Kennedy, E., Kim, Y. M., Lazer, D., Moehler, D., Nyhan, B., Rivera, C. V., Settle, J., Thomas, D. R., … Tucker, J. A. (2023). Reshares on social media amplify political news but do not detectably affect beliefs or opinions. Science, 381(6656), 404–408. https://doi.org/10.1126/science.add8424
+
+## Simchon, A., Brady, W. J., & Van Bavel, J. J. (2022). Troll and divide: The language of online polarization. PNAS Nexus, 1(1), pgac019. https://doi.org/10.1093/pnasnexus/pgac019 `r colored(" [[Note](./Simchon_etal_2022/Simchon_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
+
+## Ashokkumar, A., & Pennebaker, J. W. (2022). Tracking group identity through natural language within groups. PNAS Nexus, 1(2), pgac022. https://doi.org/10.1093/pnasnexus/pgac022
+
+  - Group identity strength index --- unquestioning affiliation index
+    - Predicts self-reported group identity, college retention, group leaving 
+
 # Development 
 
 ## Heckhausen, J., Wrosch, C., & Schulz, R. (2019). `r colored(" [[Note](./Heckhausen_etal.2019/Heckhausen_etal.2019.nb.html)]","#8CC1DE" ,"14pt")`
@@ -140,6 +162,17 @@ Agency and motivation in adulthood and old age. Annual Review of Psychology, 70(
 
 
 # Emotion 
+
+## Ditigal space 
+
+Brady, W. J., McLoughlin, K. L., Torres, M. P., Luo, K. F., Gendron, M., & Crockett, M. J. (2023). `r colored(" [[Note](./Brady_etal_2023/Brady_etal_2023.nb.html)]","#8CC1DE" ,"14pt")`
+Overperception of moral outrage in online social networks inflates beliefs about intergroup hostility. Nature Human Behaviour, 7(6), Article 6. https://doi.org/10.1038/s41562-023-01582-0
+
+Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J. (2017). `r colored(" [[Note](./Brady_etal_2017/Brady_etal_2017.nb.html)]","#8CC1DE" ,"14pt")`
+Emotion shapes the diffusion of moralized content in social networks. Proceedings of the National Academy of Sciences, 114(28), 7313–7318. https://doi.org/10.1073/pnas.1618923114
+
+
+  - A study by Meta 
 
 ## Vishkin, A. et al. (2022). `r colored(" [[Note](./Vishkin_etal_2022/Vishkin_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
 
@@ -195,6 +228,15 @@ Also see: Smith, W., Wadley, G., Webber, S., Tag, B., Kostakos, V., Koval, P., &
 
 ### Roberts, A. R., Levine, E. E., & Sezer, O. (2021). `r colored(" [[Note](./Roberts_etal_2021/Roberts_etal_2021.nb.html)]","#8CC1DE" ,"14pt")`
 Hiding success. Journal of Personality and Social Psychology, 120(5), 1261–1286. https://doi.org/10.1037/pspi0000322
+
+### Yu, J., & Chaudhry, S. J. (2023).  `r colored(" [[Note](./Yu_Chaudhry_2023/Yu_Chaudhry_2023.nb.html)]","#8CC1DE" ,"14pt")`
+“Thanks, but no thanks”: Gratitude expression paradoxically signals distance. Journal of Personality and Social Psychology. https://doi.org/10.1037/pspi0000435
+
+This is very similar to Zhang, N., Ji, L.-J., Bai, B., & Li, Y. (2018). Culturally divergent consequences of receiving thanks in close relationships. Emotion, 18(1), 46–57. https://doi.org/10.1037/emo0000385
+
+### Clark, M. S., & Lemay, E. P. (2024). `r colored("[[Note](./Clark_Lemay_2024/Clark_Lemay_2024.nb.html)]","#8CC1DE" ,"14pt")`
+When emotion expression will (and will not) enhance listening and responsiveness. Current Opinion in Psychology, 55, 101695. https://doi.org/10.1016/j.copsyc.2023.101695
+
 
 ## Other  
 
@@ -349,7 +391,7 @@ What are conspiracy theories? A definitional approach to their correlates, conse
 ## Marcus, G. E., Valentino, N. A., Vasilopoulos, P., & Foucault, M. (2019). 
 Applying the Theory of Affective Intelligence to Support for Authoritarian Policies and Parties. Political Psychology, 40(S1), 109–139. https://doi.org/10.1111/pops.12571
   
-- Have this quote of Hume that basically says passion overrises cognition 
+- Have this quote of Hume that basically says passion overrides cognition 
 - Discrete emotion approach 
 - Comparing the effect of fear and anger on voting behaviors among right-wing vs. left-wing 
 - Anger, but not fear, motivated right-wing to support right-wing parties (e.g., authoritarian) 
@@ -451,13 +493,14 @@ Also see ER for relevent literature
 ## Fischer & Karl, 2022 `r colored("[[Note](./Fischer_2022/Fischer_2022.nb.html)]","#8CC1DE" ,"14pt")`
 Fischer, R., & Karl, J. A. (2022). Unraveling values and well-being—Disentangling within- and between-person dynamics via a psychometric network perspective. Journal of Personality and Social Psychology. https://doi.org/10.1037/pspp0000449" <br>
 
-
 ## Wilson T. D. 2022  `r colored("[[Note](./Wilson_2022/Wilson_2022.nb.html)]","#8CC1DE" ,"14pt")`
 What is social psychology? The construal principle. Psychological Review, 129(4), 873–889. https://doi.org/10.1037/rev0000373
 
-
 ## Yin, Y., Dong, Y., Wang, K., Wang, D., & Jones, B. F. (2022). `r colored("[[Note](./Yin_etal_2022/Yin_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
 Public use and public funding of science. Nature Human Behaviour, 6(10), Article 10. https://doi.org/10.1038/s41562-022-01397-5
+
+## Simmons, J. M., Breeden, A., Ferrer, R. A., Gillman, A. S., Moore, H., Green, P., Pariyadath, V., Quinlan, E. B., & Vicentic, A. (2023).  
+Affective science research: Perspectives and priorities from the national institutes of health. Affective Science, 4(3), 600–607. https://doi.org/10.1007/s42761-023-00218-w
 
 
 # 2023 Fall 

@@ -1,0 +1,64 @@
+---
+title: "Clark_Lemay_2024"
+subtitle: "When emotion expression will (and will not) enhance listening and responsiveness. Current Opinion in Psychology, 55, 101695. https://doi.org/10.1016/j.copsyc.2023.101695"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Emotion expression has five functions and these functions often match the cooperation called for in cummunal relationships. 
+
+The impact of emotion expression on listening and on responsiveness depends upon the match (or mismatch) between the cooperative functions a relationship serves and the social functions that expressing emotion can serve
+
+- Expressed emotions convey a speaker’s vulnerabilities, needs and desires and can elicit support
+  - e.g., happiness --> all is well to the self 
+    - the speaker can (a) contintue what is happening, or (b) help enhance happiness thought social sharing of and enthusiams about the speaker's good furtune
+- Speakers’ expressed emotions often convey a speaker’s trust in the listener and can invite responsiveness
+- Expressing certain emotions convey important information, not about individuals per se, but about speakers’ relational goals
+- Speakers’ emotion expressions can serve a social referencing function
+- Listeners’ expressions of relational emotions, as they listen and soon afterwards, can enhance listening
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("")`
+<img src="Screenshots.png" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
