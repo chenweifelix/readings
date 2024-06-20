@@ -1,0 +1,63 @@
+---
+title: "Wang_Inbar_2021"
+subtitle: "Moral-language use by U.S. political elites. Psychological Science, 32(1), 14–26. https://doi.org/10.1177/0956797620960397"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+- Use the language from twitter (S1) and speeches from the congress (S2) to analyze the difference in moral foundations. 
+- Theory suggests that liberals endorse individualizing foundations (harm and fairness) more than conservatives, and conservatives endorse binding foundations (loyalty, authority, and purity) more than liberals 
+- Reasons to suspect that less power might lead to changes in moral language use: 
+  - Social identity theory: less power --> threatened --> elevating in-group values to sacred principles and casting out-group members as irredeemably wicked 
+  - Strategic considerations: moralization is effective in persuading others and mobilizing support
+- Method: 
+  - Word embedding (like the one used by Tessa)
+- Result: 
+  - `r colored("Overall, lower political power was associted with greater use of moral language for both Democrats and Republicans")`
+
+
+-----
+[Back to index](../index.nb.html)
+
+
+`r colored("")`
+<img src="Screenshots.png" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

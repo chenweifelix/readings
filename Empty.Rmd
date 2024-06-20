@@ -30,10 +30,13 @@ source("~/Desktop/Academy/Readings/functions.R")
 -----
 [Back to index](../index.nb.html)
 
+`r colored("")`
+<img src="Screenshots.png" width=80%>
+
 
 ```{r echo=FALSE, results='hide'}
 empty_file = "Empty.Rmd"
-new_article = "Clark_Lemay_2024"
+new_article = "Fan_etal_2024"
 new_new_article_md = stringr::str_c(new_article,".Rmd")
 new_folder_path = stringr::str_c("./", new_article)
 
@@ -43,12 +46,13 @@ new_path = stringr::str_c("./", new_article, "/", new_new_article_md)
 dir.create(new_article) #create a new folder
 file.copy(empty_file, new_article) #move the current file to that folder 
 file.rename(old_path, new_path) #rename the current file 
-file.edit(new_path)
+run_zsh_command <- function(command) {
+  args <- c("-c", shQuote(paste("source ~/.zshrc &&", command)))
+  system2("zsh", args = args)
+}
+run_zsh_command(paste("code ", new_path))
 system2("open", new_folder_path)
 ```
-
-`r colored("")`
-<img src="Screenshots.png" width=80%>
 
 
 

@@ -187,6 +187,9 @@ Semantic Space Theory: Data-Driven Insights Into Basic Emotions. Current Directi
 ## Keltner, D., & Cowen, A. (2021). `r colored(" [[Note](./Keltner_Cowen_2021/Keltner_Cowen_2021.nb.html)]","#8CC1DE" ,"14pt")` 
 A taxonomy of positive emotions. Current Opinion in Behavioral Sciences, 39, 216–221. https://doi.org/10.1016/j.cobeha.2021.04.013
 
+## Fan, L., Molho, C., Kupfer, T. R., Sauter, D. A., & Tybur, J. M. (2024). `r colored(" [[Note](./Fan_etal_2024/Fan_etal_2024.nb.html)]","#8CC1DE" ,"14pt")` 
+Beyond outrage: Observers anticipate different behaviors from expressors of anger versus disgust. Social Psychological and Personality Science, 15(4), 450–460. https://doi.org/10.1177/19485506231176954
+
 
 # Emotion regulation 
 
@@ -256,6 +259,9 @@ What do we know when we LIWC a person? Text analysis as an assessment tool for t
 
 ## Nook, E. C., Satpute, A. B., & Ochsner, K. N. (2021). `r colored(" [[Note](./Nook_etal_2021/Nook_etal_2021.nb.html)]","#8CC1DE" ,"14pt")` 
 Emotion Naming Impedes Both Cognitive Reappraisal and Mindful Acceptance Strategies of Emotion Regulation. Affective Science, 2(2), 187–198. https://doi.org/10.1007/s42761-021-00036-y
+
+## Wang, S.-Y. N., & Inbar, Y. (2021). `r colored([[Note](./Wang_Inbar_2021/Wang_Inbar_2021.nb.html)]","#8CC1DE" ,"14pt")` 
+Moral-language use by U.S. political elites. Psychological Science, 32(1), 14–26. https://doi.org/10.1177/0956797620960397
 
 # Meta Science
 

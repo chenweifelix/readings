@@ -1,0 +1,58 @@
+---
+title: "Authors_Years"
+subtitle: "Pub_title"
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+- Stimuli: Images and sounds
+- People can distinguish anger and disgust 
+- Both perceived anger and disgust are associated with direct and indirect aggression
+  - Anger is more strongly associated with the former, while disgust is more strongly associated with the latter
+  - Anger is overall more strongly associated with aggression than disgust
+  - The associations between indirect aggressions and anger and digest are the similar 
+
+-----
+[Back to index](../index.nb.html)
+
+`r colored("")`
+<img src="Screenshots.png" width=80%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

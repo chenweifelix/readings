@@ -41,6 +41,12 @@ h2{
   - Motivation and emphatic accuracy during conflict interactions in couples: it’s complicated!
   - Consistency between individuals' past and current romantic partners' own reports of their personalities  (Read it with MET in mind and the effect sizes of their findings)
 
+- 2024-06-19
+  - Wang, S.-Y. N., & Inbar, Y. (2021). Moral-language use by U.S. political elites. Psychological Science, 32(1), 14–26. https://doi.org/10.1177/0956797620960397
+  - Fan, L., Molho, C., Kupfer, T. R., Sauter, D. A., & Tybur, J. M. (2024). Beyond outrage: Observers anticipate different behaviors from expressors of anger versus disgust. Social Psychological and Personality Science, 15(4), 450–460. https://doi.org/10.1177/19485506231176954
+
+
+
 - 2024-02-14 
   - Romero, D. M., Uzzi, B., & Kleinberg, J. (2019). Social Networks under Stress: Specialized Team Roles and Their Communication Structure. ACM Transactions on the Web, 13(1), 1–24. https://doi.org/10.1145/3295460
     - How external events (shocks) affect the network structure, including individual- and firm-level cognition and behavior 
