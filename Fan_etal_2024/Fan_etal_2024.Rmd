@@ -1,6 +1,6 @@
 ---
-title: "Authors_Years"
-subtitle: "Pub_title"
+title: "Fan_etal_2024"
+subtitle: "Beyond outrage: Observers anticipate different behaviors from expressors of anger versus disgust. Social Psychological and Personality Science, 15(4), 450–460. https://doi.org/10.1177/19485506231176954"
 date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
 output: 
   html_notebook:
