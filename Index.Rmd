@@ -55,6 +55,7 @@ My previous reading list:
 - Social and physical scientists tend to have different goals (Borgatti et. al., 2009; p.895)
 - They ["boundaries between areas of psychology] have always seemed somewhat arbitrary or artificial, more a function of the tastes or methods that happen to dominate at a given time and less a function of fundamental differences in the principles and mechanisms that are operative across areas. (Dweck, 2017)
 - Social media platforms as facilitators of public discourse (Guess et al., 2023)
+- Biological adaptations tend to have both costs and benefits (Connolly et al., 2019)
 
 ## Some numbers 
 <hr> 
@@ -201,6 +202,9 @@ Reappraising reappraisal: An expanded view. Cognition and Emotion, 0(0), 1–14.
 Wadley, G., Smith, W., Koval, P., & Gross, J. J. (2020). `r colored(" [[Note](./Wadley_etal.2023/Wadley_etal.2023.nb.html)]","#8CC1DE" ,"14pt")`
 Digital Emotion Regulation. Current Directions in Psychological Science, 29(4), 412–418. https://doi.org/10.1177/0963721420920592
 
+Connolly, P.-S., Hull, T. D., & Bonanno, G. A. (2019). `r colored(" [[Note](./Connolly_etal_2019/Connolly_etal_2019.nb.html)]","#8CC1DE" ,"14pt")`
+A regulatory flexibility perspective on positive emotion. In J. Gruber (Ed.), The Oxford Handbook of Positive Emotion and Psychopathology (pp. 50–63). Oxford University Press. https://books.google.com/books?hl=en&lr=&id=lvarDwAAQBAJ&oi=fnd&pg=PA50&dq=info:eXPLeeqtWk0J:scholar.google.com&ots=Xn6lW7p6sx&sig=ruD5w_zGcgMV2YGHHwuq1KBkwLo
+
 
 ## Motivated ER 
 
@@ -260,7 +264,7 @@ What do we know when we LIWC a person? Text analysis as an assessment tool for t
 ## Nook, E. C., Satpute, A. B., & Ochsner, K. N. (2021). `r colored(" [[Note](./Nook_etal_2021/Nook_etal_2021.nb.html)]","#8CC1DE" ,"14pt")` 
 Emotion Naming Impedes Both Cognitive Reappraisal and Mindful Acceptance Strategies of Emotion Regulation. Affective Science, 2(2), 187–198. https://doi.org/10.1007/s42761-021-00036-y
 
-## Wang, S.-Y. N., & Inbar, Y. (2021). `r colored([[Note](./Wang_Inbar_2021/Wang_Inbar_2021.nb.html)]","#8CC1DE" ,"14pt")` 
+## Wang, S.-Y. N., & Inbar, Y. (2021). `r colored(" [[Note](./Wang_Inbar_2021/Wang_Inbar_2021.nb.html)]","#8CC1DE" ,"14pt")` 
 Moral-language use by U.S. political elites. Psychological Science, 32(1), 14–26. https://doi.org/10.1177/0956797620960397
 
 # Meta Science
@@ -306,6 +310,10 @@ Loneliness across time and space. Nature Reviews Psychology, 2(1), Article 1. ht
 
 ## Gross, J. J., Uusberg, H., & Uusberg, A. (2019). `r colored(" [[Note](./Gross_etal_2019/Gross_etal_2019.nb.html)]","#8CC1DE" ,"14pt")`
 Mental illness and well-being: An affect regulation perspective. World Psychiatry, 18(2), 130–139. https://doi.org/10.1002/wps.20618
+
+## Firth, J., Torous, J., López-Gil, J. F., Linardon, J., Milton, A., Lambert, J., Smith, L., Jarić, I., Fabian, H., Vancampfort, D., Onyeaka, H., Schuch, F. B., & Firth, J. A. (2024). `r colored(" [[Note](./Firth_etal_2024/Firth_etal_2024.nb.html)]","#8CC1DE" ,"14pt")`
+From “online brains” to “online lives”: Understanding the individualized impacts of Internet use across psychological, cognitive and social dimensions. World Psychiatry, 23(2), 176–190. https://doi.org/10.1002/wps.21188
+
 
 # Motivation and self-regulation 
 

@@ -36,7 +36,8 @@ source("~/Desktop/Academy/Readings/functions.R")
 
 ```{r echo=FALSE, results='hide'}
 empty_file = "Empty.Rmd"
-new_article = "Fan_etal_2024"
+new_article = "Connolly_etal_2019"
+article_tile = "A regulatory flexibility perspective on positive emotion. In J. Gruber (Ed.), The Oxford Handbook of Positive Emotion and Psychopathology (pp. 50–63). Oxford University Press. https://books.google.com/books?hl=en&lr=&id=lvarDwAAQBAJ&oi=fnd&pg=PA50&dq=info:eXPLeeqtWk0J:scholar.google.com&ots=Xn6lW7p6sx&sig=ruD5w_zGcgMV2YGHHwuq1KBkwLo"
 new_new_article_md = stringr::str_c(new_article,".Rmd")
 new_folder_path = stringr::str_c("./", new_article)
 
@@ -46,6 +47,13 @@ new_path = stringr::str_c("./", new_article, "/", new_new_article_md)
 dir.create(new_article) #create a new folder
 file.copy(empty_file, new_article) #move the current file to that folder 
 file.rename(old_path, new_path) #rename the current file 
+text = readLines(new_path)
+text[2] = paste("title: ", paste0("'",new_article, "'"))
+text[3] = paste("subtitle: ", paste0("'", article_tile, "'"))
+text = text[1:36]
+writeLines(text, new_path)
+
+# Open file in editor and finder 
 run_zsh_command <- function(command) {
   args <- c("-c", shQuote(paste("source ~/.zshrc &&", command)))
   system2("zsh", args = args)

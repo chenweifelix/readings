@@ -41,6 +41,10 @@ h2{
   - Motivation and emphatic accuracy during conflict interactions in couples: it’s complicated!
   - Consistency between individuals' past and current romantic partners' own reports of their personalities  (Read it with MET in mind and the effect sizes of their findings)
 
+- 2024-06-20
+  - Firth, J., Torous, J., López-Gil, J. F., Linardon, J., Milton, A., Lambert, J., Smith, L., Jarić, I., Fabian, H., Vancampfort, D., Onyeaka, H., Schuch, F. B., & Firth, J. A. (2024). From “online brains” to “online lives”: Understanding the individualized impacts of Internet use across psychological, cognitive and social dimensions. World Psychiatry, 23(2), 176–190. https://doi.org/10.1002/wps.21188
+  - Connolly, P.-S., Hull, T. D., & Bonanno, G. A. (2019). A regulatory flexibility perspective on positive emotion. In J. Gruber (Ed.), The Oxford Handbook of Positive Emotion and Psychopathology (pp. 50–63). Oxford University Press. https://books.google.com/books?hl=en&lr=&id=lvarDwAAQBAJ&oi=fnd&pg=PA50&dq=info:eXPLeeqtWk0J:scholar.google.com&ots=Xn6lW7p6sx&sig=ruD5w_zGcgMV2YGHHwuq1KBkwLo
+
 - 2024-06-19
   - Wang, S.-Y. N., & Inbar, Y. (2021). Moral-language use by U.S. political elites. Psychological Science, 32(1), 14–26. https://doi.org/10.1177/0956797620960397
   - Fan, L., Molho, C., Kupfer, T. R., Sauter, D. A., & Tybur, J. M. (2024). Beyond outrage: Observers anticipate different behaviors from expressors of anger versus disgust. Social Psychological and Personality Science, 15(4), 450–460. https://doi.org/10.1177/19485506231176954

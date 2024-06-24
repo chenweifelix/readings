@@ -1,0 +1,68 @@
+---
+title:  'Firth_etal_2024'
+subtitle:  'From “online brains” to “online lives”: Understanding the individualized impacts of Internet use across psychological, cognitive and social dimensions. World Psychiatry, 23(2), 176–190. https://doi.org/10.1002/wps.21188'
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+- Endless engagement in the online world 
+  - Constant stream of entertainment --> addition-like cravings 
+    - trance or mindlessly scrolling 
+  - US state's lawsuit against Meta, suggesting that the company used 
+    1. dopamine-manipulating recommendation algorithms 
+    2. social comparison features 
+    3. audiovisual and haptic alerts that cause users to turn their attention away while at school and sleeping 
+    4. visual filters that can promote body dysmorphia, in order to gain and sustain young people's engagement 
+  - People expressed strong motivation to uphold distal discipline, but acknowledged the need for more severe restrictions, especially during periods of emotional vulnerability
+- From nurturing connections to fear of missing out 
+  - motivation to engage in spend more time on social media is compounded through social and recognition needs, exacerbated by comments and likes, which foster habitual and compulsive usage 
+- Self-perception and self perceptions in the online world
+  - Self-esteem 
+    - Correlational evidence suggests that using it is correlated with lower self-esteem, but experimental withdrawal studies have not found such an effect 
+    - body image; promoting dangerous weight control behaviors 
+  - Online social comparison, perceived pressure to conform 
+  - Cognitive mechanisms 
+    - Deficits in inhibitory control 
+    - Attentional bias 
+- Pointless distraction vs. positive stimulation 
+  - there's a lack of causal evidence for improving attention through withdrawal 
+  - ABCD study: no consistent evidence for causal relations between digital screen media usage and functional connectivity in children 
+    - Some screen media activities were found to be linked to poorer cognitive outcomes, while others were associated with better performance   
+- The offline effects of an online world: implications for body and brain 
+  - displacement hypothesis 
+- Revisiting social outcomes of online lives 
+  - Internet users seems to recognize the challenge of resisting the pressure to "care too much" about social media validation
+  - Social echo chambers: The social connections held by people on social media are likely to shape the information to which they are exposed 
+    - polarized thinking and impaired social judgement 
+    
+  
+
+-----
+[Back to index](../index.nb.html)
+
+`r colored("")`
+<img src="Screenshots.png" width=80%>
+
+

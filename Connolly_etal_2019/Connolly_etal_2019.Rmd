@@ -1,0 +1,65 @@
+---
+title:  'Connolly_etal_2019'
+subtitle:  'A regulatory flexibility perspective on positive emotion. In J. Gruber (Ed.), The Oxford Handbook of Positive Emotion and Psychopathology (pp. 50–63). Oxford University Press. https://books.google.com/books?hl=en&lr=&id=lvarDwAAQBAJ&oi=fnd&pg=PA50&dq=info:eXPLeeqtWk0J:scholar.google.com&ots=Xn6lW7p6sx&sig=ruD5w_zGcgMV2YGHHwuq1KBkwLo'
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+This is also a good paper to review the functions of positive emotions 
+
+# Abstract / Key Points
+
+Regulator flexibility model: 
+  - `r colored("The dynamics and ongoing process of selecting, enacting, and monitoring emotion regulatory strategies to meet the demands of the context")`
+  - This theoretical framework is actually somewhat similar to the extended process model of emotion regulation 
+
+Three levels of regulation flexibility:
+  - context sensitivity 
+  - emotion regulatory repertoire 
+  - responsiveness to feedback 
+
+Biological adaptations tend to have both costs and benefits (Connolly et al., 2019)
+  - emotions are aspects of our biological makeup 
+
+The ability to flexibly engage different emotions to match the demands of the context is a key component in ongoing adjustment
+  - How adaptive any emotion will be depends on the particular context 
+
+`r colored("Context sensitivity")` 
+  - def: the ability to perceive impinging demands and opportunities from the situational context as they emerge over and above the normative background of ongoing regulatory concerns and processes and to determine the most appropriate regulatory strategy in response to those demands or opportunities 
+  - What should I do? --> What is normative in this situation?
+
+`r colored("Repertoire")`: What I am able to do
+
+`r colored("Feeback")`: How well I am doing it (drawing from the control theory)
+  - Including internal (bodily) feedback and social feedback (e.g., facial expressions, eye gaze) 
+
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+`r colored("")`
+<img src="Screenshots.png" width=80%>
+
+
