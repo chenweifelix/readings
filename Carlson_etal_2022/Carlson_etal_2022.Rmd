@@ -1,0 +1,53 @@
+---
+title:  'Carlson_etal_2022'
+subtitle:  'How inferred motives shape moral judgements. Nature Reviews Psychology, 1(8), 468–478. https://doi.org/10.1038/s44159-022-00071-x'
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+<img src="temp.JPG" width=80%>
+
+group membership can be an important factor in drawing more morally negative motive inferences of others, independent of actions, and these negative motive inferences could have a key role in reinforcing intergroup hostility and conflict
+
+<img src="Screenshots.png" width=80%>
+
+<img src="Screenshots 2.png" width=80%>
+
+<img src="Screenshots 3.png" width=80%>
+
+<img src="Screenshots 4.png" width=80%>
+
+<img src="Screenshots 5.png" width=80%>
+
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+`r colored("")`
+
+
+

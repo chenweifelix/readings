@@ -1,6 +1,6 @@
 ---
-title: "Mooijman_etal_2018"
-subtitle: "Moralization in social networks and the emergence of violence during protests. Nature Human Behaviour, 2(6), Article 6. https://doi.org/10.1038/s41562-018-0353-0"
+title:  'Mooijman_etal_2018'
+subtitle:  'Moralization in social networks and the emergence of violence during protests. Nature Human Behaviour, 2(6), Article 6. https://doi.org/10.1038/s41562-018-0353-0'
 date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
 output: 
   html_notebook:
@@ -12,12 +12,12 @@ output:
 
 ---
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE}
 library(tidyverse)
 source("~/Desktop/Academy/Readings/functions.R")
 ```
 
-```{css}
+```{css echo=FALSE}
 .btn-group{
   display:none;
 }
@@ -34,21 +34,7 @@ To better understand the structure of this association, we ran a series of contr
 -----
 [Back to index](../index.nb.html)
 
+`r colored("")`
+<img src="Screenshots.png" width=80%>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 

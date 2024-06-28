@@ -1,0 +1,49 @@
+---
+title:  'Miller_1969'
+subtitle:  'Psychology as a means of promoting human welfare. American Psychologist, 24(12), 1063–1075. https://doi.org/10.1037/h0028988'
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+- The most urgent problems of our world today are human problems whose solutions will require us to change our behavior and our social institutions.
+- In fact, however, we psychologists have contributed relatively little of real importance —even less than our rather modest understanding of behavior might justify.
+- It has been my impression that the less related the issue is to the scientific and professional interests of our membership, the greater is the likelihood that the promotion of human welfare will be invoked in the course of the discussion.
+- In difficult cases, where disagreement, is most probable, something that advances the welfare of one group may disadvantage another group. 
+- Something more is required than a sincere declaration that our heart is in the right place.
+- I believe that any broad and successful application of psychological knowledge to human problems will necessarily entail a change in our conception of ourselves and of how we live and love and work together.
+  - I sec little reason to believe that the traditional model for scientific revolutions should be appropriate
+  - In contrast to natural science, a new conception of man based on psychology, however, would have immediate implications for the most intimate details of our social and personal lives.
+- The important thing is not to control the system, but to understand it. Someone who has a valid conception of the system as a whole can often introduce relatively minor changes that have extensive consequences throughout the entire organization.
+- Many psychologists, trained in an empiricist, experimental tradition, have tried to serve two masters at once. That is, they have tried to solve practical problems and simultaneously to collect data of scientific value on the effects of their interventions. Other fields, however, maintain a *more equitable division of labor* between scientist and engineer. Scientists are responsible for the validity of the principles; engineers accept them and try to use them to solve practical problems.
+- When the ideas are made sufficiently concrete and explicit, the scientific foundations of psychology can be grasped by sixth-grade children.
+
+
+-----
+[Back to index](../index.nb.html)
+
+`r colored("")`
+<img src="Screenshots.png" width=80%>
+
+

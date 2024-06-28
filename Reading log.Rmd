@@ -41,9 +41,19 @@ h2{
   - Motivation and emphatic accuracy during conflict interactions in couples: it’s complicated!
   - Consistency between individuals' past and current romantic partners' own reports of their personalities  (Read it with MET in mind and the effect sizes of their findings)
 
+-2024-06-25
+  - Mooijman, M., Hoover, J., Lin, Y., Ji, H., & Dehghani, M. (2018). Moralization in social networks and the emergence of violence during protests. Nature Human Behaviour, 2(6), Article 6. https://doi.org/10.1038/s41562-018-0353-0
+  - D’Amore, C., van Zomeren, M., & Koudenburg, N. (2022). Attitude moralization within polarized contexts: An emotional value-protective response to dyadic harm cues. Personality and Social Psychology Bulletin, 48(11), 1566–1579. https://doi.org/10.1177/01461672211047375
+  - Vollberg, M. C., & Cikara, M. (2024). Affective prediction errors in persistence and escalation of aggression. Journal of Experimental Psychology: General, 153(6), 1551–1567. https://doi.org/10.1037/xge0001570
+  - Fung, H. H. (2024). Aging in culture revisited. Current Opinion in Psychology, 56, 101777. https://doi.org/10.1016/j.copsyc.2023.101777
+  - Jost, J. T., Baldassarri, D. S., & Druckman, J. N. (2022). Cognitive–motivational mechanisms of political polarization in social-communicative contexts. Nature Reviews Psychology, 1(10), 560–576. https://doi.org/10.1038/s44159-022-00093-5
+
+
 - 2024-06-20
   - Firth, J., Torous, J., López-Gil, J. F., Linardon, J., Milton, A., Lambert, J., Smith, L., Jarić, I., Fabian, H., Vancampfort, D., Onyeaka, H., Schuch, F. B., & Firth, J. A. (2024). From “online brains” to “online lives”: Understanding the individualized impacts of Internet use across psychological, cognitive and social dimensions. World Psychiatry, 23(2), 176–190. https://doi.org/10.1002/wps.21188
-  - Connolly, P.-S., Hull, T. D., & Bonanno, G. A. (2019). A regulatory flexibility perspective on positive emotion. In J. Gruber (Ed.), The Oxford Handbook of Positive Emotion and Psychopathology (pp. 50–63). Oxford University Press. https://books.google.com/books?hl=en&lr=&id=lvarDwAAQBAJ&oi=fnd&pg=PA50&dq=info:eXPLeeqtWk0J:scholar.google.com&ots=Xn6lW7p6sx&sig=ruD5w_zGcgMV2YGHHwuq1KBkwLo
+  - Connolly, P.-S., Hull, T. D., & Bonanno, G. A. (2019). A regulatory flexibility perspective on positive emotion. In J. Gruber (Ed.), The Oxford Handbook of Positive Emotion and Psychopathology (pp. 50–63). Oxford University Press. https://books.google.com/books?hl=en&lr=&id=lvarDwAAQBAJ&oi=fnd&pg=PA50&dq=info:eXPLeeqtWk0J:scholar.google.com&ots=Xn6lW7p6sx&sig=ruD5w_zGcgMV2YGHHwuq1KBkwLo 
+  - Carlson, R. W., Bigman, Y. E., Gray, K., Ferguson, M. J., & Crockett, M. J. (2022). How inferred motives shape moral judgements. Nature Reviews Psychology, 1(8), 468–478. https://doi.org/10.1038/s44159-022-00071-x
+
 
 - 2024-06-19
   - Wang, S.-Y. N., & Inbar, Y. (2021). Moral-language use by U.S. political elites. Psychological Science, 32(1), 14–26. https://doi.org/10.1177/0956797620960397

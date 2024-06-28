@@ -56,6 +56,7 @@ My previous reading list:
 - They ["boundaries between areas of psychology] have always seemed somewhat arbitrary or artificial, more a function of the tastes or methods that happen to dominate at a given time and less a function of fundamental differences in the principles and mechanisms that are operative across areas. (Dweck, 2017)
 - Social media platforms as facilitators of public discourse (Guess et al., 2023)
 - Biological adaptations tend to have both costs and benefits (Connolly et al., 2019)
+- Democracy is at risk when citizens become so polarized that an ‘us versus them’ mentality dominates (Jost et al., 2022)
 
 ## Some numbers 
 <hr> 
@@ -88,7 +89,10 @@ Better government, better science: The promise of and challenges facing the evid
 Buyalskaya, A., Gallo, M., & Camerer, C. F. (2021). `r colored("[[Note](./Buyalskaya_et_al_2021/Buyalskaya_et_al_2021.nb.html)]","#8CC1DE" ,"14pt")`
 The golden age of social science. Proceedings of the National Academy of Sciences, 118(5), e2002923118. https://doi.org/10.1073/pnas.2002923118
 
+# Aging 
 
+## Fung, H. H. (2024). Aging in culture revisited. Current Opinion in Psychology, 56, 101777. https://doi.org/10.1016/j.copsyc.2023.101777
+  - The aging in culture model: with age, people internalize the values around them to become better members of their society 
 
 # Beliefs 
 
@@ -275,6 +279,12 @@ The generalizability crisis. Behavioral and Brain Sciences, 45, e1. https://doi.
 ## Grossmann, et al. (2023). `r colored("[[Note](./Grossmann_etal_2023/Grossmann_etal_2023.nb.html]","#8CC1DE" ,"14pt")`
 Insights into the accuracy of social scientists’ forecasts of societal change. Nature Human Behaviour, 7(4), Article 4. https://doi.org/10.1038/s41562-022-01517-1
 
+## Miller, G. A. (1969). `r colored("[[Note](./Miller_1969/Miller_1969.nb.html]","#8CC1DE" ,"14pt")`
+Psychology as a means of promoting human welfare. American Psychologist, 24(12), 1063–1075. https://doi.org/10.1037/h0028988
+
+## Caplan, N., & Nelson, S. D. (1973).`r colored("[[Note](./Caplan_Nelson_1973/Caplan_Nelson_1973.nb.html]","#8CC1DE" ,"14pt")`
+On being useful: The nature and consequences of psychological research on social problems. American Psychologist, 28(3), 199–211. https://doi.org/10.1037/h0034433
+
 
 
 ## Scientific perspectives 
@@ -328,6 +338,18 @@ From needs to goals and representations: Foundations for a unified theory of mot
 
 ## Shiota, M. N., Papies, E. K., Preston, S. D., & Sauter, D. A. (2021). `r colored(" [[Note](./Shiota_et_al_2021/Shiota_et_al_2021.nb.html)]","#8CC1DE" ,"14pt")`
 Positive affect and behavior change. Current Opinion in Behavioral Sciences, 39, 222–228. https://doi.org/10.1016/j.cobeha.2021.04.022
+
+# Morality 
+
+## Carlson, R. W., Bigman, Y. E., Gray, K., Ferguson, M. J., & Crockett, M. J. (2022). `r colored("[[Note](./Carlson_etal_2022/Carlson_etal_2022.nb.html)]","#8CC1DE" ,"14pt")`
+How inferred motives shape moral judgements. Nature Reviews Psychology, 1(8), 468–478. https://doi.org/10.1038/s44159-022-00071-x
+
+## Mooijman, M., Hoover, J., Lin, Y., Ji, H., & Dehghani, M. (2018). `r colored("[[Note](./Mooijman_etal_2018/Mooijman_etal_2018.nb.html)]","#8CC1DE" ,"14pt")`
+Moralization in social networks and the emergence of violence during protests. Nature Human Behaviour, 2(6), Article 6. https://doi.org/10.1038/s41562-018-0353-0
+
+## D’Amore, C., van Zomeren, M., & Koudenburg, N. (2022). `r colored("[[Note](./DAmore_elal_2022/DAmore_elal_2022.nb.html)]","#8CC1DE" ,"14pt")`
+Attitude moralization within polarized contexts: An emotional value-protective response to dyadic harm cues. Personality and Social Psychology Bulletin, 48(11), 1566–1579. https://doi.org/10.1177/01461672211047375
+
 
 # Physical health 
 
@@ -409,6 +431,10 @@ Applying the Theory of Affective Intelligence to Support for Authoritarian Polic
 - Discrete emotion approach 
 - Comparing the effect of fear and anger on voting behaviors among right-wing vs. left-wing 
 - Anger, but not fear, motivated right-wing to support right-wing parties (e.g., authoritarian) 
+
+## Jost, J. T., Baldassarri, D. S., & Druckman, J. N. (2022). `r colored("[[Note](./Jost_elal_2022/Jost_elal_2022.nb.html)]","#8CC1DE" ,"14pt")`
+Cognitive–motivational mechanisms of political polarization in social-communicative contexts. Nature Reviews Psychology, 1(10), 560–576. https://doi.org/10.1038/s44159-022-00093-5
+
 
 
 # Positive emotion 

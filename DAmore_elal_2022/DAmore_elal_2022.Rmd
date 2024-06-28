@@ -1,0 +1,45 @@
+---
+title:  'DAmore_elal_2022'
+subtitle:  'Attitude moralization within polarized contexts: An emotional value-protective response to dyadic harm cues. Personality and Social Psychology Bulletin, 48(11), 1566–1579. https://doi.org/10.1177/01461672211047375'
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Def: `r colored("attitude moralization")`: the process through which an attitude becomes grounded in one's core values 
+  - Measured with 4 items
+    - e.g., "To what extent is your position on XXX issue a reflection of your core moral beliefs and convictions?"
+
+We assume that polarization at the societal level can set the stage for either constructive change or moral conflict to emerge. We define polarization as the existence of conflict- ing attitudes in society and the structural formation of groups around these attitudes in conflict
+
+<img src="Screenshots.png" width=80%>
+
+<img src="Screenshots 2.png" width=80%>
+
+-----
+[Back to index](../index.nb.html)
+
+`r colored("")`
+
+
