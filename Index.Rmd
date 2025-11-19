@@ -11,7 +11,7 @@ output:
 ---
 
 ```{r echo=FALSE}
-source("/Users/yuchenwei/Desktop/Academy/R Markdown settings/functions.R")
+source("functions.R")
 ```
 
 
@@ -36,16 +36,18 @@ h2{
 
 ```
 
-[Go to Overview](/Users/yuchenwei/Desktop/Academy/Research%20Projects/Overview/Overview-index.nb.html)
+[Go to Overview](./Overview.nb.html)
 
-[Go to Reading log](./Reading log.nb.html)
+[Go to Reading log](./Reading-log.nb.html)
+
+[Go to Thoughts log](./Thoughts-log.nb.html)
 
 For a list of non-academic institutions working on policy-making, see Bowers, J., & Testa, P. F. (2019). `r colored("[[Note](./Bowers_Testa_2019/Bowers_Testa_2019.nb.html)]","#8CC1DE" ,"14pt")`
 
 My previous reading list: 
  `r colored("[[See here](./Literature.pdf)]","#8CC1DE" ,"14pt")`
 
-# Gold sentences
+# Good quotes
 
 - Let us calculate, without further ado, and see who is right. —Gottfried Leibniz (Wiener, 1951; taken from Watt, 2017)
 - The easiest way to win an argument is to run another experiment or another statistical regression (taken from Buyalskaya_et_al_2021 as they talk about behavioral economists)
@@ -57,7 +59,9 @@ My previous reading list:
 - Social media platforms as facilitators of public discourse (Guess et al., 2023)
 - Biological adaptations tend to have both costs and benefits (Connolly et al., 2019)
 - Democracy is at risk when citizens become so polarized that an ‘us versus them’ mentality dominates (Jost et al., 2022)
-
+- Anyone can be angry—that is easy. But to be angry with the right person, to the right degree, at the right time, for the right purpose, and in the right way—that is not easy (Leach & Bou Zeineddine, 2021)
+- Emotions are not just the fuel that powers the psychological mechanism of a reasoning creature, they
+are parts, highly complex and messy parts, of this creature’s reasoning itself (Bou Zeineddine & Leach, 2021)
 ## Some numbers 
 <hr> 
 - Social disconnection and loneliness increase the odds of all-cause mortality by more than 25% and have been labeled an epidemic by the United States Surgeon General (Holt-Lunstad et al., 2015; Murthy, 2023).
@@ -550,6 +554,14 @@ Affective science research: Perspectives and priorities from the national instit
 ## Adult development and aging `r colored("[[Note](./2023 Fall/adult-dev-aging/adult-dev-aging.nb.html)]","#8CC1DE" ,"14pt")`
 
 ## Intersectionality `r colored("[[Note](./2023 Fall/intersectionality/intersectionality.nb.html)]","#8CC1DE" ,"14pt")`
+
+# Readings from Comput Comm 
+
+## W2 
+
+Lazer, D., Hargittai, E., Freelon, D., Gonzalez-Bailon, S., Munger, K., Ognyanova, K., & Radford, J. (2021). `r colored("[[Note](./Lazer_etal_2021/Lazer_etal_2021.nb.html)]","#8CC1DE" ,"14pt")`
+Meaningful measures of human society in the twenty-first century. Nature, 595(7866), Article 7866. https://doi.org/10.1038/s41586-021-03660-7
+
 
 <!--- Author, Year `r colored("[[Note](./Folder/File_name.nb.html)]","#8CC1DE" ,"14pt")`
 Full-text citation <br> --->

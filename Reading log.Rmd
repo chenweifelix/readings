@@ -13,10 +13,10 @@ output:
 ---
 
 ```{r echo=FALSE}
-source("/Users/yuchenwei/Desktop/Academy/R Markdown settings/functions.R")
+source("functions.R")
 ```
 
-```{css}
+```{css echo=FALSE}
 .btn-group{
   display:none;
 }
@@ -24,24 +24,76 @@ source("/Users/yuchenwei/Desktop/Academy/R Markdown settings/functions.R")
   color: white;
 }
 h1{
-  color: orange;
+  color: white;
+  text-align: left;
   font-family: Georgia;
-  font-size: 34pt
+  font-size: 30pt
 }
 h2{
-  color: yellow;
+  color: white;
+  font-weight: bold;
   font-family: Georgia;
 }
+
 ```
 
-[Back to index](./index.nb.html)
+[Back to overview](./Overview.nb.html)
 
 - To read (updated at `r format(Sys.time(), '%Y-%m-%d')`): 
+  - Van Haeringen, E. S., Gerritsen, C., & Hindriks, K. V. (2023). Emotion contagion in agent-based simulations of crowds: A systematic review. Autonomous Agents and Multi-Agent Systems, 37(1), 6. https://doi.org/10.1007/s10458-022-09589-z
+  - Van Haeringen, E., Gerritsen, C., & Hindriks, K. (2021). Integrating Valence and Arousal Within an Agent-Based Model of Emotion Contagion. In F. Dignum, J. M. Corchado, & F. De La Prieta (Eds.), Advances in Practical Applications of Agents, Multi-Agent Systems, and Social Good. The PAAMS Collection (Vol. 12946, pp. 303–315). Springer International Publishing. https://doi.org/10.1007/978-3-030-85739-4_25
+    - Cited by Goldenberg 2023 on collective emotion 
+  - Guilbeault, D., & Centola, D. (2021). Topological measures for identifying and predicting the spread of complex contagions. Nature Communications, 12(1), 4430. https://doi.org/10.1038/s41467-021-24704-6
+    - Cited by the emotion regulation contagion paper 
+  - Wojcieszak, M., Casas, A., Yu, X., Nagler, J., & Tucker, J. A. (2022). Most users do not follow political elites on Twitter; those who do show overwhelming preferences for ideological congruity. Science Advances, 8(39), eabn9418. https://doi.org/10.1126/sciadv.abn9418
+  - Huth, K. B. S., Haslbeck, J. M. B., Keetelaar, S., Van Holst, R. J., & Marsman, M. (2025). Statistical evidence in psychological networks. Nature Human Behaviour. https://doi.org/10.1038/s41562-025-02314-2
+  - Argyle, L. P., Busby, E. C., Gubler, J. R., Lyman, A., Olcott, J., Pond, J., & Wingate, D. (2025). Testing theories of political persuasion using AI. Proceedings of the National Academy of Sciences, 122(18), e2412815122. https://doi.org/10.1073/pnas.2412815122
+  - Salvi, F., Horta Ribeiro, M., Gallotti, R., & West, R. (2025). On the conversational persuasiveness of GPT-4. Nature Human Behaviour, 1–9. https://doi.org/10.1038/s41562-025-02194-6
 
-  - Motivation and emphatic accuracy during conflict interactions in couples: it’s complicated!
-  - Consistency between individuals' past and current romantic partners' own reports of their personalities  (Read it with MET in mind and the effect sizes of their findings)
 
--2024-06-25
+
+# 2025-11-18
+- Brady, W. J., Crockett, M. J., & Van Bavel, J. J. (2020). The MAD model of moral contagion: The role of motivation, attention, and design in the spread of moralized content online. Perspectives on Psychological Science, 15(4), 978–1010. https://doi.org/10.1177/1745691620917336 [[link]](./Brady_etal_2020/Brady_etal_2020.nb.html)
+- Vlasceanu, M., Dyckovsky, A. M., & Coman, A. (2023). A Network Approach to Investigate the Dynamics of Individual and Collective Beliefs: Advances and Applications of the BENDING Model. Perspectives on Psychological Science, 17456916231185776. https://doi.org/10.1177/17456916231185776
+  - Participant-by-item matrix can be used to construct community-level belief networks based on what items people agree on 
+- Goldenberg, A., Garcia, D., Halperin, E., & Gross, J. J. (2020). Collective emotions. Current Directions in Psychological Science, 29(2), 154–160. [[link]](./Goldenberg_etal_2020/Goldenberg_etal_2020.nb.html)
+
+
+# 2025-11-17
+- Goldenberg, A. (2023). What makes groups emotional? Perspectives on Psychological Science. https://doi.org/10.1177/17456916231179154 [[link]](./Goldenberg_2023/Goldenberg_2023.nb.html)
+  - Propose the interaction-cognition-infrastructure framework to understand collective emotions, specifically why emotions get amplified 
+- Handbook of emotion regulation -- chapters on collective emotion regulation, emotion regulation in conflict resolution 
+- Psychological Intergroup Intervention -- chapter on emotion regulation in conflict resolution 
+  - Indirect emotion regulation intervention -- targeting other things that may change emotions, instead of directly targeting emotions with emotion regulation strategies 
+- Porat, R., Halperin, E., & Tamir, M. (2016). What we want is what we get: Group-based emotional preferences and conflict resolution. Journal of Personality and Social Psychology, 110(2), 167–190. https://doi.org/10.1037/pspa0000043
+  - Rightist show more preference for anger, leftist show more preference for empathy 
+  - Emotion preference is associated with emotional experiences which in turn is associated emotion intergroup repsonses (e.g., support for conclitoary policies)
+  - Changing emotion prefernece changes emotoinal experience and therefore intergroup responses
+  - Mostly focused on anger; empathy was only measured in the pilot study 
+- Pinus, M., Cao, Y., Halperin, E., Coman, A., Gross, J. J., & Goldenberg, A. (2025). Emotion regulation contagion drives reduction in negative intergroup emotions. Nature Communications, 16(1), 1387. https://doi.org/10.1038/s41467-025-56538-x
+  - Vector of "pure reappraisal"
+  - Simulation to handle drop-outs 
+
+
+- 2025-06-19
+  - Lorenz-Spreen, P., Oswald, L., Lewandowsky, S., & Hertwig, R. (2022). A systematic review of worldwide causal and correlational evidence on digital media and democracy. Nature Human Behaviour, 7(1), 74–101. https://doi.org/10.1038/s41562-022-01460-1
+    - Digital media is associated with decreased trust in government in established democracies, but not in emerging democracies
+  - Skeggs, A., & Orben, A. (2025). Social media interventions to improve well-being. Nature Human Behaviour, 1–11. https://doi.org/10.1038/s41562-025-02167-9
+    - Use the Self-determination theory framework to evaluate the effectiveness of social media interventions
+  - Wulff, D. U., & Mata, R. (2025). Semantic embeddings reveal and address taxonomic incommensurability in psychological measurement. Nature Human Behaviour, 9(5), 944–954. https://doi.org/10.1038/s41562-024-02089-y
+
+- 2025-06-16
+  - Stella, M., Ferrara, E., & De Domenico, M. (2018). Bots increase exposure to negative and inflammatory content in online social systems. Proceedings of the National Academy of Sciences, 115(49), 12435–12440. https://doi.org/10.1073/pnas.1803470115
+  - Tsvetkova, M., Yasseri, T., Pescetelli, N., & Werner, T. (2024). A new sociology of humans and machines. Nature Human Behaviour, 8(10), 1864–1876. https://doi.org/10.1038/s41562-024-02001-8
+    - A complex system view of human-human, human-machine, and machine-machine interactions
+  - Ashery, A. F., Aiello, L. M., & Baronchelli, A. (2025). Emergent social conventions and collective bias in LLM populations. Science Advances, 11(20), eadu9368. https://doi.org/10.1126/sciadv.adu9368
+    - LLM agents can develop a consensus through interactions; 
+    - different models have different preferences for the final consensus decision
+    - test the "critical mass" threshold for changing the consensus from minority 
+  - Schroeder, D., Cha, M., Baronchelli, A., Bostrom, N., Christakis, N., Garcia, D., Goldenberg, A., Kyrychenko, Y., Leyton-Brown, K., Lutz, N., Marcus, G., Menczer, F., Pennycook, G., Rand, D., Schweitzer, F., Summerfield, C., Tang, A., Van Bavel, J., Linden, S. van der, … Kunst, J. (2025). How Malicious AI Swarms Can Threaten Democracy. OSF. https://doi.org/10.31219/osf.io/qm9yk_v1
+    - See figure 1 for the key framework and conceptualization
+
+- 2024-06-25
   - Mooijman, M., Hoover, J., Lin, Y., Ji, H., & Dehghani, M. (2018). Moralization in social networks and the emergence of violence during protests. Nature Human Behaviour, 2(6), Article 6. https://doi.org/10.1038/s41562-018-0353-0
   - D’Amore, C., van Zomeren, M., & Koudenburg, N. (2022). Attitude moralization within polarized contexts: An emotional value-protective response to dyadic harm cues. Personality and Social Psychology Bulletin, 48(11), 1566–1579. https://doi.org/10.1177/01461672211047375
   - Vollberg, M. C., & Cikara, M. (2024). Affective prediction errors in persistence and escalation of aggression. Journal of Experimental Psychology: General, 153(6), 1551–1567. https://doi.org/10.1037/xge0001570

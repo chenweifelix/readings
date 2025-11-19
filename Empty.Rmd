@@ -36,8 +36,8 @@ source("~/Desktop/Academy/Readings/functions.R")
 
 ```{r echo=FALSE, results='hide'}
 empty_file = "Empty.Rmd"
-new_article = "Miller_1969"
-article_tile = "Psychology as a means of promoting human welfare. American Psychologist, 24(12), 1063–1075. https://doi.org/10.1037/h0028988"
+new_article = "Goldenberg_etal_2020"
+article_tile = "Collective emotions. Current Directions in Psychological Science, 29(2), 154–160."
 new_new_article_md = stringr::str_c(new_article,".Rmd")
 new_folder_path = stringr::str_c("./", new_article)
 

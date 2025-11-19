@@ -1,0 +1,46 @@
+---
+title: "Overview"
+author: "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+
+output: 
+  html_notebook:
+    theme: readable
+    css: style.css  
+    code_folding: "none"
+    toc: true
+    toc_float: true
+
+---
+
+```{r echo=FALSE}
+source("functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+.title {
+  color: white;
+}
+h1{
+  color: white;
+  text-align: left;
+  font-family: Georgia;
+  font-size: 30pt
+}
+h2{
+  color: white;
+  font-weight: bold;
+  font-family: Georgia;
+}
+```
+
+# Overview
+
+[Link to index](./index.nb.html)
+
+[Link to Reading log](./Reading-log.nb.html)
+
+[Link to Thoughts log](./Thoughts-log.nb.html)
+

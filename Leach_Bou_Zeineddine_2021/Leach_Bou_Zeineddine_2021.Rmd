@@ -1,0 +1,73 @@
+---
+title:  'Leach_Bou_Zeineddine_2021'
+subtitle:  'A systems view of emotion in socio-political context. Affective Science, 2(4), 353–362. https://doi.org/10.1007/s42761-021-00051-z'
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+A system view is multi-level, causally complex and dynamic, in contrast of uni-directional cause-and-effect relationship 
+
+Emotion in socio-political context is best understood as a system of systems, within the person (i.e., their goals, inclinations, concerns), within their relationships (to others), and within the world—local (i.e., family, work, school, neighborhood) and global (i.e., physical ecology, social structure, culture, societal values). 
+
+# Multi-leveled
+  - Macro: physical or psychological space boundaries 
+  - Meso: the bridge --> smaller communities within the macro system 
+  - Micro: within individual 
+  - These systems affect each other in complex and dynamic ways 
+
+# Complex 
+  - I don't know what they mean by this section
+
+# Dynamic
+  - probabilistic
+
+# Emotion system theory 
+
+## Emotion regulation 
+
+- e.g., poly-regulation 
+- involvement of multiple psychological processes/capacities (e.g., attention, cognitive appraisal and learning, goals and expectations, evaluation of emotion-context match)
+- Caveat: view emotion regulation as separate from emotion generation and is distinct from emotion itself 
+  - NTS: I think these two are actually quite incorporated in the theorizing of Gross 
+
+## Emotion as an emergent phenomenon 
+
+- Theory of constructed emotions (Barrett, 2017)
+
+## Cognitive appraisal theory
+
+
+- emotion as produced by the interplay between numerous complex systems (e.g., neural, physiological, behavioral, cognitive, and affective)
+
+
+
+
+-----
+[Back to index](../index.nb.html)
+
+`r colored("")`
+<img src="Screenshots.png" width=80%>
+
+

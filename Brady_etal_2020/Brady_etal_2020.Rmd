@@ -1,0 +1,78 @@
+---
+title:  'Brady_etal_2020'
+subtitle:  'The MAD model of moral contagion: The role of motivation, attention, and design in the spread of moralized content online. Perspectives on Psychological Science, 15(4), 978–1010. https://doi.org/10.1177/1745691620917336'
+date:  "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+output: 
+  html_notebook:
+    toc: true
+    toc_float: true
+    theme: readable
+    smooth_scroll: yes
+    css: ../style.css
+
+---
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+source("~/Desktop/Academy/Readings/functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+```
+
+[Back to index](../index.nb.html)
+
+# Abstract / Key Points
+
+Motivation-Attention-Design to explain moral contagion online 
+
+Why is it important? 
+- Polarization 
+- Amplification of the tendency to express moral emotions 
+- Core to online social movement mobilization and campaigns
+- Precipitate political action such as protests and violence
+
+# Motivation based on group identity (partisanship)
+- Theoretical frameworks: social identity theory, self-categorization theory, and intergroup emotion theory 
+- Key intergroup motivation: Positive distinctiveness between the ingroup and relevant outgroups
+  - When identity is under thread (either from outgroup or ingroup), the motivation becomes stronger
+  - Responses to outgroup threat: 
+    - Negative emotion: outrage, contempt
+    - Positive emotion: gratitude, elevation 
+    - Self-emotion: guilt, shame <-- threat within the ingroup
+- Key intragroup motivation: Maintain a positive image within the ingroup (to be a valuable member) 
+  - To increase reputation and belongingness 
+
+## Design and identity motivation  
+- Larger, less personally connected network makes group identification more salient
+- Deindividuation as a result of interacting via a machine 
+- Immediate social feedback that is unambiguous, ubiquitous, and quantifiable
+
+# Attention 
+- Moral and emotional content has an attentional advantage (e.g., noticed early)
+- What counts as moral depends on group norms and values 
+- Habituation is likely to occur when people are repeatedly exposed to moralized content 
+
+## Design and attention 
+- Algorithms are external attentional filter --> preselecting moral and emotional content that our perceptual system has a tendency to notice in the first place 
+- Notifications --> draw attention back in 
+
+# Design 
+- Content is relatively static --> people may be more likely to post things that are "universal" (not changed with time) and "objective"
+- High-fidelity information transmission --> content is not distorted as it spreads; people less connected to the poster can understand the event 
+- Multimodal representation with image or video 
+- Rapid response options 
+- Reduced personal costs that make interpersonal policing more common 
+  - Costs such as retaliation possibility, or empathic distress 
+- Consider the case where platform itself has an explicit goal of regulating users' emotions 
+
+-----
+[Back to index](../index.nb.html)
+
+`r colored("")`
+<!-- <img src="Screenshots.png" width=80%> -->
+
+

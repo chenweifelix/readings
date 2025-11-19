@@ -1,0 +1,83 @@
+---
+title: "Thoughts log"
+author: "Last update at: `r format(Sys.time(), '%Y-%m-%d')`"
+
+output: 
+  html_notebook:
+    theme: readable
+    css: style.css  
+    code_folding: "none"
+    toc: true
+    toc_float: true
+
+---
+
+```{r echo=FALSE, function}
+source("functions.R")
+```
+
+```{css echo=FALSE}
+.btn-group{
+  display:none;
+}
+.title {
+  color: white;
+}
+h1{
+  color: white;
+  text-align: left;
+  font-family: Georgia;
+  font-size: 30pt
+}
+h2{
+  color: white;
+  font-weight: bold;
+  font-family: Georgia;
+}
+```
+
+[Back to overview](./Overview.nb.html)
+
+# Motivation in intergroup conflict
+  - When it comes to intergroup conflict, people are often not motivated to change. Hence, even though many interventions have been shown to be successful in lab settings, their real-world impact is limited. 
+  - See Landry, A. P., & Halperin, E. (2025). Intergroup psychological interventions: The motivational challenge. American Psychologist, 80(2), 206–219. https://doi.org/10.1037/amp0001289
+
+
+# Emotion and complex systems 
+- What does it mean to study collective emotion from a complex system perspective?[goldenbergWhatMakesGroups2023](./Goldenberg_2023/Goldenberg_2023.nb.html) 
+  - Collective is more than the sum of individuals 
+  - My emotions about something will be different when viewing it alone vs. in a group setting
+  - System infrastructure matters (e.g., physical, virtual, and psychological spaces)
+  - How to apply network analysis in this context?
+- Emotion network evolution 
+  - Changes in the node size and weight across emotions 
+  - What emotions are more central in certain contexts 
+  - Emotion network and connection with action tendencies 
+    - Can it precipitate collective action?
+  - what does a network approach buy us? 
+
+# Emotion regulation contagion 
+- What is emotion regulation contagion? 
+  - In the case of reappraisal, is it just a case of narrative adaption? 
+    - Whether it is through repurposing or reconstrual, it is about adapting some narrative that changes the course of the emotion experience 
+    - And how can it be differentiated from attentional deployment, in the sense that the offered reappraisal (narrative) might just a way to direct people's attention to a particular aspect of the problem?
+      - Each group only highlights what looks good for them 
+  - In the case of emotion expression, is is just emotion contagion, since emotion expression is often assumed to be a form of emotion feelings?
+
+
+# Group-based emotions
+- Group-based positive emotions 
+  - Hope
+  - Empathy 
+  - Are positive emotions suppressed by the spread of negative emotions? 
+    - Violation of emotion norm 
+
+- Other group-based emotions about ingroup 
+  - Guilt 
+  - Pride
+
+# Other stuff 
+- Feed customization 
+  - Why don't people just choose to down-rank toxic content? 
+    - Will this lead to echo chambers?
+- Performative activism / clicktivism / slcacktivism 
